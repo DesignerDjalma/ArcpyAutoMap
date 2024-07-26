@@ -2,6 +2,5 @@
 /dados/aux_legenda/*
 /dados/aux_situacao/*
 !/dados/aux_auxiliar/.gitkeep
-!/dados/aux_legenda/.gitkeep
 !/dados/aux_situacao/.gitkeep
 

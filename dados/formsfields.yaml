@@ -1,13 +1,15 @@
-ano: ''
-carta: ''
-complemento: ''
-denominacao: ''
-georreferenciamento: ''
-interessado: ''
-lista_zoneamento: []
-modelo_despacho: C:\pytscript\despacho\modelo_despacho.docx
-municipio: ''
-numero: ''
-parcela: ''
-pasta_resultados: C:\pytscript\resultados
-situacao: ''
+ano: '2000'
+carta: SA.23-V-C-I
+complemento: NENHUM COMPLEMENTO
+denominacao: !!python/str "IM\xD3VEL 3 MARIAS"
+georreferenciamento: SIGEF/INCRA
+interessado: FULANO DA COSTA PERREIRA
+lista_zoneamento:
+- "ZEE: CONSOLIDA\xC7\xC3O I"
+- "MZEE: ZONA DE CONSOLIDA\xC7\xC3O DAS ATIVIDADES PRODUTIVAS"
+modelo_despacho: C:\github\ArcpyAutoMap\despacho\modelo_despacho.docx
+municipio: !!python/str "S\xC3O GERALDO DO ARAGUAIA"
+numero: '543210'
+parcela: '1'
+pasta_resultados: C:\github\ArcpyAutoMap\resultados
+situacao: !!python/str "REGULARIZA\xC7\xC3O ONEROSA"

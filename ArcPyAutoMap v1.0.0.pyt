@@ -20,6 +20,7 @@ import arcpy  # type: ignore
 import math  # type: ignore
 import yaml  # type: ignore
 import datetime  # type: ignore
+import psycopg2 # type: ignore
 
 from openpyxl import load_workbook  # type: ignore
 from docx import Document  # type: ignore
@@ -52,6 +53,7 @@ class ValoresConstantes:
 
     separador = "; "
     diretorio_raiz = os.path.dirname(os.path.abspath(__file__))
+
     diretorio_estilos = "{}\\estilos".format(diretorio_raiz)
     arquivo_xlsx_planilha_indv = "{}\\planilha\\modelo_planilha.xlsx".format(
         diretorio_raiz
@@ -236,6 +238,167 @@ class ValoresConstantes:
         "Exportar Mapa (.pdf)",
         "Exportar Despacho (.docx)",
     ]
+
+
+class Database:
+
+    DBNAME = "dbteste"
+    USER = "postgres"
+    PASSWORD = "102045"
+    HOST = "localhost"
+    PORT = "5432"
+
+    colunas_fc_database = [
+        "ano",
+        "numero",
+        "interessad",
+        "denominaca",
+        "parcela",
+        "georrefere",
+        "municipio",
+        "situacao",
+        "carta",
+        "complement",
+        "data_atual",
+    ]
+
+    def __init__(self):
+        diretorio_raiz = os.path.dirname(os.path.abspath(__file__))
+        self.diretorio_database = "{}\\database".format(diretorio_raiz)
+        self.nome_database = "database.gdb"
+        self.nome_featureclass = "AREAS_DE_INTERESSE"
+        self.db = "{}\\{}".format(self.diretorio_database, self.nome_database)
+        self.featureclass_database = "{}\\{}".format(self.db, self.nome_featureclass)
+        self.featureclass_local = "{}\\{}".format(
+            self.diretorio_database, "{}.shp".format(self.nome_featureclass.lower())
+        )
+        self.logger = Logger().setup_logger()
+
+    def adicionarFeatureclass(self, featureclass, params):
+        def retornaDiaMesAnoAtual():
+            """Retorna a Data atual de hoje me formato datetime, para a TDA."""
+            diaHoje = datetime.datetime.now().day
+            mesHoje = datetime.datetime.now().month
+            anoHoje = datetime.datetime.now().year
+            return datetime.datetime(anoHoje, mesHoje, diaHoje)
+
+        arcpy.management.Append(featureclass, self.featureclass_database, "NO_TEST")
+        arcpy.management.Append(featureclass, self.featureclass_local, "NO_TEST")
+
+        valores_update = [
+            params[Parametros.ano].valueAsText,
+            params[Parametros.numero].valueAsText,
+            params[Parametros.interessado].valueAsText,
+            params[Parametros.denominacao].valueAsText,
+            params[Parametros.parcela].valueAsText,
+            params[Parametros.georreferenciamento].valueAsText,
+            params[Parametros.municipio].valueAsText,
+            params[Parametros.situacao].valueAsText,
+            params[Parametros.carta].valueAsText,
+            params[Parametros.complemento].valueAsText,
+            retornaDiaMesAnoAtual(),
+        ]
+        empty = [0, 0, " ", " ", " ", " ", " ", " ", " ", " ", None]
+
+        # GEODATABASE
+        with arcpy.da.UpdateCursor(
+            self.featureclass_database, self.colunas_fc_database
+        ) as cursor:
+            for row in cursor:
+                if row == empty:
+                    cursor.updateRow(valores_update)
+
+        # LOCAL
+        with arcpy.da.UpdateCursor(
+            self.featureclass_local, self.colunas_fc_database
+        ) as cursor:
+            for row in cursor:
+                if row == empty:
+                    cursor.updateRow(valores_update)
+
+    def atualizarBancoDeDadosPostgreSQL(self):
+        conn = psycopg2.connect(
+            dbname=self.DBNAME,
+            user=self.USER,
+            password=self.PASSWORD,
+            host=self.HOST,
+            port=self.PORT,
+        )
+        cursor = conn.cursor()
+
+        try:
+            with arcpy.da.SearchCursor(
+                self.featureclass_local,
+                ["SHAPE@"] + [self.colunas_fc_database],
+            ) as cursor_shapefile:
+                for row in cursor_shapefile:
+                    geom = row[0]
+                    ano = row[1]
+                    numero = row[2]
+                    interessad = row[3]
+                    denominaca = row[4]
+                    parcela = row[5]
+                    georrefere = row[6]
+                    municipio = row[7]
+                    situacao = row[8]
+                    carta = row[9]
+                    complement = row[10]
+                    data_atual = row[11]
+
+                    if isinstance(data_atual, str):
+                        data_atual = datetime.strptime(data_atual, "%Y-%m-%d")
+
+                    # Verifica se a linha já existe no banco de dados
+                    cursor.execute(
+                        """
+                        SELECT COUNT(*) FROM public.areas_de_interesse
+                        WHERE ano = %s AND numero = %s
+                    """,
+                        (ano, numero),
+                    )
+                    count = cursor.fetchone()[0]
+
+                    if count == 0:
+                        # Insere a linha se não existir
+                        self.logger.info(
+                            "Executando Insercao de Feicao no banco PostgreSQL"
+                        )
+                        self.logger.debug("geom.WKT: {}".format(geom.WKT))
+                        cursor.execute(
+                            """
+                            INSERT INTO public.areas_de_interesse (
+                                ano, numero, interessad, denominaca, parcela,
+                                georrefere, municipio, situacao, carta,
+                                complement, data_atual, geom
+                            ) VALUES (
+                                %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, ST_GeomFromText(%s, 4674)
+                            )
+                            """,
+                            (
+                                ano,
+                                numero,
+                                interessad,
+                                denominaca,
+                                parcela,
+                                georrefere,
+                                municipio,
+                                situacao,
+                                carta,
+                                complement,
+                                data_atual,
+                                geom.WKT,
+                            ),
+                        )
+                        self.logger.info("SQL Executando com sucesso!")
+
+        except Exception as e:
+            exc_info = traceback.format_exc()
+            print(exc_info)
+        finally:
+            # Commit e fechamento da conexão
+            conn.commit()
+            cursor.close()
+            conn.close()
 
 
 class Parametros(ValoresConstantes):
@@ -1703,6 +1866,21 @@ class Funcoes:
         )
 
     @staticmethod
+    def exportarParaGDB(parametros, logger, in_execute_mode=False):
+        logger.info("Iniciando Exportacao para GeoDatabase")
+
+        shp_str = parametros[Parametros.shapefile].valueAsText
+        if os.path.exists(shp_str):
+            fc = shp_str
+        else:
+            fc = parametros[Parametros.shapefile].value.dataSource
+
+        database = Database()
+        database.adicionarFeatureclass(fc, parametros)
+
+        logger.info("Exportacao GeoDatabase concluida com Sucesso!")
+
+    @staticmethod
     def exportarDespacho(parametros, logger, in_execute_mode=False):
         if in_execute_mode:
             logger.debug("Iniciando exportação do Despacho")
@@ -1752,7 +1930,7 @@ class Toolbox(object):
 class AutoMap(object):
     def __init__(self):
         """Define the tool (tool name is the name of the class)."""
-        self.label = "AutoMap v1.0.0"
+        self.label = "Novo Processo"
         self.description = ""
         self.canRunInBackground = False
         Funcoes.verificarPasta(os.path.join(ValoresConstantes.diretorio_raiz, "log"))
@@ -1806,6 +1984,7 @@ class AutoMap(object):
         Layout.exportarPDF(parametros, self.logger, in_execute_mode=True)
         Funcoes.exportarDespacho(parametros, self.logger, in_execute_mode=True)
         Funcoes.exportaPlanilhaExcel(parametros, self.logger, in_execute_mode=True)
+        Funcoes.exportarParaGDB(parametros, self.logger, in_execute_mode=True)
         os.system(
             'start "" "{}"'.format(parametros[Parametros.pasta_resultados].valueAsText)
         )

@@ -2056,3 +2056,4 @@ class AutoMap(object):
         Funcoes.exportarParaGDB(parametros, self.logger, in_execute_mode=True)
         database = Database()
         database.atualizarBancoDeDadosPostgreSQL()
+ 

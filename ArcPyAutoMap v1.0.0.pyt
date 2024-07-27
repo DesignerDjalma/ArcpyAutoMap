@@ -20,7 +20,7 @@ import arcpy  # type: ignore
 import math  # type: ignore
 import yaml  # type: ignore
 import datetime  # type: ignore
-import psycopg2 # type: ignore
+import psycopg2  # type: ignore
 
 from openpyxl import load_workbook  # type: ignore
 from docx import Document  # type: ignore
@@ -298,40 +298,68 @@ class Database:
             params[Parametros.complemento].valueAsText,
             retornaDiaMesAnoAtual(),
         ]
-        empty = [0, 0, " ", " ", " ", " ", " ", " ", " ", " ", None]
+        empty_gdb = [None, None, None, None, None, None, None, None, None, None, None]
+        empty_shp = [0, 0, " ", " ", " ", " ", " ", " ", " ", " ", None]
 
         # GEODATABASE
+        self.logger.info("Adicionando Feicao em Geodatabase...")
         with arcpy.da.UpdateCursor(
             self.featureclass_database, self.colunas_fc_database
         ) as cursor:
             for row in cursor:
-                if row == empty:
+                if row == empty_gdb:
                     cursor.updateRow(valores_update)
 
         # LOCAL
+        self.logger.info("Adicionando Feicao em Shapefile...")
         with arcpy.da.UpdateCursor(
             self.featureclass_local, self.colunas_fc_database
         ) as cursor:
             for row in cursor:
-                if row == empty:
+                if row == empty_shp:
                     cursor.updateRow(valores_update)
 
-    def atualizarBancoDeDadosPostgreSQL(self):
-        conn = psycopg2.connect(
-            dbname=self.DBNAME,
-            user=self.USER,
-            password=self.PASSWORD,
-            host=self.HOST,
-            port=self.PORT,
-        )
-        cursor = conn.cursor()
+        self.logger.info("Adicionando Feicao em PostgreSQL...")
+        self.logger.debug("Feicao {}".format(self.featureclass_local))
 
+        # self.atualizarBancoDeDadosPostgreSQL()
+        # self.logger.info("Finalizando Database.adicionarFeatureclass()...")
+
+    def atualizarBancoDeDadosPostgreSQL(self):
+        conn = None
         try:
+            self.logger.info("Iniciando conexao com o Banco...")
+
+            conn = psycopg2.connect(
+                dbname=self.DBNAME,
+                user=self.USER,
+                password=self.PASSWORD,
+                host=self.HOST,
+                port=self.PORT,
+            )
+            self.printall("Conexão bem-sucedida.")
+            cursor = conn.cursor()
+
+            self.printall("Preenchendo banco...")
             with arcpy.da.SearchCursor(
                 self.featureclass_local,
-                ["SHAPE@"] + [self.colunas_fc_database],
+                [
+                    "SHAPE@",
+                    "ano",
+                    "numero",
+                    "interessad",
+                    "denominaca",
+                    "parcela",
+                    "georrefere",
+                    "municipio",
+                    "situacao",
+                    "carta",
+                    "complement",
+                    "data_atual",
+                ],
             ) as cursor_shapefile:
                 for row in cursor_shapefile:
+                    self.logger.debug("row: {}".format(row))
                     geom = row[0]
                     ano = row[1]
                     numero = row[2]
@@ -349,6 +377,8 @@ class Database:
                         data_atual = datetime.strptime(data_atual, "%Y-%m-%d")
 
                     # Verifica se a linha já existe no banco de dados
+                    self.logger.debug("Executando SQL...")
+
                     cursor.execute(
                         """
                         SELECT COUNT(*) FROM public.areas_de_interesse
@@ -360,7 +390,7 @@ class Database:
 
                     if count == 0:
                         # Insere a linha se não existir
-                        self.logger.info(
+                        self.printall(
                             "Executando Insercao de Feicao no banco PostgreSQL"
                         )
                         self.logger.debug("geom.WKT: {}".format(geom.WKT))
@@ -370,9 +400,7 @@ class Database:
                                 ano, numero, interessad, denominaca, parcela,
                                 georrefere, municipio, situacao, carta,
                                 complement, data_atual, geom
-                            ) VALUES (
-                                %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, ST_GeomFromText(%s, 4674)
-                            )
+                            ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, ST_GeomFromText(%s, 4674))
                             """,
                             (
                                 ano,
@@ -389,7 +417,7 @@ class Database:
                                 geom.WKT,
                             ),
                         )
-                        self.logger.info("SQL Executando com sucesso!")
+                        self.printall("SQL Executando com sucesso!")
 
         except Exception as e:
             exc_info = traceback.format_exc()
@@ -399,6 +427,60 @@ class Database:
             conn.commit()
             cursor.close()
             conn.close()
+
+    def printall(self, string):
+        arcpy.AddMessage(string.encode("cp1252"))
+        self.logger.debug(string)
+
+    def ler_dados_banco(self):
+        self.printall("Iniciando conexão com o banco de dados...")
+
+        conn = None  # Inicializa a variável conn
+
+        try:
+            # Configurações de conexão
+            conn = psycopg2.connect(
+                dbname=self.DBNAME,
+                user=self.USER,
+                password=self.PASSWORD,
+                host=self.HOST,
+                port=self.PORT,
+            )
+            self.printall("Conexão bem-sucedida.")
+
+            cursor = conn.cursor()
+
+            # Consulta SQL para selecionar todos os dados da tabela
+            sql = "SELECT gid, objectid, ano, numero, interessad, denominaca, parcela, georrefere, municipio, situacao, carta, complement, data_atual, geom FROM public.areas_de_interesse"
+
+            self.printall("Executando consulta SQL...")
+            cursor.execute(sql)
+
+            # Recupera todos os resultados da consulta
+            rows = cursor.fetchall()
+            self.printall("Numero de linhas encontradas: {}".format(len(rows)))
+
+            # Itera sobre as linhas e imprime os dados
+            for idx, row in enumerate(rows):
+                self.printall(
+                    "Feicao[{}]: {}/{} - {} - {}".format(
+                        idx + 1, row[2], row[3], row[4], row[8]
+                    )
+                )
+
+            self.printall("Consulta e impressao de dados concluídas com sucesso.")
+
+        except Exception as e:
+            exc_info = traceback.format_exc()
+            self.printall("Ocorreu um erro durante a execucao da consulta:")
+            self.printall(exc_info)
+
+        finally:
+            # Fecha a conexão com o banco de dados
+            if conn:
+                cursor.close()
+                conn.close()
+                self.printall("ConexAo fechada.")
 
 
 class Parametros(ValoresConstantes):
@@ -770,34 +852,13 @@ class Parametros(ValoresConstantes):
 
         lista_aux_shp = parametros[Parametros.lista_shapefiles].filter.list
 
-        logger.debug(
-            "Parametros.atualizarDataFramePrincipal() -> parametros[Parametros.shapefile].valueAsText: {}".format(
-                parametros[Parametros.shapefile].valueAsText
-            )
-        )
-        logger.debug(
-            "Parametros.atualizarDataFramePrincipal() -> parametros[Parametros.shapefile].value: {}".format(
-                parametros[Parametros.shapefile].value
-            )
-        )
-
-        logger.debug(
-            "Parametros.atualizarDataFramePrincipal() -> dir(parametros[Parametros.shapefile].valueAsText): {}".format(
-                dir(parametros[Parametros.shapefile].valueAsText)
-            )
-        )
-        logger.debug(
-            "Parametros.atualizarDataFramePrincipal() -> dir(parametros[Parametros.shapefile].value): {}".format(
-                dir(parametros[Parametros.shapefile].value)
-            )
-        )
+        # logger.debug("shapefile.valueAsText: {}".format(parametros[Parametros.shapefile].valueAsText))
+        # logger.debug("shapefile.value: {}".format(parametros[Parametros.shapefile].value))
 
         if parametros[Parametros.shapefile].altered:
 
             shp_str = parametros[Parametros.shapefile].valueAsText
             shp_value = parametros[Parametros.shapefile].value
-
-            # Se for adicionado Externamente
 
             camadas = Layout.carregarComponentes("cmds")
 
@@ -839,6 +900,7 @@ class Parametros(ValoresConstantes):
 
         if len(lista_aux_shp) >= 2:
             if lista_aux_shp[-1] != lista_aux_shp[-2]:
+                Layout.tornarVisivel(shp_value, logger)
                 Layout.aplicarSimbologiaPadrao(shp_value, logger)
                 Layout.zoomDataFramePrincipal(shp_value, logger)
                 Layout.afastarTextosLayout(shp_value, logger)
@@ -1511,6 +1573,11 @@ class Layout:
         arcpy.ApplySymbologyFromLayer_management(camada, simbologia)
 
     @staticmethod
+    def tornarVisivel(camada, logger):
+        camada.visible = True
+        arcpy.RefreshActiveView()
+
+    @staticmethod
     def aplicarSimbologiaPadrao(camada, logger):
         tipo_shapefile = arcpy.Describe(camada).shapeType
         simbologia = "{}\\shapefile_{}.lyr".format(
@@ -1811,7 +1878,6 @@ class Funcoes:
 
     @staticmethod
     def mostrarPopUpPDF():
-
         hWnd = 0
         lpText = "Seu PDF foi exportado com sucesso!".encode("utf-8")
         lpCaption = "ArcpyAutoMap - Info PDF"
@@ -1877,6 +1943,9 @@ class Funcoes:
 
         database = Database()
         database.adicionarFeatureclass(fc, parametros)
+        os.system(
+            'start "" "{}"'.format(parametros[Parametros.pasta_resultados].valueAsText)
+        )
 
         logger.info("Exportacao GeoDatabase concluida com Sucesso!")
 
@@ -1985,6 +2054,5 @@ class AutoMap(object):
         Funcoes.exportarDespacho(parametros, self.logger, in_execute_mode=True)
         Funcoes.exportaPlanilhaExcel(parametros, self.logger, in_execute_mode=True)
         Funcoes.exportarParaGDB(parametros, self.logger, in_execute_mode=True)
-        os.system(
-            'start "" "{}"'.format(parametros[Parametros.pasta_resultados].valueAsText)
-        )
+        database = Database()
+        database.atualizarBancoDeDadosPostgreSQL()

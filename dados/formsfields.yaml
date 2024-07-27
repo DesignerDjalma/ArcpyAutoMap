@@ -1,15 +1,15 @@
-ano: '2000'
-carta: SA.23-V-C-I
-complemento: NENHUM COMPLEMENTO
-denominacao: !!python/str "IM\xD3VEL 3 MARIAS"
-georreferenciamento: SIGEF/INCRA
-interessado: FULANO DA COSTA PERREIRA
+ano: '2022'
+carta: SA.23-V-C-II
+complemento: DIVISA PEIXE-BOI E CAPANEMA
+denominacao: !!python/str "FAZENDA CASTANHA DO PAR\xC1"
+georreferenciamento: !!python/str "N\xC3O POSSUI"
+interessado: CLODISNEY ROBERVALDERSON SANTOS
 lista_zoneamento:
-- "ZEE: CONSOLIDA\xC7\xC3O I"
+- "ZEE: CONSOLIDA\xC7\xC3O II"
 - "MZEE: ZONA DE CONSOLIDA\xC7\xC3O DAS ATIVIDADES PRODUTIVAS"
 modelo_despacho: C:\github\ArcpyAutoMap\despacho\modelo_despacho.docx
-municipio: !!python/str "S\xC3O GERALDO DO ARAGUAIA"
-numero: '543210'
+municipio: BONITO
+numero: '5462135'
 parcela: '1'
 pasta_resultados: C:\github\ArcpyAutoMap\resultados
-situacao: !!python/str "REGULARIZA\xC7\xC3O ONEROSA"
+situacao: AFORAMENTO

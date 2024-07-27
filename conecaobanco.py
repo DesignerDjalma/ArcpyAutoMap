@@ -90,7 +90,7 @@ try:
                         geom.WKT,
                     ),
                 )
-                print("Executado?")
+                print("SQL executando")
 
 except Exception as e:
     exc_info = traceback.format_exc()
@@ -100,3 +100,43 @@ finally:
     conn.commit()
     cursor.close()
     conn.close()
+
+
+class ConexaoBanco(object):
+    def __init__(self):
+        """Define the tool (tool name is the name of the class)."""
+        self.label = "Conexao Banco"
+        self.description = ""
+        self.canRunInBackground = False
+        Funcoes.verificarPasta(os.path.join(ValoresConstantes.diretorio_raiz, "log"))
+        _logger = Logger()
+        self.logger = _logger.setup_logger()
+        self.logger.debug("INICIALIZANDO FERRAMENTA CONEXAO BANCO")
+        self.logger.debug("-" * 32)
+
+    def getParameterInfo(self):
+        """Define parameter definitions"""
+
+        return []
+
+    def isLicensed(self):
+        """Set whether tool is licensed to execute."""
+        return True
+
+    def updateParameters(self, parameters):
+        """Modify the values and properties of parameters before internal
+        validation is performed.  This method is called whenever a parameter
+        has been changed."""
+        return
+
+    def updateMessages(self, parameters):
+        """Modify the messages created by internal validation for each tool
+        parameter.  This method is called after internal validation."""
+        return
+
+    def execute(self, parameters, messages):
+        """The source code of the tool."""
+        database = Database()
+        database.ler_dados_banco()
+
+        return

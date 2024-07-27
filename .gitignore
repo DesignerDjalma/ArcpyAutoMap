@@ -1,3 +1,4 @@
+conecaobanco.py
 /tests/*
 !/tests/.gitkeep
 /dados/aux_auxiliar/*
@@ -5,4 +6,3 @@
 /dados/aux_situacao/*
 !/dados/aux_auxiliar/.gitkeep
 !/dados/aux_situacao/.gitkeep
-

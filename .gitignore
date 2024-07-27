@@ -1,8 +1,9 @@
-conecaobanco.py
 /tests/*
 !/tests/.gitkeep
+!/tests/PYTESTS/.gitkeep
+
 /dados/aux_auxiliar/*
-/dados/aux_legenda/*
 /dados/aux_situacao/*
+
 !/dados/aux_auxiliar/.gitkeep
 !/dados/aux_situacao/.gitkeep

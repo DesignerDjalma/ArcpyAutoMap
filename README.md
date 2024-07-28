@@ -22,11 +22,15 @@ Antes de instalar e utilizar a ferramenta, certifique-se de que os seguintes req
 - **ArcGIS Desktop**: A ferramenta foi desenvolvida para ser utilizada com o ArcGIS Desktop.
 - **Python 2.7**: A instalação do Python deve estar no seguinte caminho: `C:\Python27\ArcGIS10.8\python.exe`.
 
+## Download da Ferramenta
+
+ - [Windows](doc/windows.md)
+
 ## Instalação
 
 1. **Download do Instalador**
 
-   Faça o download do instalador da ferramenta a partir da seção de [Releases](https://github.com/DesignerDjalma/ArcpyAutoMap/releases) do repositório no GitHub.
+   Faça o download do instalador da ferramenta a partir da seção de [Releases](https://github.com/DesignerDjalma/ArcpyAutoMap/releases) do repositório no GitHub. 
 
 2. **Executar o Instalador**
 

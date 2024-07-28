@@ -19,8 +19,8 @@ Esta ferramenta foi desenvolvida para aprimorar e automatizar tarefas dentro do 
 
 Antes de instalar e utilizar a ferramenta, certifique-se de que os seguintes requisitos estejam atendidos:
 
-- **Programa: ArcGIS Desktop Instalado**: A ferramenta foi desenvolvida para ser utilizada com o ArcGIS Desktop.
-- **Complemnento para o ArcGIS Desktop Python 2.7**: A instalação do Python deve estar no seguinte caminho: `C:\Python27\ArcGIS10.8\python.exe`.
+- **ArcGIS Desktop**: É necessário ter o programa instalado. A ferramenta foi desenvolvida para ser utilizada com o ArcGIS Desktop.
+- **Python 2.7**: O Python 2.7 vem como complementa da instalação do ArcGIS Desktop. A instalação do Python deve estar no seguinte caminho: `C:\Python27\ArcGIS10.8\python.exe`.
 
 ## Download da Ferramenta
 

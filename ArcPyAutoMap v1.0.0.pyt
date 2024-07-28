@@ -337,7 +337,7 @@ class Database:
                 host=self.HOST,
                 port=self.PORT,
             )
-            self.printall("Conexão bem-sucedida.")
+            self.printall("Conexao bem-sucedida.")
             cursor = conn.cursor()
 
             self.printall("Preenchendo banco...")
@@ -424,6 +424,7 @@ class Database:
             print(exc_info)
         finally:
             # Commit e fechamento da conexão
+            self.printall("Nao foi possivel estabelecer uma conexao com o banco.")
             conn.commit()
             cursor.close()
             conn.close()

@@ -2,14 +2,8 @@
 !/tests/.gitkeep
 !/tests/PYTESTS/.gitkeep
 
-/dados/aux_auxiliar/*
+/dados/aux_base_cartografica/*
 /dados/aux_situacao/*
 
-!/dados/aux_auxiliar/.gitkeep
+!/dados/aux_base_cartografica/.gitkeep
 !/dados/aux_situacao/.gitkeep
-
-!/dados/aux_auxiliar/MZEE_2008*
-!/dados/aux_auxiliar/ZEE_2010*
-!/dados/aux_auxiliar/LIMITES_MUNICIPAIS*
-!/dados/aux_auxiliar/CARTA_INDICE_IBGE*
-!/dados/aux_auxiliar/AREA_DE_LIMITACAO*

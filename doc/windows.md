@@ -1,6 +1,6 @@
-# On Windows
+# Windows
 
-## Install
+## Instalador para Windows 64-bits
 
 Download the [latest release]:
 

@@ -1,0 +1,3 @@
+você esta prestes a instalar dependências do python
+que vai fazer ele ficar muito melhor
+entende?

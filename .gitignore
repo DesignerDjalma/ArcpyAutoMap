@@ -1,9 +1,11 @@
-/tests/*
-!/tests/.gitkeep
-!/tests/PYTESTS/.gitkeep
+tests/*
+!tests/.gitkeep
+!tests/PYTESTS/.gitkeep
 
-/dados/aux_base_cartografica/*
-/dados/aux_situacao/*
+dados/aux_base_cartografica/*
+dados/aux_base_cartografica*
+dados/aux_situacao/*
+dados/aux_situacao*
 
-!/dados/aux_base_cartografica/.gitkeep
-!/dados/aux_situacao/.gitkeep
+!dados/aux_base_cartografica/.gitkeep
+!dados/aux_situacao/.gitkeep

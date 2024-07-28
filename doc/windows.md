@@ -2,11 +2,10 @@
 
 ## Instalador para Windows 64-bits
 
-Download the [latest release]:
+Download the latest release:
 
- - [`arcpyautomap-win64-v1.0.zip`][direct-win64] (64-bit)  
+ - [`arcpyautomap-win64-v1.0.zip`][direct-win64] (64-bit) <sub>12,9 MB</sub>
 
-[latest release]: https://github.com/DesignerDjalma/ArcpyAutoMap/releases/latest
 [direct-win64]: https://github.com/DesignerDjalma/ArcpyAutoMap/raw/main/arcpyautomap-win64-v1.0.zip
 
 

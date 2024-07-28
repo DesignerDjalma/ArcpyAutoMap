@@ -41,6 +41,22 @@ Antes de instalar e utilizar a ferramenta, certifique-se de que os seguintes req
    - Durante a instalação, será exibida uma mensagem informando sobre a atualização do pip e a instalação das bibliotecas necessárias.
    - Após a conclusão, uma mensagem confirmará que a instalação foi bem-sucedida.
 
+4. **Instalação Manual (Opcional)**
+
+   Se você preferir instalar as dependências manualmente, siga estas etapas:
+
+   - **Atualizar o Pip**:
+     Abra um prompt de comando e execute o seguinte comando para atualizar o pip:
+     ```shell
+     "C:\Python27\ArcGIS10.8\python.exe" -m pip install --upgrade pip
+     ```
+
+   - **Instalar Bibliotecas Python**:
+     Em seguida, instale as bibliotecas necessárias com o seguinte comando:
+     ```shell
+     "C:\Python27\ArcGIS10.8\python.exe" -m pip install PyYAML==5.4.1 psycopg2==2.8.6 openpyxl==2.6.4 lxml==4.6.1 python-docx==0.8.11
+     ```
+
 ## Uso
 
 Após a instalação, a ferramenta estará pronta para uso dentro do ArcGIS Desktop. Você pode acessá-la navegando na pasta de instalação a partir do Catalog dentro do ArcMap.

@@ -59,7 +59,7 @@ Antes de instalar e utilizar a ferramenta, certifique-se de que os seguintes req
 
 ## Uso
 
-Após a instalação, a ferramenta estará pronta para uso dentro do ArcGIS Desktop. Você pode acessá-la navegando na pasta de instalação a partir do Catalog dentro do ArcMap.
+Após a instalação, a ferramenta estará pronta para uso dentro do ArcGIS Desktop. Você pode acessá-la navegando na pasta de instalação a partir do Catalog dentro do ArcMap. Basta abrir a Python Toolbox **ArcPyAutoMap v1.0.0.pyt** e usa-la da melhor maneira.
 
 ## Contribuições
 
@@ -74,7 +74,3 @@ Contribuições são bem-vindas! Se você deseja colaborar com o desenvolvimento
 ## Suporte
 
 Se você encontrar problemas ou tiver dúvidas sobre a ferramenta, abra uma issue no nosso repositório no GitHub ou entre em contato diretamente.
-
-## Licença
-
-Este projeto está licenciado sob os termos da licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.

@@ -3,8 +3,9 @@ tests/*
 !tests/PYTESTS/.gitkeep
 
 dados/aux_base_cartografica/*
-dados/aux_base_cartografica*
 dados/aux_situacao/*
+
+dados/aux_base_cartografica*
 dados/aux_situacao*
 
 !dados/aux_base_cartografica/.gitkeep

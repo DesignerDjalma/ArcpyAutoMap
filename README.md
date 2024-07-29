@@ -71,7 +71,7 @@ Antes de instalar e utilizar a ferramenta, certifique-se de que os seguintes req
 
    - Durante a instalação, será exibida uma mensagem informando sobre a atualização do pip e a instalação das bibliotecas necessárias.
    - Após a conclusão, uma mensagem confirmará que a instalação foi bem-sucedida.
-       - Caso ocorra algum erro, a instalação das bibliotecas adicionais não será feita, porém **a extração dos arquivos ocorrerá normalmente**. Caso a ferramenta não esteja utilizável por problemas de bibliotecas não encotradas, a instalação das bibliotecas pode ser feita manualmente do passo seguinte.
+       - Caso ocorra algum erro, a instalação das bibliotecas adicionais não será feita, porém **a extração dos arquivos ocorrerá normalmente**. Caso a ferramenta não esteja utilizável por problemas de bibliotecas não encotradas, a instalação das bibliotecas pode ser feita manualmente no passo seguinte.
 
 4. **Instalação Manual**
 

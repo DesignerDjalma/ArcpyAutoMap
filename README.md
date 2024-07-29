@@ -38,7 +38,7 @@ Esta ferramenta foi desenvolvida para aprimorar e automatizar tarefas de produç
 Antes de instalar e utilizar a ferramenta, certifique-se de que os seguintes requisitos estejam atendidos:
 
 - **ArcGIS Desktop**: É necessário ter o programa instalado. A ferramenta foi desenvolvida para ser utilizada com o ArcGIS Desktop.
-- **Python 2.7**: O Python 2.7 vem como complementa da instalação do ArcGIS Desktop. A instalação do Python deve estar no seguinte caminho: `C:\Python27\ArcGIS10.8\python.exe`.
+- **Python 2.7**: O Python 2.7 vem como complementa da instalação do ArcGIS Desktop. A instalação do Python deve estar preferencialmente no seguinte caminho: `C:\Python27\ArcGIS10.x\python.exe`. Caso não esteja a instalação manual das bibliotecas deverá conter o caminho especificado no Python 2.7 do seu ArcGIS Desktop 10.x.
 - **Atualização do Pip**(Opcional): Garante que você tenha a versão mais recente do gerenciador de pacotes Python.
 - **Bibliotecas Essenciais**: As bibliotecas necessárias para o funcionamento da ferramenta:
   - PyYAML==5.4.1

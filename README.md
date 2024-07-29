@@ -78,15 +78,15 @@ Antes de instalar e utilizar a ferramenta, certifique-se de que os seguintes req
    Caso algum erro tenha ocorrido ou se você preferir instalar as dependências manualmente, siga estas etapas:
 
    - **Atualizar o Pip**:
-     Abra um prompt de comando e execute o seguinte comando para atualizar o pip:
+     Abra um prompt de comando e execute o seguinte comando para atualizar o pip, onde 'x' corresponde a versão (menor) do seu ArcGIS:
      ```shell
-     "C:\Python27\ArcGIS10.8\python.exe" -m pip install --upgrade pip
+     "C:\Python27\ArcGIS10.x\python.exe" -m pip install --upgrade pip
      ```
 
    - **Instalar Bibliotecas Python**:
      Em seguida, instale as bibliotecas necessárias com o seguinte comando:
      ```shell
-     "C:\Python27\ArcGIS10.8\python.exe" -m pip install PyYAML==5.4.1 psycopg2==2.8.6 openpyxl==2.6.4 lxml==4.6.1 python-docx==0.8.11
+     "C:\Python27\ArcGIS10.x\python.exe" -m pip install PyYAML==5.4.1 psycopg2==2.8.6 openpyxl==2.6.4 lxml==4.6.1 python-docx==0.8.11
      ```
 
 ## Uso

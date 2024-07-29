@@ -2,24 +2,14 @@
 
 ## Descrição
 
-Esta ferramenta foi desenvolvida para aprimorar e automatizar tarefas dentro do ArcGIS Desktop. Com ela, você pode executar uma série de operações geoespaciais de forma eficiente, utilizando bibliotecas específicas do Python. A ferramenta foi projetada para garantir que todos os processos sejam realizados de maneira rápida e precisa, economizando tempo e esforço dos usuários.
+Esta ferramenta foi desenvolvida para aprimorar e automatizar tarefas de produção e analise de mapas de regularização fundiária dentro do ArcGIS Desktop. Com ela, é possível executar uma série de operações geoespaciais de forma automatizada e prática, utilizando uma interface simples e intuitiva. A ferramenta foi projetada para garantir que todos os processos sejam realizados de maneira rápida e precisa, economizando tempo e esforço dos usuários.  
 
 ## Funcionalidades
-
-- Exportar Mapas em PDF
-- Exportar Relatórios em DOCX
-- Exportar Planilhas em XLSX
-- Exportar Feições para o banco de dados PostgreSQL
-
-
-- **Atualização Automática do Pip**: Garante que você tenha a versão mais recente do gerenciador de pacotes Python.
-- **Instalação de Bibliotecas Essenciais**: Instala automaticamente as bibliotecas necessárias para o funcionamento da ferramenta:
-  - PyYAML==5.4.1
-  - psycopg2==2.8.6
-  - openpyxl==2.6.4
-  - lxml==4.6.1
-  - python-docx==0.8.11
-- **Integração com ArcGIS Desktop**: A ferramenta é totalmente compatível com o ArcGIS Desktop, facilitando a automação de processos geoespaciais complexos.
+- **Integração com ArcGIS Desktop**: A ferramenta é totalmente compatível com o ArcGIS Desktop e ArcGIS Pro, facilitando a automação de processos geoespaciais complexos.
+- **Exportar Mapas em PDF.**
+- **Exportar Relatórios em DOCX.**
+- **Exportar Planilhas em XLSX.**
+- **Atualizar Banco de dados PostgreSQL.**
 
 ## Requisitos
 
@@ -27,6 +17,14 @@ Antes de instalar e utilizar a ferramenta, certifique-se de que os seguintes req
 
 - **ArcGIS Desktop**: É necessário ter o programa instalado. A ferramenta foi desenvolvida para ser utilizada com o ArcGIS Desktop.
 - **Python 2.7**: O Python 2.7 vem como complementa da instalação do ArcGIS Desktop. A instalação do Python deve estar no seguinte caminho: `C:\Python27\ArcGIS10.8\python.exe`.
+- **Atualização do Pip**(Opcional): Garante que você tenha a versão mais recente do gerenciador de pacotes Python.
+- **Bibliotecas Essenciais**: As bibliotecas necessárias para o funcionamento da ferramenta:
+  - PyYAML==5.4.1
+  - psycopg2==2.8.6
+  - openpyxl==2.6.4
+  - lxml==4.6.1
+  - python-docx==0.8.11
+
 
 ## Download da Ferramenta
 

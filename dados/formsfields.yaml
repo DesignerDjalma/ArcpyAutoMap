@@ -4,13 +4,7 @@ complemento: NADA CONSTA
 denominacao: !!python/str "S\xCDTIO SOLID\xC1RIO"
 georreferenciamento: TERCEIROS
 interessado: FULANO DA SILVA COSTA
-lista_zoneamento:
-- "ZEE: AMBIENTALMENTE SENS\xCDVEL"
-- "ZEE: MASSA D'\xC1GUA"
-- "MZEE: ZONA DE CONSOLIDA\xC7\xC3O DAS ATIVIDADES PRODUTIVAS"
-- "ZEE: AMBIENTALMENTE SENS\xCDVEL"
-- "ZEE: MASSA D'\xC1GUA"
-- "MZEE: ZONA DE CONSOLIDA\xC7\xC3O DAS ATIVIDADES PRODUTIVAS"
+lista_zoneamento: []
 modelo_despacho: C:\github\ArcpyAutoMap\despacho\modelo_despacho.docx
 municipio: INHANGAPI
 numero: '7654321'

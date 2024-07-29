@@ -13,3 +13,6 @@ dados/aux_situacao*
 
 ArcPyAutoMap_Installer.rar
 ArcPyAutoMap_Installer.exe
+
+resultados/*
+!resultados/.gitkeep

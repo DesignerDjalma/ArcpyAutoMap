@@ -2011,3 +2011,1028 @@
 2024-07-29 13:24:06,188 - DEBUG - Botoes ativados: btn_carta, btn_zoneamento, btn_macro_zoneamento, btn_incidencias
 2024-07-29 13:24:06,401 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
 2024-07-29 13:24:06,401 - DEBUG - --------------------------------
+2024-07-29 14:40:35,558 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 14:40:35,559 - DEBUG - --------------------------------
+2024-07-29 14:40:35,559 - DEBUG - Criando Parametros da Ferramenta...
+2024-07-29 14:40:35,589 - DEBUG - Formatando Strings: ITERPA
+2024-07-29 14:40:35,591 - DEBUG - Formatando Strings: SICARF
+2024-07-29 14:40:35,591 - DEBUG - Formatando Strings: SIGEF/INCRA
+2024-07-29 14:40:35,591 - DEBUG - Formatando Strings: SICAR/SEMAS
+2024-07-29 14:40:35,591 - DEBUG - Formatando Strings: TERCEIROS
+2024-07-29 14:40:35,591 - DEBUG - Formatando Strings: NÃƒO POSSUI
+2024-07-29 14:40:35,591 - DEBUG - Formatando Strings: NÃƒO CONSTA
+2024-07-29 14:40:35,591 - DEBUG - Formatando Strings: OUTROS
+2024-07-29 14:40:35,591 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO NÃƒO ONEROSA
+2024-07-29 14:40:35,591 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO ONEROSA
+2024-07-29 14:40:35,591 - DEBUG - Formatando Strings: PROTOCOLO DE SOLICITAÃ‡ÃƒO DE ACESSO Ã€ INFORMAÃ‡ÃƒO
+2024-07-29 14:40:35,591 - DEBUG - Formatando Strings: CERTIDÃƒO
+2024-07-29 14:40:35,591 - DEBUG - Formatando Strings: AFORAMENTO
+2024-07-29 14:40:35,591 - DEBUG - Formatando Strings: QUILOMBO
+2024-07-29 14:40:35,601 - DEBUG - Criando Parametro: "btn_dados_carregados"
+2024-07-29 14:40:35,601 - DEBUG - Criando Parametro: "shapefile"
+2024-07-29 14:40:35,601 - DEBUG - Criando Parametro: "pasta_resultados"
+2024-07-29 14:40:35,601 - DEBUG - Criando Parametro: "modelo_despacho"
+2024-07-29 14:40:35,601 - DEBUG - Criando Parametro: "municipio"
+2024-07-29 14:40:35,601 - DEBUG - Criando Parametro: "situacao"
+2024-07-29 14:40:35,601 - DEBUG - Criando Parametro: "georreferenciamento"
+2024-07-29 14:40:35,601 - DEBUG - Criando Parametro: "ano"
+2024-07-29 14:40:35,601 - DEBUG - Criando Parametro: "numero"
+2024-07-29 14:40:35,601 - DEBUG - Criando Parametro: "interessado"
+2024-07-29 14:40:35,601 - DEBUG - Criando Parametro: "denominacao"
+2024-07-29 14:40:35,601 - DEBUG - Criando Parametro: "parcela"
+2024-07-29 14:40:35,601 - DEBUG - Criando Parametro: "complemento"
+2024-07-29 14:40:35,601 - DEBUG - Criando Parametro: "btn_carta"
+2024-07-29 14:40:35,601 - DEBUG - Criando Parametro: "carta"
+2024-07-29 14:40:35,601 - DEBUG - Criando Parametro: "btn_zoneamento"
+2024-07-29 14:40:35,601 - DEBUG - Criando Parametro: "lista_zoneamento"
+2024-07-29 14:40:35,601 - DEBUG - Criando Parametro: "btn_alterar_layout"
+2024-07-29 14:40:35,602 - DEBUG - Criando Parametro: "btn_exportar_mapa"
+2024-07-29 14:40:35,602 - DEBUG - Criando Parametro: "btn_exportar_despacho"
+2024-07-29 14:40:35,602 - DEBUG - Criando Parametro: "btn_exportar_planilha"
+2024-07-29 14:40:35,602 - DEBUG - Criando Parametro: "lista_shapefiles"
+2024-07-29 14:40:35,602 - DEBUG - Criando Parametro: "lista_municipios"
+2024-07-29 14:40:35,602 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 14:40:35,602 - DEBUG - --------------------------------
+2024-07-29 14:40:35,602 - DEBUG - Criando Parametros da Ferramenta...
+2024-07-29 14:40:35,631 - DEBUG - Formatando Strings: ITERPA
+2024-07-29 14:40:35,631 - DEBUG - Formatando Strings: SICARF
+2024-07-29 14:40:35,631 - DEBUG - Formatando Strings: SIGEF/INCRA
+2024-07-29 14:40:35,631 - DEBUG - Formatando Strings: SICAR/SEMAS
+2024-07-29 14:40:35,631 - DEBUG - Formatando Strings: TERCEIROS
+2024-07-29 14:40:35,631 - DEBUG - Formatando Strings: NÃƒO POSSUI
+2024-07-29 14:40:35,631 - DEBUG - Formatando Strings: NÃƒO CONSTA
+2024-07-29 14:40:35,631 - DEBUG - Formatando Strings: OUTROS
+2024-07-29 14:40:35,631 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO NÃƒO ONEROSA
+2024-07-29 14:40:35,631 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO ONEROSA
+2024-07-29 14:40:35,631 - DEBUG - Formatando Strings: PROTOCOLO DE SOLICITAÃ‡ÃƒO DE ACESSO Ã€ INFORMAÃ‡ÃƒO
+2024-07-29 14:40:35,631 - DEBUG - Formatando Strings: CERTIDÃƒO
+2024-07-29 14:40:35,631 - DEBUG - Formatando Strings: AFORAMENTO
+2024-07-29 14:40:35,631 - DEBUG - Formatando Strings: QUILOMBO
+2024-07-29 14:40:35,638 - DEBUG - Criando Parametro: "btn_dados_carregados"
+2024-07-29 14:40:35,638 - DEBUG - Criando Parametro: "shapefile"
+2024-07-29 14:40:35,638 - DEBUG - Criando Parametro: "pasta_resultados"
+2024-07-29 14:40:35,638 - DEBUG - Criando Parametro: "modelo_despacho"
+2024-07-29 14:40:35,638 - DEBUG - Criando Parametro: "municipio"
+2024-07-29 14:40:35,638 - DEBUG - Criando Parametro: "situacao"
+2024-07-29 14:40:35,638 - DEBUG - Criando Parametro: "georreferenciamento"
+2024-07-29 14:40:35,638 - DEBUG - Criando Parametro: "ano"
+2024-07-29 14:40:35,638 - DEBUG - Criando Parametro: "numero"
+2024-07-29 14:40:35,638 - DEBUG - Criando Parametro: "interessado"
+2024-07-29 14:40:35,638 - DEBUG - Criando Parametro: "denominacao"
+2024-07-29 14:40:35,638 - DEBUG - Criando Parametro: "parcela"
+2024-07-29 14:40:35,638 - DEBUG - Criando Parametro: "complemento"
+2024-07-29 14:40:35,638 - DEBUG - Criando Parametro: "btn_carta"
+2024-07-29 14:40:35,638 - DEBUG - Criando Parametro: "carta"
+2024-07-29 14:40:35,638 - DEBUG - Criando Parametro: "btn_zoneamento"
+2024-07-29 14:40:35,638 - DEBUG - Criando Parametro: "lista_zoneamento"
+2024-07-29 14:40:35,638 - DEBUG - Criando Parametro: "btn_alterar_layout"
+2024-07-29 14:40:35,638 - DEBUG - Criando Parametro: "btn_exportar_mapa"
+2024-07-29 14:40:35,638 - DEBUG - Criando Parametro: "btn_exportar_despacho"
+2024-07-29 14:40:35,638 - DEBUG - Criando Parametro: "btn_exportar_planilha"
+2024-07-29 14:40:35,638 - DEBUG - Criando Parametro: "lista_shapefiles"
+2024-07-29 14:40:35,638 - DEBUG - Criando Parametro: "lista_municipios"
+2024-07-29 14:40:35,640 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 14:40:35,640 - DEBUG - --------------------------------
+2024-07-29 14:40:35,641 - DEBUG - Criando Parametros da Ferramenta...
+2024-07-29 14:40:35,665 - DEBUG - Formatando Strings: ITERPA
+2024-07-29 14:40:35,665 - DEBUG - Formatando Strings: SICARF
+2024-07-29 14:40:35,665 - DEBUG - Formatando Strings: SIGEF/INCRA
+2024-07-29 14:40:35,665 - DEBUG - Formatando Strings: SICAR/SEMAS
+2024-07-29 14:40:35,665 - DEBUG - Formatando Strings: TERCEIROS
+2024-07-29 14:40:35,665 - DEBUG - Formatando Strings: NÃƒO POSSUI
+2024-07-29 14:40:35,665 - DEBUG - Formatando Strings: NÃƒO CONSTA
+2024-07-29 14:40:35,665 - DEBUG - Formatando Strings: OUTROS
+2024-07-29 14:40:35,665 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO NÃƒO ONEROSA
+2024-07-29 14:40:35,665 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO ONEROSA
+2024-07-29 14:40:35,665 - DEBUG - Formatando Strings: PROTOCOLO DE SOLICITAÃ‡ÃƒO DE ACESSO Ã€ INFORMAÃ‡ÃƒO
+2024-07-29 14:40:35,665 - DEBUG - Formatando Strings: CERTIDÃƒO
+2024-07-29 14:40:35,665 - DEBUG - Formatando Strings: AFORAMENTO
+2024-07-29 14:40:35,665 - DEBUG - Formatando Strings: QUILOMBO
+2024-07-29 14:40:35,673 - DEBUG - Criando Parametro: "btn_dados_carregados"
+2024-07-29 14:40:35,673 - DEBUG - Criando Parametro: "shapefile"
+2024-07-29 14:40:35,673 - DEBUG - Criando Parametro: "pasta_resultados"
+2024-07-29 14:40:35,673 - DEBUG - Criando Parametro: "modelo_despacho"
+2024-07-29 14:40:35,673 - DEBUG - Criando Parametro: "municipio"
+2024-07-29 14:40:35,673 - DEBUG - Criando Parametro: "situacao"
+2024-07-29 14:40:35,673 - DEBUG - Criando Parametro: "georreferenciamento"
+2024-07-29 14:40:35,673 - DEBUG - Criando Parametro: "ano"
+2024-07-29 14:40:35,673 - DEBUG - Criando Parametro: "numero"
+2024-07-29 14:40:35,673 - DEBUG - Criando Parametro: "interessado"
+2024-07-29 14:40:35,673 - DEBUG - Criando Parametro: "denominacao"
+2024-07-29 14:40:35,673 - DEBUG - Criando Parametro: "parcela"
+2024-07-29 14:40:35,673 - DEBUG - Criando Parametro: "complemento"
+2024-07-29 14:40:35,674 - DEBUG - Criando Parametro: "btn_carta"
+2024-07-29 14:40:35,674 - DEBUG - Criando Parametro: "carta"
+2024-07-29 14:40:35,674 - DEBUG - Criando Parametro: "btn_zoneamento"
+2024-07-29 14:40:35,674 - DEBUG - Criando Parametro: "lista_zoneamento"
+2024-07-29 14:40:35,674 - DEBUG - Criando Parametro: "btn_alterar_layout"
+2024-07-29 14:40:35,674 - DEBUG - Criando Parametro: "btn_exportar_mapa"
+2024-07-29 14:40:35,674 - DEBUG - Criando Parametro: "btn_exportar_despacho"
+2024-07-29 14:40:35,674 - DEBUG - Criando Parametro: "btn_exportar_planilha"
+2024-07-29 14:40:35,674 - DEBUG - Criando Parametro: "lista_shapefiles"
+2024-07-29 14:40:35,674 - DEBUG - Criando Parametro: "lista_municipios"
+2024-07-29 14:40:35,674 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 14:40:35,674 - DEBUG - --------------------------------
+2024-07-29 14:40:35,674 - DEBUG - Criando Parametros da Ferramenta...
+2024-07-29 14:40:35,703 - DEBUG - Formatando Strings: ITERPA
+2024-07-29 14:40:35,703 - DEBUG - Formatando Strings: SICARF
+2024-07-29 14:40:35,703 - DEBUG - Formatando Strings: SIGEF/INCRA
+2024-07-29 14:40:35,703 - DEBUG - Formatando Strings: SICAR/SEMAS
+2024-07-29 14:40:35,703 - DEBUG - Formatando Strings: TERCEIROS
+2024-07-29 14:40:35,703 - DEBUG - Formatando Strings: NÃƒO POSSUI
+2024-07-29 14:40:35,703 - DEBUG - Formatando Strings: NÃƒO CONSTA
+2024-07-29 14:40:35,703 - DEBUG - Formatando Strings: OUTROS
+2024-07-29 14:40:35,703 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO NÃƒO ONEROSA
+2024-07-29 14:40:35,703 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO ONEROSA
+2024-07-29 14:40:35,703 - DEBUG - Formatando Strings: PROTOCOLO DE SOLICITAÃ‡ÃƒO DE ACESSO Ã€ INFORMAÃ‡ÃƒO
+2024-07-29 14:40:35,703 - DEBUG - Formatando Strings: CERTIDÃƒO
+2024-07-29 14:40:35,703 - DEBUG - Formatando Strings: AFORAMENTO
+2024-07-29 14:40:35,703 - DEBUG - Formatando Strings: QUILOMBO
+2024-07-29 14:40:35,710 - DEBUG - Criando Parametro: "btn_dados_carregados"
+2024-07-29 14:40:35,710 - DEBUG - Criando Parametro: "shapefile"
+2024-07-29 14:40:35,710 - DEBUG - Criando Parametro: "pasta_resultados"
+2024-07-29 14:40:35,710 - DEBUG - Criando Parametro: "modelo_despacho"
+2024-07-29 14:40:35,710 - DEBUG - Criando Parametro: "municipio"
+2024-07-29 14:40:35,710 - DEBUG - Criando Parametro: "situacao"
+2024-07-29 14:40:35,710 - DEBUG - Criando Parametro: "georreferenciamento"
+2024-07-29 14:40:35,710 - DEBUG - Criando Parametro: "ano"
+2024-07-29 14:40:35,710 - DEBUG - Criando Parametro: "numero"
+2024-07-29 14:40:35,710 - DEBUG - Criando Parametro: "interessado"
+2024-07-29 14:40:35,710 - DEBUG - Criando Parametro: "denominacao"
+2024-07-29 14:40:35,710 - DEBUG - Criando Parametro: "parcela"
+2024-07-29 14:40:35,710 - DEBUG - Criando Parametro: "complemento"
+2024-07-29 14:40:35,710 - DEBUG - Criando Parametro: "btn_carta"
+2024-07-29 14:40:35,710 - DEBUG - Criando Parametro: "carta"
+2024-07-29 14:40:35,710 - DEBUG - Criando Parametro: "btn_zoneamento"
+2024-07-29 14:40:35,710 - DEBUG - Criando Parametro: "lista_zoneamento"
+2024-07-29 14:40:35,710 - DEBUG - Criando Parametro: "btn_alterar_layout"
+2024-07-29 14:40:35,710 - DEBUG - Criando Parametro: "btn_exportar_mapa"
+2024-07-29 14:40:35,711 - DEBUG - Criando Parametro: "btn_exportar_despacho"
+2024-07-29 14:40:35,711 - DEBUG - Criando Parametro: "btn_exportar_planilha"
+2024-07-29 14:40:35,711 - DEBUG - Criando Parametro: "lista_shapefiles"
+2024-07-29 14:40:35,711 - DEBUG - Criando Parametro: "lista_municipios"
+2024-07-29 14:40:35,713 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 14:40:35,713 - DEBUG - --------------------------------
+2024-07-29 14:40:35,713 - DEBUG - Criando Parametros da Ferramenta...
+2024-07-29 14:40:35,737 - DEBUG - Formatando Strings: ITERPA
+2024-07-29 14:40:35,737 - DEBUG - Formatando Strings: SICARF
+2024-07-29 14:40:35,737 - DEBUG - Formatando Strings: SIGEF/INCRA
+2024-07-29 14:40:35,737 - DEBUG - Formatando Strings: SICAR/SEMAS
+2024-07-29 14:40:35,737 - DEBUG - Formatando Strings: TERCEIROS
+2024-07-29 14:40:35,737 - DEBUG - Formatando Strings: NÃƒO POSSUI
+2024-07-29 14:40:35,737 - DEBUG - Formatando Strings: NÃƒO CONSTA
+2024-07-29 14:40:35,739 - DEBUG - Formatando Strings: OUTROS
+2024-07-29 14:40:35,739 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO NÃƒO ONEROSA
+2024-07-29 14:40:35,739 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO ONEROSA
+2024-07-29 14:40:35,739 - DEBUG - Formatando Strings: PROTOCOLO DE SOLICITAÃ‡ÃƒO DE ACESSO Ã€ INFORMAÃ‡ÃƒO
+2024-07-29 14:40:35,739 - DEBUG - Formatando Strings: CERTIDÃƒO
+2024-07-29 14:40:35,739 - DEBUG - Formatando Strings: AFORAMENTO
+2024-07-29 14:40:35,739 - DEBUG - Formatando Strings: QUILOMBO
+2024-07-29 14:40:35,744 - DEBUG - Criando Parametro: "btn_dados_carregados"
+2024-07-29 14:40:35,746 - DEBUG - Criando Parametro: "shapefile"
+2024-07-29 14:40:35,746 - DEBUG - Criando Parametro: "pasta_resultados"
+2024-07-29 14:40:35,746 - DEBUG - Criando Parametro: "modelo_despacho"
+2024-07-29 14:40:35,746 - DEBUG - Criando Parametro: "municipio"
+2024-07-29 14:40:35,746 - DEBUG - Criando Parametro: "situacao"
+2024-07-29 14:40:35,746 - DEBUG - Criando Parametro: "georreferenciamento"
+2024-07-29 14:40:35,746 - DEBUG - Criando Parametro: "ano"
+2024-07-29 14:40:35,746 - DEBUG - Criando Parametro: "numero"
+2024-07-29 14:40:35,746 - DEBUG - Criando Parametro: "interessado"
+2024-07-29 14:40:35,746 - DEBUG - Criando Parametro: "denominacao"
+2024-07-29 14:40:35,746 - DEBUG - Criando Parametro: "parcela"
+2024-07-29 14:40:35,746 - DEBUG - Criando Parametro: "complemento"
+2024-07-29 14:40:35,746 - DEBUG - Criando Parametro: "btn_carta"
+2024-07-29 14:40:35,746 - DEBUG - Criando Parametro: "carta"
+2024-07-29 14:40:35,746 - DEBUG - Criando Parametro: "btn_zoneamento"
+2024-07-29 14:40:35,746 - DEBUG - Criando Parametro: "lista_zoneamento"
+2024-07-29 14:40:35,746 - DEBUG - Criando Parametro: "btn_alterar_layout"
+2024-07-29 14:40:35,746 - DEBUG - Criando Parametro: "btn_exportar_mapa"
+2024-07-29 14:40:35,746 - DEBUG - Criando Parametro: "btn_exportar_despacho"
+2024-07-29 14:40:35,746 - DEBUG - Criando Parametro: "btn_exportar_planilha"
+2024-07-29 14:40:35,746 - DEBUG - Criando Parametro: "lista_shapefiles"
+2024-07-29 14:40:35,746 - DEBUG - Criando Parametro: "lista_municipios"
+2024-07-29 14:40:35,746 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 14:40:35,746 - DEBUG - --------------------------------
+2024-07-29 14:40:35,746 - DEBUG - Criando Parametros da Ferramenta...
+2024-07-29 14:40:35,773 - DEBUG - Formatando Strings: ITERPA
+2024-07-29 14:40:35,773 - DEBUG - Formatando Strings: SICARF
+2024-07-29 14:40:35,773 - DEBUG - Formatando Strings: SIGEF/INCRA
+2024-07-29 14:40:35,773 - DEBUG - Formatando Strings: SICAR/SEMAS
+2024-07-29 14:40:35,773 - DEBUG - Formatando Strings: TERCEIROS
+2024-07-29 14:40:35,773 - DEBUG - Formatando Strings: NÃƒO POSSUI
+2024-07-29 14:40:35,773 - DEBUG - Formatando Strings: NÃƒO CONSTA
+2024-07-29 14:40:35,773 - DEBUG - Formatando Strings: OUTROS
+2024-07-29 14:40:35,773 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO NÃƒO ONEROSA
+2024-07-29 14:40:35,773 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO ONEROSA
+2024-07-29 14:40:35,773 - DEBUG - Formatando Strings: PROTOCOLO DE SOLICITAÃ‡ÃƒO DE ACESSO Ã€ INFORMAÃ‡ÃƒO
+2024-07-29 14:40:35,773 - DEBUG - Formatando Strings: CERTIDÃƒO
+2024-07-29 14:40:35,773 - DEBUG - Formatando Strings: AFORAMENTO
+2024-07-29 14:40:35,773 - DEBUG - Formatando Strings: QUILOMBO
+2024-07-29 14:40:35,782 - DEBUG - Criando Parametro: "btn_dados_carregados"
+2024-07-29 14:40:35,782 - DEBUG - Criando Parametro: "shapefile"
+2024-07-29 14:40:35,782 - DEBUG - Criando Parametro: "pasta_resultados"
+2024-07-29 14:40:35,782 - DEBUG - Criando Parametro: "modelo_despacho"
+2024-07-29 14:40:35,782 - DEBUG - Criando Parametro: "municipio"
+2024-07-29 14:40:35,782 - DEBUG - Criando Parametro: "situacao"
+2024-07-29 14:40:35,782 - DEBUG - Criando Parametro: "georreferenciamento"
+2024-07-29 14:40:35,782 - DEBUG - Criando Parametro: "ano"
+2024-07-29 14:40:35,782 - DEBUG - Criando Parametro: "numero"
+2024-07-29 14:40:35,782 - DEBUG - Criando Parametro: "interessado"
+2024-07-29 14:40:35,782 - DEBUG - Criando Parametro: "denominacao"
+2024-07-29 14:40:35,782 - DEBUG - Criando Parametro: "parcela"
+2024-07-29 14:40:35,782 - DEBUG - Criando Parametro: "complemento"
+2024-07-29 14:40:35,782 - DEBUG - Criando Parametro: "btn_carta"
+2024-07-29 14:40:35,782 - DEBUG - Criando Parametro: "carta"
+2024-07-29 14:40:35,782 - DEBUG - Criando Parametro: "btn_zoneamento"
+2024-07-29 14:40:35,782 - DEBUG - Criando Parametro: "lista_zoneamento"
+2024-07-29 14:40:35,782 - DEBUG - Criando Parametro: "btn_alterar_layout"
+2024-07-29 14:40:35,782 - DEBUG - Criando Parametro: "btn_exportar_mapa"
+2024-07-29 14:40:35,782 - DEBUG - Criando Parametro: "btn_exportar_despacho"
+2024-07-29 14:40:35,782 - DEBUG - Criando Parametro: "btn_exportar_planilha"
+2024-07-29 14:40:35,782 - DEBUG - Criando Parametro: "lista_shapefiles"
+2024-07-29 14:40:35,782 - DEBUG - Criando Parametro: "lista_municipios"
+2024-07-29 14:40:35,782 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 14:40:35,782 - DEBUG - --------------------------------
+2024-07-29 14:40:35,782 - DEBUG - Criando Parametros da Ferramenta...
+2024-07-29 14:40:35,809 - DEBUG - Formatando Strings: ITERPA
+2024-07-29 14:40:35,809 - DEBUG - Formatando Strings: SICARF
+2024-07-29 14:40:35,809 - DEBUG - Formatando Strings: SIGEF/INCRA
+2024-07-29 14:40:35,809 - DEBUG - Formatando Strings: SICAR/SEMAS
+2024-07-29 14:40:35,809 - DEBUG - Formatando Strings: TERCEIROS
+2024-07-29 14:40:35,809 - DEBUG - Formatando Strings: NÃƒO POSSUI
+2024-07-29 14:40:35,809 - DEBUG - Formatando Strings: NÃƒO CONSTA
+2024-07-29 14:40:35,809 - DEBUG - Formatando Strings: OUTROS
+2024-07-29 14:40:35,809 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO NÃƒO ONEROSA
+2024-07-29 14:40:35,809 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO ONEROSA
+2024-07-29 14:40:35,809 - DEBUG - Formatando Strings: PROTOCOLO DE SOLICITAÃ‡ÃƒO DE ACESSO Ã€ INFORMAÃ‡ÃƒO
+2024-07-29 14:40:35,809 - DEBUG - Formatando Strings: CERTIDÃƒO
+2024-07-29 14:40:35,809 - DEBUG - Formatando Strings: AFORAMENTO
+2024-07-29 14:40:35,809 - DEBUG - Formatando Strings: QUILOMBO
+2024-07-29 14:40:35,815 - DEBUG - Criando Parametro: "btn_dados_carregados"
+2024-07-29 14:40:35,815 - DEBUG - Criando Parametro: "shapefile"
+2024-07-29 14:40:35,815 - DEBUG - Criando Parametro: "pasta_resultados"
+2024-07-29 14:40:35,815 - DEBUG - Criando Parametro: "modelo_despacho"
+2024-07-29 14:40:35,815 - DEBUG - Criando Parametro: "municipio"
+2024-07-29 14:40:35,815 - DEBUG - Criando Parametro: "situacao"
+2024-07-29 14:40:35,815 - DEBUG - Criando Parametro: "georreferenciamento"
+2024-07-29 14:40:35,815 - DEBUG - Criando Parametro: "ano"
+2024-07-29 14:40:35,815 - DEBUG - Criando Parametro: "numero"
+2024-07-29 14:40:35,815 - DEBUG - Criando Parametro: "interessado"
+2024-07-29 14:40:35,815 - DEBUG - Criando Parametro: "denominacao"
+2024-07-29 14:40:35,816 - DEBUG - Criando Parametro: "parcela"
+2024-07-29 14:40:35,816 - DEBUG - Criando Parametro: "complemento"
+2024-07-29 14:40:35,816 - DEBUG - Criando Parametro: "btn_carta"
+2024-07-29 14:40:35,816 - DEBUG - Criando Parametro: "carta"
+2024-07-29 14:40:35,816 - DEBUG - Criando Parametro: "btn_zoneamento"
+2024-07-29 14:40:35,816 - DEBUG - Criando Parametro: "lista_zoneamento"
+2024-07-29 14:40:35,816 - DEBUG - Criando Parametro: "btn_alterar_layout"
+2024-07-29 14:40:35,816 - DEBUG - Criando Parametro: "btn_exportar_mapa"
+2024-07-29 14:40:35,816 - DEBUG - Criando Parametro: "btn_exportar_despacho"
+2024-07-29 14:40:35,816 - DEBUG - Criando Parametro: "btn_exportar_planilha"
+2024-07-29 14:40:35,816 - DEBUG - Criando Parametro: "lista_shapefiles"
+2024-07-29 14:40:35,816 - DEBUG - Criando Parametro: "lista_municipios"
+2024-07-29 14:40:35,818 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 14:40:35,818 - DEBUG - --------------------------------
+2024-07-29 14:40:35,818 - DEBUG - Criando Parametros da Ferramenta...
+2024-07-29 14:40:35,842 - DEBUG - Formatando Strings: ITERPA
+2024-07-29 14:40:35,842 - DEBUG - Formatando Strings: SICARF
+2024-07-29 14:40:35,842 - DEBUG - Formatando Strings: SIGEF/INCRA
+2024-07-29 14:40:35,842 - DEBUG - Formatando Strings: SICAR/SEMAS
+2024-07-29 14:40:35,842 - DEBUG - Formatando Strings: TERCEIROS
+2024-07-29 14:40:35,842 - DEBUG - Formatando Strings: NÃƒO POSSUI
+2024-07-29 14:40:35,842 - DEBUG - Formatando Strings: NÃƒO CONSTA
+2024-07-29 14:40:35,842 - DEBUG - Formatando Strings: OUTROS
+2024-07-29 14:40:35,842 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO NÃƒO ONEROSA
+2024-07-29 14:40:35,842 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO ONEROSA
+2024-07-29 14:40:35,842 - DEBUG - Formatando Strings: PROTOCOLO DE SOLICITAÃ‡ÃƒO DE ACESSO Ã€ INFORMAÃ‡ÃƒO
+2024-07-29 14:40:35,842 - DEBUG - Formatando Strings: CERTIDÃƒO
+2024-07-29 14:40:35,842 - DEBUG - Formatando Strings: AFORAMENTO
+2024-07-29 14:40:35,844 - DEBUG - Formatando Strings: QUILOMBO
+2024-07-29 14:40:35,849 - DEBUG - Criando Parametro: "btn_dados_carregados"
+2024-07-29 14:40:35,849 - DEBUG - Criando Parametro: "shapefile"
+2024-07-29 14:40:35,849 - DEBUG - Criando Parametro: "pasta_resultados"
+2024-07-29 14:40:35,849 - DEBUG - Criando Parametro: "modelo_despacho"
+2024-07-29 14:40:35,849 - DEBUG - Criando Parametro: "municipio"
+2024-07-29 14:40:35,849 - DEBUG - Criando Parametro: "situacao"
+2024-07-29 14:40:35,849 - DEBUG - Criando Parametro: "georreferenciamento"
+2024-07-29 14:40:35,849 - DEBUG - Criando Parametro: "ano"
+2024-07-29 14:40:35,849 - DEBUG - Criando Parametro: "numero"
+2024-07-29 14:40:35,851 - DEBUG - Criando Parametro: "interessado"
+2024-07-29 14:40:35,851 - DEBUG - Criando Parametro: "denominacao"
+2024-07-29 14:40:35,851 - DEBUG - Criando Parametro: "parcela"
+2024-07-29 14:40:35,851 - DEBUG - Criando Parametro: "complemento"
+2024-07-29 14:40:35,851 - DEBUG - Criando Parametro: "btn_carta"
+2024-07-29 14:40:35,851 - DEBUG - Criando Parametro: "carta"
+2024-07-29 14:40:35,851 - DEBUG - Criando Parametro: "btn_zoneamento"
+2024-07-29 14:40:35,851 - DEBUG - Criando Parametro: "lista_zoneamento"
+2024-07-29 14:40:35,851 - DEBUG - Criando Parametro: "btn_alterar_layout"
+2024-07-29 14:40:35,851 - DEBUG - Criando Parametro: "btn_exportar_mapa"
+2024-07-29 14:40:35,851 - DEBUG - Criando Parametro: "btn_exportar_despacho"
+2024-07-29 14:40:35,851 - DEBUG - Criando Parametro: "btn_exportar_planilha"
+2024-07-29 14:40:35,851 - DEBUG - Criando Parametro: "lista_shapefiles"
+2024-07-29 14:40:35,851 - DEBUG - Criando Parametro: "lista_municipios"
+2024-07-29 14:40:35,854 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 14:40:35,854 - DEBUG - --------------------------------
+2024-07-29 14:40:35,854 - DEBUG - Criando Parametros da Ferramenta...
+2024-07-29 14:40:35,882 - DEBUG - Formatando Strings: ITERPA
+2024-07-29 14:40:35,884 - DEBUG - Formatando Strings: SICARF
+2024-07-29 14:40:35,884 - DEBUG - Formatando Strings: SIGEF/INCRA
+2024-07-29 14:40:35,884 - DEBUG - Formatando Strings: SICAR/SEMAS
+2024-07-29 14:40:35,884 - DEBUG - Formatando Strings: TERCEIROS
+2024-07-29 14:40:35,884 - DEBUG - Formatando Strings: NÃƒO POSSUI
+2024-07-29 14:40:35,884 - DEBUG - Formatando Strings: NÃƒO CONSTA
+2024-07-29 14:40:35,884 - DEBUG - Formatando Strings: OUTROS
+2024-07-29 14:40:35,884 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO NÃƒO ONEROSA
+2024-07-29 14:40:35,884 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO ONEROSA
+2024-07-29 14:40:35,884 - DEBUG - Formatando Strings: PROTOCOLO DE SOLICITAÃ‡ÃƒO DE ACESSO Ã€ INFORMAÃ‡ÃƒO
+2024-07-29 14:40:35,884 - DEBUG - Formatando Strings: CERTIDÃƒO
+2024-07-29 14:40:35,884 - DEBUG - Formatando Strings: AFORAMENTO
+2024-07-29 14:40:35,884 - DEBUG - Formatando Strings: QUILOMBO
+2024-07-29 14:40:35,890 - DEBUG - Criando Parametro: "btn_dados_carregados"
+2024-07-29 14:40:35,891 - DEBUG - Criando Parametro: "shapefile"
+2024-07-29 14:40:35,891 - DEBUG - Criando Parametro: "pasta_resultados"
+2024-07-29 14:40:35,891 - DEBUG - Criando Parametro: "modelo_despacho"
+2024-07-29 14:40:35,891 - DEBUG - Criando Parametro: "municipio"
+2024-07-29 14:40:35,891 - DEBUG - Criando Parametro: "situacao"
+2024-07-29 14:40:35,891 - DEBUG - Criando Parametro: "georreferenciamento"
+2024-07-29 14:40:35,891 - DEBUG - Criando Parametro: "ano"
+2024-07-29 14:40:35,891 - DEBUG - Criando Parametro: "numero"
+2024-07-29 14:40:35,891 - DEBUG - Criando Parametro: "interessado"
+2024-07-29 14:40:35,891 - DEBUG - Criando Parametro: "denominacao"
+2024-07-29 14:40:35,891 - DEBUG - Criando Parametro: "parcela"
+2024-07-29 14:40:35,891 - DEBUG - Criando Parametro: "complemento"
+2024-07-29 14:40:35,891 - DEBUG - Criando Parametro: "btn_carta"
+2024-07-29 14:40:35,891 - DEBUG - Criando Parametro: "carta"
+2024-07-29 14:40:35,891 - DEBUG - Criando Parametro: "btn_zoneamento"
+2024-07-29 14:40:35,891 - DEBUG - Criando Parametro: "lista_zoneamento"
+2024-07-29 14:40:35,891 - DEBUG - Criando Parametro: "btn_alterar_layout"
+2024-07-29 14:40:35,891 - DEBUG - Criando Parametro: "btn_exportar_mapa"
+2024-07-29 14:40:35,891 - DEBUG - Criando Parametro: "btn_exportar_despacho"
+2024-07-29 14:40:35,891 - DEBUG - Criando Parametro: "btn_exportar_planilha"
+2024-07-29 14:40:35,891 - DEBUG - Criando Parametro: "lista_shapefiles"
+2024-07-29 14:40:35,891 - DEBUG - Criando Parametro: "lista_municipios"
+2024-07-29 14:40:35,892 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 14:40:35,892 - DEBUG - --------------------------------
+2024-07-29 14:40:35,892 - DEBUG - Criando Parametros da Ferramenta...
+2024-07-29 14:40:35,917 - DEBUG - Formatando Strings: ITERPA
+2024-07-29 14:40:35,917 - DEBUG - Formatando Strings: SICARF
+2024-07-29 14:40:35,917 - DEBUG - Formatando Strings: SIGEF/INCRA
+2024-07-29 14:40:35,917 - DEBUG - Formatando Strings: SICAR/SEMAS
+2024-07-29 14:40:35,917 - DEBUG - Formatando Strings: TERCEIROS
+2024-07-29 14:40:35,917 - DEBUG - Formatando Strings: NÃƒO POSSUI
+2024-07-29 14:40:35,917 - DEBUG - Formatando Strings: NÃƒO CONSTA
+2024-07-29 14:40:35,917 - DEBUG - Formatando Strings: OUTROS
+2024-07-29 14:40:35,917 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO NÃƒO ONEROSA
+2024-07-29 14:40:35,917 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO ONEROSA
+2024-07-29 14:40:35,917 - DEBUG - Formatando Strings: PROTOCOLO DE SOLICITAÃ‡ÃƒO DE ACESSO Ã€ INFORMAÃ‡ÃƒO
+2024-07-29 14:40:35,917 - DEBUG - Formatando Strings: CERTIDÃƒO
+2024-07-29 14:40:35,917 - DEBUG - Formatando Strings: AFORAMENTO
+2024-07-29 14:40:35,917 - DEBUG - Formatando Strings: QUILOMBO
+2024-07-29 14:40:35,926 - DEBUG - Criando Parametro: "btn_dados_carregados"
+2024-07-29 14:40:35,926 - DEBUG - Criando Parametro: "shapefile"
+2024-07-29 14:40:35,926 - DEBUG - Criando Parametro: "pasta_resultados"
+2024-07-29 14:40:35,926 - DEBUG - Criando Parametro: "modelo_despacho"
+2024-07-29 14:40:35,926 - DEBUG - Criando Parametro: "municipio"
+2024-07-29 14:40:35,926 - DEBUG - Criando Parametro: "situacao"
+2024-07-29 14:40:35,926 - DEBUG - Criando Parametro: "georreferenciamento"
+2024-07-29 14:40:35,926 - DEBUG - Criando Parametro: "ano"
+2024-07-29 14:40:35,926 - DEBUG - Criando Parametro: "numero"
+2024-07-29 14:40:35,926 - DEBUG - Criando Parametro: "interessado"
+2024-07-29 14:40:35,926 - DEBUG - Criando Parametro: "denominacao"
+2024-07-29 14:40:35,926 - DEBUG - Criando Parametro: "parcela"
+2024-07-29 14:40:35,926 - DEBUG - Criando Parametro: "complemento"
+2024-07-29 14:40:35,926 - DEBUG - Criando Parametro: "btn_carta"
+2024-07-29 14:40:35,926 - DEBUG - Criando Parametro: "carta"
+2024-07-29 14:40:35,926 - DEBUG - Criando Parametro: "btn_zoneamento"
+2024-07-29 14:40:35,926 - DEBUG - Criando Parametro: "lista_zoneamento"
+2024-07-29 14:40:35,927 - DEBUG - Criando Parametro: "btn_alterar_layout"
+2024-07-29 14:40:35,927 - DEBUG - Criando Parametro: "btn_exportar_mapa"
+2024-07-29 14:40:35,927 - DEBUG - Criando Parametro: "btn_exportar_despacho"
+2024-07-29 14:40:35,927 - DEBUG - Criando Parametro: "btn_exportar_planilha"
+2024-07-29 14:40:35,927 - DEBUG - Criando Parametro: "lista_shapefiles"
+2024-07-29 14:40:35,927 - DEBUG - Criando Parametro: "lista_municipios"
+2024-07-29 14:40:35,927 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 14:40:35,927 - DEBUG - --------------------------------
+2024-07-29 14:40:35,927 - DEBUG - Criando Parametros da Ferramenta...
+2024-07-29 14:40:35,953 - DEBUG - Formatando Strings: ITERPA
+2024-07-29 14:40:35,953 - DEBUG - Formatando Strings: SICARF
+2024-07-29 14:40:35,953 - DEBUG - Formatando Strings: SIGEF/INCRA
+2024-07-29 14:40:35,953 - DEBUG - Formatando Strings: SICAR/SEMAS
+2024-07-29 14:40:35,953 - DEBUG - Formatando Strings: TERCEIROS
+2024-07-29 14:40:35,953 - DEBUG - Formatando Strings: NÃƒO POSSUI
+2024-07-29 14:40:35,953 - DEBUG - Formatando Strings: NÃƒO CONSTA
+2024-07-29 14:40:35,953 - DEBUG - Formatando Strings: OUTROS
+2024-07-29 14:40:35,953 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO NÃƒO ONEROSA
+2024-07-29 14:40:35,953 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO ONEROSA
+2024-07-29 14:40:35,953 - DEBUG - Formatando Strings: PROTOCOLO DE SOLICITAÃ‡ÃƒO DE ACESSO Ã€ INFORMAÃ‡ÃƒO
+2024-07-29 14:40:35,953 - DEBUG - Formatando Strings: CERTIDÃƒO
+2024-07-29 14:40:35,953 - DEBUG - Formatando Strings: AFORAMENTO
+2024-07-29 14:40:35,953 - DEBUG - Formatando Strings: QUILOMBO
+2024-07-29 14:40:35,960 - DEBUG - Criando Parametro: "btn_dados_carregados"
+2024-07-29 14:40:35,960 - DEBUG - Criando Parametro: "shapefile"
+2024-07-29 14:40:35,960 - DEBUG - Criando Parametro: "pasta_resultados"
+2024-07-29 14:40:35,960 - DEBUG - Criando Parametro: "modelo_despacho"
+2024-07-29 14:40:35,960 - DEBUG - Criando Parametro: "municipio"
+2024-07-29 14:40:35,960 - DEBUG - Criando Parametro: "situacao"
+2024-07-29 14:40:35,960 - DEBUG - Criando Parametro: "georreferenciamento"
+2024-07-29 14:40:35,960 - DEBUG - Criando Parametro: "ano"
+2024-07-29 14:40:35,960 - DEBUG - Criando Parametro: "numero"
+2024-07-29 14:40:35,960 - DEBUG - Criando Parametro: "interessado"
+2024-07-29 14:40:35,960 - DEBUG - Criando Parametro: "denominacao"
+2024-07-29 14:40:35,960 - DEBUG - Criando Parametro: "parcela"
+2024-07-29 14:40:35,960 - DEBUG - Criando Parametro: "complemento"
+2024-07-29 14:40:35,960 - DEBUG - Criando Parametro: "btn_carta"
+2024-07-29 14:40:35,960 - DEBUG - Criando Parametro: "carta"
+2024-07-29 14:40:35,960 - DEBUG - Criando Parametro: "btn_zoneamento"
+2024-07-29 14:40:35,960 - DEBUG - Criando Parametro: "lista_zoneamento"
+2024-07-29 14:40:35,960 - DEBUG - Criando Parametro: "btn_alterar_layout"
+2024-07-29 14:40:35,960 - DEBUG - Criando Parametro: "btn_exportar_mapa"
+2024-07-29 14:40:35,960 - DEBUG - Criando Parametro: "btn_exportar_despacho"
+2024-07-29 14:40:35,960 - DEBUG - Criando Parametro: "btn_exportar_planilha"
+2024-07-29 14:40:35,960 - DEBUG - Criando Parametro: "lista_shapefiles"
+2024-07-29 14:40:35,961 - DEBUG - Criando Parametro: "lista_municipios"
+2024-07-29 14:40:35,961 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 14:40:35,961 - DEBUG - --------------------------------
+2024-07-29 14:40:35,963 - DEBUG - Criando Parametros da Ferramenta...
+2024-07-29 14:40:35,987 - DEBUG - Formatando Strings: ITERPA
+2024-07-29 14:40:35,987 - DEBUG - Formatando Strings: SICARF
+2024-07-29 14:40:35,987 - DEBUG - Formatando Strings: SIGEF/INCRA
+2024-07-29 14:40:35,987 - DEBUG - Formatando Strings: SICAR/SEMAS
+2024-07-29 14:40:35,987 - DEBUG - Formatando Strings: TERCEIROS
+2024-07-29 14:40:35,987 - DEBUG - Formatando Strings: NÃƒO POSSUI
+2024-07-29 14:40:35,987 - DEBUG - Formatando Strings: NÃƒO CONSTA
+2024-07-29 14:40:35,987 - DEBUG - Formatando Strings: OUTROS
+2024-07-29 14:40:35,987 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO NÃƒO ONEROSA
+2024-07-29 14:40:35,987 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO ONEROSA
+2024-07-29 14:40:35,987 - DEBUG - Formatando Strings: PROTOCOLO DE SOLICITAÃ‡ÃƒO DE ACESSO Ã€ INFORMAÃ‡ÃƒO
+2024-07-29 14:40:35,987 - DEBUG - Formatando Strings: CERTIDÃƒO
+2024-07-29 14:40:35,987 - DEBUG - Formatando Strings: AFORAMENTO
+2024-07-29 14:40:35,987 - DEBUG - Formatando Strings: QUILOMBO
+2024-07-29 14:40:35,994 - DEBUG - Criando Parametro: "btn_dados_carregados"
+2024-07-29 14:40:35,994 - DEBUG - Criando Parametro: "shapefile"
+2024-07-29 14:40:35,994 - DEBUG - Criando Parametro: "pasta_resultados"
+2024-07-29 14:40:35,994 - DEBUG - Criando Parametro: "modelo_despacho"
+2024-07-29 14:40:35,994 - DEBUG - Criando Parametro: "municipio"
+2024-07-29 14:40:35,994 - DEBUG - Criando Parametro: "situacao"
+2024-07-29 14:40:35,994 - DEBUG - Criando Parametro: "georreferenciamento"
+2024-07-29 14:40:35,994 - DEBUG - Criando Parametro: "ano"
+2024-07-29 14:40:35,994 - DEBUG - Criando Parametro: "numero"
+2024-07-29 14:40:35,994 - DEBUG - Criando Parametro: "interessado"
+2024-07-29 14:40:35,994 - DEBUG - Criando Parametro: "denominacao"
+2024-07-29 14:40:35,994 - DEBUG - Criando Parametro: "parcela"
+2024-07-29 14:40:35,994 - DEBUG - Criando Parametro: "complemento"
+2024-07-29 14:40:35,994 - DEBUG - Criando Parametro: "btn_carta"
+2024-07-29 14:40:35,994 - DEBUG - Criando Parametro: "carta"
+2024-07-29 14:40:35,994 - DEBUG - Criando Parametro: "btn_zoneamento"
+2024-07-29 14:40:35,994 - DEBUG - Criando Parametro: "lista_zoneamento"
+2024-07-29 14:40:35,996 - DEBUG - Criando Parametro: "btn_alterar_layout"
+2024-07-29 14:40:35,996 - DEBUG - Criando Parametro: "btn_exportar_mapa"
+2024-07-29 14:40:35,996 - DEBUG - Criando Parametro: "btn_exportar_despacho"
+2024-07-29 14:40:35,996 - DEBUG - Criando Parametro: "btn_exportar_planilha"
+2024-07-29 14:40:35,996 - DEBUG - Criando Parametro: "lista_shapefiles"
+2024-07-29 14:40:35,996 - DEBUG - Criando Parametro: "lista_municipios"
+2024-07-29 14:40:35,996 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 14:40:35,996 - DEBUG - --------------------------------
+2024-07-29 14:40:35,996 - DEBUG - Criando Parametros da Ferramenta...
+2024-07-29 14:40:36,023 - DEBUG - Formatando Strings: ITERPA
+2024-07-29 14:40:36,023 - DEBUG - Formatando Strings: SICARF
+2024-07-29 14:40:36,023 - DEBUG - Formatando Strings: SIGEF/INCRA
+2024-07-29 14:40:36,023 - DEBUG - Formatando Strings: SICAR/SEMAS
+2024-07-29 14:40:36,023 - DEBUG - Formatando Strings: TERCEIROS
+2024-07-29 14:40:36,023 - DEBUG - Formatando Strings: NÃƒO POSSUI
+2024-07-29 14:40:36,023 - DEBUG - Formatando Strings: NÃƒO CONSTA
+2024-07-29 14:40:36,023 - DEBUG - Formatando Strings: OUTROS
+2024-07-29 14:40:36,023 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO NÃƒO ONEROSA
+2024-07-29 14:40:36,023 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO ONEROSA
+2024-07-29 14:40:36,023 - DEBUG - Formatando Strings: PROTOCOLO DE SOLICITAÃ‡ÃƒO DE ACESSO Ã€ INFORMAÃ‡ÃƒO
+2024-07-29 14:40:36,023 - DEBUG - Formatando Strings: CERTIDÃƒO
+2024-07-29 14:40:36,023 - DEBUG - Formatando Strings: AFORAMENTO
+2024-07-29 14:40:36,023 - DEBUG - Formatando Strings: QUILOMBO
+2024-07-29 14:40:36,030 - DEBUG - Criando Parametro: "btn_dados_carregados"
+2024-07-29 14:40:36,032 - DEBUG - Criando Parametro: "shapefile"
+2024-07-29 14:40:36,032 - DEBUG - Criando Parametro: "pasta_resultados"
+2024-07-29 14:40:36,032 - DEBUG - Criando Parametro: "modelo_despacho"
+2024-07-29 14:40:36,032 - DEBUG - Criando Parametro: "municipio"
+2024-07-29 14:40:36,032 - DEBUG - Criando Parametro: "situacao"
+2024-07-29 14:40:36,032 - DEBUG - Criando Parametro: "georreferenciamento"
+2024-07-29 14:40:36,032 - DEBUG - Criando Parametro: "ano"
+2024-07-29 14:40:36,032 - DEBUG - Criando Parametro: "numero"
+2024-07-29 14:40:36,032 - DEBUG - Criando Parametro: "interessado"
+2024-07-29 14:40:36,032 - DEBUG - Criando Parametro: "denominacao"
+2024-07-29 14:40:36,032 - DEBUG - Criando Parametro: "parcela"
+2024-07-29 14:40:36,032 - DEBUG - Criando Parametro: "complemento"
+2024-07-29 14:40:36,032 - DEBUG - Criando Parametro: "btn_carta"
+2024-07-29 14:40:36,032 - DEBUG - Criando Parametro: "carta"
+2024-07-29 14:40:36,032 - DEBUG - Criando Parametro: "btn_zoneamento"
+2024-07-29 14:40:36,032 - DEBUG - Criando Parametro: "lista_zoneamento"
+2024-07-29 14:40:36,032 - DEBUG - Criando Parametro: "btn_alterar_layout"
+2024-07-29 14:40:36,032 - DEBUG - Criando Parametro: "btn_exportar_mapa"
+2024-07-29 14:40:36,032 - DEBUG - Criando Parametro: "btn_exportar_despacho"
+2024-07-29 14:40:36,032 - DEBUG - Criando Parametro: "btn_exportar_planilha"
+2024-07-29 14:40:36,032 - DEBUG - Criando Parametro: "lista_shapefiles"
+2024-07-29 14:40:36,032 - DEBUG - Criando Parametro: "lista_municipios"
+2024-07-29 14:40:36,032 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 14:40:36,032 - DEBUG - --------------------------------
+2024-07-29 14:40:36,033 - DEBUG - Criando Parametros da Ferramenta...
+2024-07-29 14:40:36,058 - DEBUG - Formatando Strings: ITERPA
+2024-07-29 14:40:36,058 - DEBUG - Formatando Strings: SICARF
+2024-07-29 14:40:36,058 - DEBUG - Formatando Strings: SIGEF/INCRA
+2024-07-29 14:40:36,058 - DEBUG - Formatando Strings: SICAR/SEMAS
+2024-07-29 14:40:36,058 - DEBUG - Formatando Strings: TERCEIROS
+2024-07-29 14:40:36,058 - DEBUG - Formatando Strings: NÃƒO POSSUI
+2024-07-29 14:40:36,058 - DEBUG - Formatando Strings: NÃƒO CONSTA
+2024-07-29 14:40:36,058 - DEBUG - Formatando Strings: OUTROS
+2024-07-29 14:40:36,058 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO NÃƒO ONEROSA
+2024-07-29 14:40:36,058 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO ONEROSA
+2024-07-29 14:40:36,058 - DEBUG - Formatando Strings: PROTOCOLO DE SOLICITAÃ‡ÃƒO DE ACESSO Ã€ INFORMAÃ‡ÃƒO
+2024-07-29 14:40:36,059 - DEBUG - Formatando Strings: CERTIDÃƒO
+2024-07-29 14:40:36,059 - DEBUG - Formatando Strings: AFORAMENTO
+2024-07-29 14:40:36,059 - DEBUG - Formatando Strings: QUILOMBO
+2024-07-29 14:40:36,065 - DEBUG - Criando Parametro: "btn_dados_carregados"
+2024-07-29 14:40:36,065 - DEBUG - Criando Parametro: "shapefile"
+2024-07-29 14:40:36,065 - DEBUG - Criando Parametro: "pasta_resultados"
+2024-07-29 14:40:36,065 - DEBUG - Criando Parametro: "modelo_despacho"
+2024-07-29 14:40:36,065 - DEBUG - Criando Parametro: "municipio"
+2024-07-29 14:40:36,065 - DEBUG - Criando Parametro: "situacao"
+2024-07-29 14:40:36,065 - DEBUG - Criando Parametro: "georreferenciamento"
+2024-07-29 14:40:36,065 - DEBUG - Criando Parametro: "ano"
+2024-07-29 14:40:36,065 - DEBUG - Criando Parametro: "numero"
+2024-07-29 14:40:36,065 - DEBUG - Criando Parametro: "interessado"
+2024-07-29 14:40:36,065 - DEBUG - Criando Parametro: "denominacao"
+2024-07-29 14:40:36,065 - DEBUG - Criando Parametro: "parcela"
+2024-07-29 14:40:36,065 - DEBUG - Criando Parametro: "complemento"
+2024-07-29 14:40:36,065 - DEBUG - Criando Parametro: "btn_carta"
+2024-07-29 14:40:36,065 - DEBUG - Criando Parametro: "carta"
+2024-07-29 14:40:36,065 - DEBUG - Criando Parametro: "btn_zoneamento"
+2024-07-29 14:40:36,065 - DEBUG - Criando Parametro: "lista_zoneamento"
+2024-07-29 14:40:36,065 - DEBUG - Criando Parametro: "btn_alterar_layout"
+2024-07-29 14:40:36,065 - DEBUG - Criando Parametro: "btn_exportar_mapa"
+2024-07-29 14:40:36,065 - DEBUG - Criando Parametro: "btn_exportar_despacho"
+2024-07-29 14:40:36,065 - DEBUG - Criando Parametro: "btn_exportar_planilha"
+2024-07-29 14:40:36,065 - DEBUG - Criando Parametro: "lista_shapefiles"
+2024-07-29 14:40:36,065 - DEBUG - Criando Parametro: "lista_municipios"
+2024-07-29 14:40:36,066 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 14:40:36,066 - DEBUG - --------------------------------
+2024-07-29 14:40:36,066 - DEBUG - Criando Parametros da Ferramenta...
+2024-07-29 14:40:36,092 - DEBUG - Formatando Strings: ITERPA
+2024-07-29 14:40:36,092 - DEBUG - Formatando Strings: SICARF
+2024-07-29 14:40:36,092 - DEBUG - Formatando Strings: SIGEF/INCRA
+2024-07-29 14:40:36,092 - DEBUG - Formatando Strings: SICAR/SEMAS
+2024-07-29 14:40:36,092 - DEBUG - Formatando Strings: TERCEIROS
+2024-07-29 14:40:36,092 - DEBUG - Formatando Strings: NÃƒO POSSUI
+2024-07-29 14:40:36,092 - DEBUG - Formatando Strings: NÃƒO CONSTA
+2024-07-29 14:40:36,092 - DEBUG - Formatando Strings: OUTROS
+2024-07-29 14:40:36,092 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO NÃƒO ONEROSA
+2024-07-29 14:40:36,092 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO ONEROSA
+2024-07-29 14:40:36,092 - DEBUG - Formatando Strings: PROTOCOLO DE SOLICITAÃ‡ÃƒO DE ACESSO Ã€ INFORMAÃ‡ÃƒO
+2024-07-29 14:40:36,092 - DEBUG - Formatando Strings: CERTIDÃƒO
+2024-07-29 14:40:36,092 - DEBUG - Formatando Strings: AFORAMENTO
+2024-07-29 14:40:36,092 - DEBUG - Formatando Strings: QUILOMBO
+2024-07-29 14:40:36,098 - DEBUG - Criando Parametro: "btn_dados_carregados"
+2024-07-29 14:40:36,099 - DEBUG - Criando Parametro: "shapefile"
+2024-07-29 14:40:36,099 - DEBUG - Criando Parametro: "pasta_resultados"
+2024-07-29 14:40:36,099 - DEBUG - Criando Parametro: "modelo_despacho"
+2024-07-29 14:40:36,099 - DEBUG - Criando Parametro: "municipio"
+2024-07-29 14:40:36,099 - DEBUG - Criando Parametro: "situacao"
+2024-07-29 14:40:36,099 - DEBUG - Criando Parametro: "georreferenciamento"
+2024-07-29 14:40:36,099 - DEBUG - Criando Parametro: "ano"
+2024-07-29 14:40:36,099 - DEBUG - Criando Parametro: "numero"
+2024-07-29 14:40:36,099 - DEBUG - Criando Parametro: "interessado"
+2024-07-29 14:40:36,099 - DEBUG - Criando Parametro: "denominacao"
+2024-07-29 14:40:36,099 - DEBUG - Criando Parametro: "parcela"
+2024-07-29 14:40:36,099 - DEBUG - Criando Parametro: "complemento"
+2024-07-29 14:40:36,099 - DEBUG - Criando Parametro: "btn_carta"
+2024-07-29 14:40:36,099 - DEBUG - Criando Parametro: "carta"
+2024-07-29 14:40:36,099 - DEBUG - Criando Parametro: "btn_zoneamento"
+2024-07-29 14:40:36,099 - DEBUG - Criando Parametro: "lista_zoneamento"
+2024-07-29 14:40:36,099 - DEBUG - Criando Parametro: "btn_alterar_layout"
+2024-07-29 14:40:36,099 - DEBUG - Criando Parametro: "btn_exportar_mapa"
+2024-07-29 14:40:36,099 - DEBUG - Criando Parametro: "btn_exportar_despacho"
+2024-07-29 14:40:36,099 - DEBUG - Criando Parametro: "btn_exportar_planilha"
+2024-07-29 14:40:36,101 - DEBUG - Criando Parametro: "lista_shapefiles"
+2024-07-29 14:40:36,101 - DEBUG - Criando Parametro: "lista_municipios"
+2024-07-29 14:40:36,101 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 14:40:36,101 - DEBUG - --------------------------------
+2024-07-29 14:40:36,101 - DEBUG - Criando Parametros da Ferramenta...
+2024-07-29 14:40:36,128 - DEBUG - Formatando Strings: ITERPA
+2024-07-29 14:40:36,128 - DEBUG - Formatando Strings: SICARF
+2024-07-29 14:40:36,128 - DEBUG - Formatando Strings: SIGEF/INCRA
+2024-07-29 14:40:36,128 - DEBUG - Formatando Strings: SICAR/SEMAS
+2024-07-29 14:40:36,128 - DEBUG - Formatando Strings: TERCEIROS
+2024-07-29 14:40:36,128 - DEBUG - Formatando Strings: NÃƒO POSSUI
+2024-07-29 14:40:36,128 - DEBUG - Formatando Strings: NÃƒO CONSTA
+2024-07-29 14:40:36,128 - DEBUG - Formatando Strings: OUTROS
+2024-07-29 14:40:36,128 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO NÃƒO ONEROSA
+2024-07-29 14:40:36,128 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO ONEROSA
+2024-07-29 14:40:36,128 - DEBUG - Formatando Strings: PROTOCOLO DE SOLICITAÃ‡ÃƒO DE ACESSO Ã€ INFORMAÃ‡ÃƒO
+2024-07-29 14:40:36,128 - DEBUG - Formatando Strings: CERTIDÃƒO
+2024-07-29 14:40:36,128 - DEBUG - Formatando Strings: AFORAMENTO
+2024-07-29 14:40:36,128 - DEBUG - Formatando Strings: QUILOMBO
+2024-07-29 14:40:36,134 - DEBUG - Criando Parametro: "btn_dados_carregados"
+2024-07-29 14:40:36,135 - DEBUG - Criando Parametro: "shapefile"
+2024-07-29 14:40:36,135 - DEBUG - Criando Parametro: "pasta_resultados"
+2024-07-29 14:40:36,135 - DEBUG - Criando Parametro: "modelo_despacho"
+2024-07-29 14:40:36,135 - DEBUG - Criando Parametro: "municipio"
+2024-07-29 14:40:36,135 - DEBUG - Criando Parametro: "situacao"
+2024-07-29 14:40:36,135 - DEBUG - Criando Parametro: "georreferenciamento"
+2024-07-29 14:40:36,135 - DEBUG - Criando Parametro: "ano"
+2024-07-29 14:40:36,135 - DEBUG - Criando Parametro: "numero"
+2024-07-29 14:40:36,135 - DEBUG - Criando Parametro: "interessado"
+2024-07-29 14:40:36,135 - DEBUG - Criando Parametro: "denominacao"
+2024-07-29 14:40:36,135 - DEBUG - Criando Parametro: "parcela"
+2024-07-29 14:40:36,135 - DEBUG - Criando Parametro: "complemento"
+2024-07-29 14:40:36,135 - DEBUG - Criando Parametro: "btn_carta"
+2024-07-29 14:40:36,135 - DEBUG - Criando Parametro: "carta"
+2024-07-29 14:40:36,135 - DEBUG - Criando Parametro: "btn_zoneamento"
+2024-07-29 14:40:36,135 - DEBUG - Criando Parametro: "lista_zoneamento"
+2024-07-29 14:40:36,135 - DEBUG - Criando Parametro: "btn_alterar_layout"
+2024-07-29 14:40:36,135 - DEBUG - Criando Parametro: "btn_exportar_mapa"
+2024-07-29 14:40:36,135 - DEBUG - Criando Parametro: "btn_exportar_despacho"
+2024-07-29 14:40:36,135 - DEBUG - Criando Parametro: "btn_exportar_planilha"
+2024-07-29 14:40:36,135 - DEBUG - Criando Parametro: "lista_shapefiles"
+2024-07-29 14:40:36,137 - DEBUG - Criando Parametro: "lista_municipios"
+2024-07-29 14:40:36,137 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 14:40:36,137 - DEBUG - --------------------------------
+2024-07-29 14:40:36,138 - DEBUG - Criando Parametros da Ferramenta...
+2024-07-29 14:40:36,164 - DEBUG - Formatando Strings: ITERPA
+2024-07-29 14:40:36,164 - DEBUG - Formatando Strings: SICARF
+2024-07-29 14:40:36,164 - DEBUG - Formatando Strings: SIGEF/INCRA
+2024-07-29 14:40:36,164 - DEBUG - Formatando Strings: SICAR/SEMAS
+2024-07-29 14:40:36,164 - DEBUG - Formatando Strings: TERCEIROS
+2024-07-29 14:40:36,164 - DEBUG - Formatando Strings: NÃƒO POSSUI
+2024-07-29 14:40:36,164 - DEBUG - Formatando Strings: NÃƒO CONSTA
+2024-07-29 14:40:36,164 - DEBUG - Formatando Strings: OUTROS
+2024-07-29 14:40:36,164 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO NÃƒO ONEROSA
+2024-07-29 14:40:36,164 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO ONEROSA
+2024-07-29 14:40:36,164 - DEBUG - Formatando Strings: PROTOCOLO DE SOLICITAÃ‡ÃƒO DE ACESSO Ã€ INFORMAÃ‡ÃƒO
+2024-07-29 14:40:36,164 - DEBUG - Formatando Strings: CERTIDÃƒO
+2024-07-29 14:40:36,164 - DEBUG - Formatando Strings: AFORAMENTO
+2024-07-29 14:40:36,164 - DEBUG - Formatando Strings: QUILOMBO
+2024-07-29 14:40:36,171 - DEBUG - Criando Parametro: "btn_dados_carregados"
+2024-07-29 14:40:36,171 - DEBUG - Criando Parametro: "shapefile"
+2024-07-29 14:40:36,171 - DEBUG - Criando Parametro: "pasta_resultados"
+2024-07-29 14:40:36,171 - DEBUG - Criando Parametro: "modelo_despacho"
+2024-07-29 14:40:36,171 - DEBUG - Criando Parametro: "municipio"
+2024-07-29 14:40:36,171 - DEBUG - Criando Parametro: "situacao"
+2024-07-29 14:40:36,171 - DEBUG - Criando Parametro: "georreferenciamento"
+2024-07-29 14:40:36,171 - DEBUG - Criando Parametro: "ano"
+2024-07-29 14:40:36,171 - DEBUG - Criando Parametro: "numero"
+2024-07-29 14:40:36,171 - DEBUG - Criando Parametro: "interessado"
+2024-07-29 14:40:36,171 - DEBUG - Criando Parametro: "denominacao"
+2024-07-29 14:40:36,171 - DEBUG - Criando Parametro: "parcela"
+2024-07-29 14:40:36,171 - DEBUG - Criando Parametro: "complemento"
+2024-07-29 14:40:36,171 - DEBUG - Criando Parametro: "btn_carta"
+2024-07-29 14:40:36,171 - DEBUG - Criando Parametro: "carta"
+2024-07-29 14:40:36,171 - DEBUG - Criando Parametro: "btn_zoneamento"
+2024-07-29 14:40:36,171 - DEBUG - Criando Parametro: "lista_zoneamento"
+2024-07-29 14:40:36,171 - DEBUG - Criando Parametro: "btn_alterar_layout"
+2024-07-29 14:40:36,171 - DEBUG - Criando Parametro: "btn_exportar_mapa"
+2024-07-29 14:40:36,171 - DEBUG - Criando Parametro: "btn_exportar_despacho"
+2024-07-29 14:40:36,171 - DEBUG - Criando Parametro: "btn_exportar_planilha"
+2024-07-29 14:40:36,171 - DEBUG - Criando Parametro: "lista_shapefiles"
+2024-07-29 14:40:36,171 - DEBUG - Criando Parametro: "lista_municipios"
+2024-07-29 14:40:36,173 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 14:40:36,173 - DEBUG - --------------------------------
+2024-07-29 14:40:36,173 - DEBUG - Criando Parametros da Ferramenta...
+2024-07-29 14:40:36,198 - DEBUG - Formatando Strings: ITERPA
+2024-07-29 14:40:36,198 - DEBUG - Formatando Strings: SICARF
+2024-07-29 14:40:36,198 - DEBUG - Formatando Strings: SIGEF/INCRA
+2024-07-29 14:40:36,198 - DEBUG - Formatando Strings: SICAR/SEMAS
+2024-07-29 14:40:36,198 - DEBUG - Formatando Strings: TERCEIROS
+2024-07-29 14:40:36,198 - DEBUG - Formatando Strings: NÃƒO POSSUI
+2024-07-29 14:40:36,198 - DEBUG - Formatando Strings: NÃƒO CONSTA
+2024-07-29 14:40:36,198 - DEBUG - Formatando Strings: OUTROS
+2024-07-29 14:40:36,198 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO NÃƒO ONEROSA
+2024-07-29 14:40:36,198 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO ONEROSA
+2024-07-29 14:40:36,198 - DEBUG - Formatando Strings: PROTOCOLO DE SOLICITAÃ‡ÃƒO DE ACESSO Ã€ INFORMAÃ‡ÃƒO
+2024-07-29 14:40:36,198 - DEBUG - Formatando Strings: CERTIDÃƒO
+2024-07-29 14:40:36,198 - DEBUG - Formatando Strings: AFORAMENTO
+2024-07-29 14:40:36,198 - DEBUG - Formatando Strings: QUILOMBO
+2024-07-29 14:40:36,206 - DEBUG - Criando Parametro: "btn_dados_carregados"
+2024-07-29 14:40:36,206 - DEBUG - Criando Parametro: "shapefile"
+2024-07-29 14:40:36,206 - DEBUG - Criando Parametro: "pasta_resultados"
+2024-07-29 14:40:36,206 - DEBUG - Criando Parametro: "modelo_despacho"
+2024-07-29 14:40:36,206 - DEBUG - Criando Parametro: "municipio"
+2024-07-29 14:40:36,206 - DEBUG - Criando Parametro: "situacao"
+2024-07-29 14:40:36,207 - DEBUG - Criando Parametro: "georreferenciamento"
+2024-07-29 14:40:36,207 - DEBUG - Criando Parametro: "ano"
+2024-07-29 14:40:36,207 - DEBUG - Criando Parametro: "numero"
+2024-07-29 14:40:36,207 - DEBUG - Criando Parametro: "interessado"
+2024-07-29 14:40:36,207 - DEBUG - Criando Parametro: "denominacao"
+2024-07-29 14:40:36,207 - DEBUG - Criando Parametro: "parcela"
+2024-07-29 14:40:36,207 - DEBUG - Criando Parametro: "complemento"
+2024-07-29 14:40:36,207 - DEBUG - Criando Parametro: "btn_carta"
+2024-07-29 14:40:36,207 - DEBUG - Criando Parametro: "carta"
+2024-07-29 14:40:36,207 - DEBUG - Criando Parametro: "btn_zoneamento"
+2024-07-29 14:40:36,207 - DEBUG - Criando Parametro: "lista_zoneamento"
+2024-07-29 14:40:36,207 - DEBUG - Criando Parametro: "btn_alterar_layout"
+2024-07-29 14:40:36,207 - DEBUG - Criando Parametro: "btn_exportar_mapa"
+2024-07-29 14:40:36,207 - DEBUG - Criando Parametro: "btn_exportar_despacho"
+2024-07-29 14:40:36,207 - DEBUG - Criando Parametro: "btn_exportar_planilha"
+2024-07-29 14:40:36,207 - DEBUG - Criando Parametro: "lista_shapefiles"
+2024-07-29 14:40:36,207 - DEBUG - Criando Parametro: "lista_municipios"
+2024-07-29 14:40:36,209 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 14:40:36,209 - DEBUG - --------------------------------
+2024-07-29 14:40:36,209 - DEBUG - Criando Parametros da Ferramenta...
+2024-07-29 14:40:36,244 - DEBUG - Formatando Strings: ITERPA
+2024-07-29 14:40:36,244 - DEBUG - Formatando Strings: SICARF
+2024-07-29 14:40:36,244 - DEBUG - Formatando Strings: SIGEF/INCRA
+2024-07-29 14:40:36,244 - DEBUG - Formatando Strings: SICAR/SEMAS
+2024-07-29 14:40:36,244 - DEBUG - Formatando Strings: TERCEIROS
+2024-07-29 14:40:36,244 - DEBUG - Formatando Strings: NÃƒO POSSUI
+2024-07-29 14:40:36,244 - DEBUG - Formatando Strings: NÃƒO CONSTA
+2024-07-29 14:40:36,244 - DEBUG - Formatando Strings: OUTROS
+2024-07-29 14:40:36,244 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO NÃƒO ONEROSA
+2024-07-29 14:40:36,244 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO ONEROSA
+2024-07-29 14:40:36,244 - DEBUG - Formatando Strings: PROTOCOLO DE SOLICITAÃ‡ÃƒO DE ACESSO Ã€ INFORMAÃ‡ÃƒO
+2024-07-29 14:40:36,244 - DEBUG - Formatando Strings: CERTIDÃƒO
+2024-07-29 14:40:36,246 - DEBUG - Formatando Strings: AFORAMENTO
+2024-07-29 14:40:36,246 - DEBUG - Formatando Strings: QUILOMBO
+2024-07-29 14:40:36,256 - DEBUG - Criando Parametro: "btn_dados_carregados"
+2024-07-29 14:40:36,256 - DEBUG - Criando Parametro: "shapefile"
+2024-07-29 14:40:36,256 - DEBUG - Criando Parametro: "pasta_resultados"
+2024-07-29 14:40:36,256 - DEBUG - Criando Parametro: "modelo_despacho"
+2024-07-29 14:40:36,256 - DEBUG - Criando Parametro: "municipio"
+2024-07-29 14:40:36,256 - DEBUG - Criando Parametro: "situacao"
+2024-07-29 14:40:36,256 - DEBUG - Criando Parametro: "georreferenciamento"
+2024-07-29 14:40:36,256 - DEBUG - Criando Parametro: "ano"
+2024-07-29 14:40:36,256 - DEBUG - Criando Parametro: "numero"
+2024-07-29 14:40:36,256 - DEBUG - Criando Parametro: "interessado"
+2024-07-29 14:40:36,256 - DEBUG - Criando Parametro: "denominacao"
+2024-07-29 14:40:36,256 - DEBUG - Criando Parametro: "parcela"
+2024-07-29 14:40:36,256 - DEBUG - Criando Parametro: "complemento"
+2024-07-29 14:40:36,256 - DEBUG - Criando Parametro: "btn_carta"
+2024-07-29 14:40:36,256 - DEBUG - Criando Parametro: "carta"
+2024-07-29 14:40:36,256 - DEBUG - Criando Parametro: "btn_zoneamento"
+2024-07-29 14:40:36,256 - DEBUG - Criando Parametro: "lista_zoneamento"
+2024-07-29 14:40:36,256 - DEBUG - Criando Parametro: "btn_alterar_layout"
+2024-07-29 14:40:36,256 - DEBUG - Criando Parametro: "btn_exportar_mapa"
+2024-07-29 14:40:36,256 - DEBUG - Criando Parametro: "btn_exportar_despacho"
+2024-07-29 14:40:36,256 - DEBUG - Criando Parametro: "btn_exportar_planilha"
+2024-07-29 14:40:36,257 - DEBUG - Criando Parametro: "lista_shapefiles"
+2024-07-29 14:40:36,257 - DEBUG - Criando Parametro: "lista_municipios"
+2024-07-29 14:40:36,259 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 14:40:36,259 - DEBUG - --------------------------------
+2024-07-29 14:40:36,259 - DEBUG - Criando Parametros da Ferramenta...
+2024-07-29 14:40:36,293 - DEBUG - Formatando Strings: ITERPA
+2024-07-29 14:40:36,293 - DEBUG - Formatando Strings: SICARF
+2024-07-29 14:40:36,293 - DEBUG - Formatando Strings: SIGEF/INCRA
+2024-07-29 14:40:36,293 - DEBUG - Formatando Strings: SICAR/SEMAS
+2024-07-29 14:40:36,293 - DEBUG - Formatando Strings: TERCEIROS
+2024-07-29 14:40:36,293 - DEBUG - Formatando Strings: NÃƒO POSSUI
+2024-07-29 14:40:36,293 - DEBUG - Formatando Strings: NÃƒO CONSTA
+2024-07-29 14:40:36,293 - DEBUG - Formatando Strings: OUTROS
+2024-07-29 14:40:36,293 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO NÃƒO ONEROSA
+2024-07-29 14:40:36,295 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO ONEROSA
+2024-07-29 14:40:36,295 - DEBUG - Formatando Strings: PROTOCOLO DE SOLICITAÃ‡ÃƒO DE ACESSO Ã€ INFORMAÃ‡ÃƒO
+2024-07-29 14:40:36,295 - DEBUG - Formatando Strings: CERTIDÃƒO
+2024-07-29 14:40:36,295 - DEBUG - Formatando Strings: AFORAMENTO
+2024-07-29 14:40:36,295 - DEBUG - Formatando Strings: QUILOMBO
+2024-07-29 14:40:36,303 - DEBUG - Criando Parametro: "btn_dados_carregados"
+2024-07-29 14:40:36,303 - DEBUG - Criando Parametro: "shapefile"
+2024-07-29 14:40:36,303 - DEBUG - Criando Parametro: "pasta_resultados"
+2024-07-29 14:40:36,303 - DEBUG - Criando Parametro: "modelo_despacho"
+2024-07-29 14:40:36,303 - DEBUG - Criando Parametro: "municipio"
+2024-07-29 14:40:36,303 - DEBUG - Criando Parametro: "situacao"
+2024-07-29 14:40:36,303 - DEBUG - Criando Parametro: "georreferenciamento"
+2024-07-29 14:40:36,303 - DEBUG - Criando Parametro: "ano"
+2024-07-29 14:40:36,303 - DEBUG - Criando Parametro: "numero"
+2024-07-29 14:40:36,303 - DEBUG - Criando Parametro: "interessado"
+2024-07-29 14:40:36,303 - DEBUG - Criando Parametro: "denominacao"
+2024-07-29 14:40:36,303 - DEBUG - Criando Parametro: "parcela"
+2024-07-29 14:40:36,303 - DEBUG - Criando Parametro: "complemento"
+2024-07-29 14:40:36,303 - DEBUG - Criando Parametro: "btn_carta"
+2024-07-29 14:40:36,303 - DEBUG - Criando Parametro: "carta"
+2024-07-29 14:40:36,303 - DEBUG - Criando Parametro: "btn_zoneamento"
+2024-07-29 14:40:36,303 - DEBUG - Criando Parametro: "lista_zoneamento"
+2024-07-29 14:40:36,303 - DEBUG - Criando Parametro: "btn_alterar_layout"
+2024-07-29 14:40:36,303 - DEBUG - Criando Parametro: "btn_exportar_mapa"
+2024-07-29 14:40:36,303 - DEBUG - Criando Parametro: "btn_exportar_despacho"
+2024-07-29 14:40:36,303 - DEBUG - Criando Parametro: "btn_exportar_planilha"
+2024-07-29 14:40:36,305 - DEBUG - Criando Parametro: "lista_shapefiles"
+2024-07-29 14:40:36,305 - DEBUG - Criando Parametro: "lista_municipios"
+2024-07-29 14:40:36,305 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 14:40:36,305 - DEBUG - --------------------------------
+2024-07-29 14:40:36,305 - DEBUG - Criando Parametros da Ferramenta...
+2024-07-29 14:40:36,341 - DEBUG - Formatando Strings: ITERPA
+2024-07-29 14:40:36,341 - DEBUG - Formatando Strings: SICARF
+2024-07-29 14:40:36,341 - DEBUG - Formatando Strings: SIGEF/INCRA
+2024-07-29 14:40:36,341 - DEBUG - Formatando Strings: SICAR/SEMAS
+2024-07-29 14:40:36,341 - DEBUG - Formatando Strings: TERCEIROS
+2024-07-29 14:40:36,341 - DEBUG - Formatando Strings: NÃƒO POSSUI
+2024-07-29 14:40:36,341 - DEBUG - Formatando Strings: NÃƒO CONSTA
+2024-07-29 14:40:36,341 - DEBUG - Formatando Strings: OUTROS
+2024-07-29 14:40:36,341 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO NÃƒO ONEROSA
+2024-07-29 14:40:36,341 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO ONEROSA
+2024-07-29 14:40:36,341 - DEBUG - Formatando Strings: PROTOCOLO DE SOLICITAÃ‡ÃƒO DE ACESSO Ã€ INFORMAÃ‡ÃƒO
+2024-07-29 14:40:36,341 - DEBUG - Formatando Strings: CERTIDÃƒO
+2024-07-29 14:40:36,341 - DEBUG - Formatando Strings: AFORAMENTO
+2024-07-29 14:40:36,341 - DEBUG - Formatando Strings: QUILOMBO
+2024-07-29 14:40:36,349 - DEBUG - Criando Parametro: "btn_dados_carregados"
+2024-07-29 14:40:36,349 - DEBUG - Criando Parametro: "shapefile"
+2024-07-29 14:40:36,349 - DEBUG - Criando Parametro: "pasta_resultados"
+2024-07-29 14:40:36,349 - DEBUG - Criando Parametro: "modelo_despacho"
+2024-07-29 14:40:36,349 - DEBUG - Criando Parametro: "municipio"
+2024-07-29 14:40:36,349 - DEBUG - Criando Parametro: "situacao"
+2024-07-29 14:40:36,349 - DEBUG - Criando Parametro: "georreferenciamento"
+2024-07-29 14:40:36,351 - DEBUG - Criando Parametro: "ano"
+2024-07-29 14:40:36,351 - DEBUG - Criando Parametro: "numero"
+2024-07-29 14:40:36,351 - DEBUG - Criando Parametro: "interessado"
+2024-07-29 14:40:36,351 - DEBUG - Criando Parametro: "denominacao"
+2024-07-29 14:40:36,351 - DEBUG - Criando Parametro: "parcela"
+2024-07-29 14:40:36,351 - DEBUG - Criando Parametro: "complemento"
+2024-07-29 14:40:36,351 - DEBUG - Criando Parametro: "btn_carta"
+2024-07-29 14:40:36,351 - DEBUG - Criando Parametro: "carta"
+2024-07-29 14:40:36,351 - DEBUG - Criando Parametro: "btn_zoneamento"
+2024-07-29 14:40:36,351 - DEBUG - Criando Parametro: "lista_zoneamento"
+2024-07-29 14:40:36,351 - DEBUG - Criando Parametro: "btn_alterar_layout"
+2024-07-29 14:40:36,351 - DEBUG - Criando Parametro: "btn_exportar_mapa"
+2024-07-29 14:40:36,351 - DEBUG - Criando Parametro: "btn_exportar_despacho"
+2024-07-29 14:40:36,351 - DEBUG - Criando Parametro: "btn_exportar_planilha"
+2024-07-29 14:40:36,351 - DEBUG - Criando Parametro: "lista_shapefiles"
+2024-07-29 14:40:36,351 - DEBUG - Criando Parametro: "lista_municipios"
+2024-07-29 14:40:36,351 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 14:40:36,351 - DEBUG - --------------------------------
+2024-07-29 14:40:36,351 - DEBUG - Criando Parametros da Ferramenta...
+2024-07-29 14:40:36,381 - DEBUG - Formatando Strings: ITERPA
+2024-07-29 14:40:36,381 - DEBUG - Formatando Strings: SICARF
+2024-07-29 14:40:36,381 - DEBUG - Formatando Strings: SIGEF/INCRA
+2024-07-29 14:40:36,381 - DEBUG - Formatando Strings: SICAR/SEMAS
+2024-07-29 14:40:36,381 - DEBUG - Formatando Strings: TERCEIROS
+2024-07-29 14:40:36,381 - DEBUG - Formatando Strings: NÃƒO POSSUI
+2024-07-29 14:40:36,381 - DEBUG - Formatando Strings: NÃƒO CONSTA
+2024-07-29 14:40:36,381 - DEBUG - Formatando Strings: OUTROS
+2024-07-29 14:40:36,381 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO NÃƒO ONEROSA
+2024-07-29 14:40:36,381 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO ONEROSA
+2024-07-29 14:40:36,381 - DEBUG - Formatando Strings: PROTOCOLO DE SOLICITAÃ‡ÃƒO DE ACESSO Ã€ INFORMAÃ‡ÃƒO
+2024-07-29 14:40:36,382 - DEBUG - Formatando Strings: CERTIDÃƒO
+2024-07-29 14:40:36,382 - DEBUG - Formatando Strings: AFORAMENTO
+2024-07-29 14:40:36,382 - DEBUG - Formatando Strings: QUILOMBO
+2024-07-29 14:40:36,388 - DEBUG - Criando Parametro: "btn_dados_carregados"
+2024-07-29 14:40:36,388 - DEBUG - Criando Parametro: "shapefile"
+2024-07-29 14:40:36,388 - DEBUG - Criando Parametro: "pasta_resultados"
+2024-07-29 14:40:36,388 - DEBUG - Criando Parametro: "modelo_despacho"
+2024-07-29 14:40:36,388 - DEBUG - Criando Parametro: "municipio"
+2024-07-29 14:40:36,388 - DEBUG - Criando Parametro: "situacao"
+2024-07-29 14:40:36,388 - DEBUG - Criando Parametro: "georreferenciamento"
+2024-07-29 14:40:36,388 - DEBUG - Criando Parametro: "ano"
+2024-07-29 14:40:36,388 - DEBUG - Criando Parametro: "numero"
+2024-07-29 14:40:36,388 - DEBUG - Criando Parametro: "interessado"
+2024-07-29 14:40:36,390 - DEBUG - Criando Parametro: "denominacao"
+2024-07-29 14:40:36,390 - DEBUG - Criando Parametro: "parcela"
+2024-07-29 14:40:36,390 - DEBUG - Criando Parametro: "complemento"
+2024-07-29 14:40:36,390 - DEBUG - Criando Parametro: "btn_carta"
+2024-07-29 14:40:36,390 - DEBUG - Criando Parametro: "carta"
+2024-07-29 14:40:36,390 - DEBUG - Criando Parametro: "btn_zoneamento"
+2024-07-29 14:40:36,390 - DEBUG - Criando Parametro: "lista_zoneamento"
+2024-07-29 14:40:36,390 - DEBUG - Criando Parametro: "btn_alterar_layout"
+2024-07-29 14:40:36,390 - DEBUG - Criando Parametro: "btn_exportar_mapa"
+2024-07-29 14:40:36,390 - DEBUG - Criando Parametro: "btn_exportar_despacho"
+2024-07-29 14:40:36,390 - DEBUG - Criando Parametro: "btn_exportar_planilha"
+2024-07-29 14:40:36,390 - DEBUG - Criando Parametro: "lista_shapefiles"
+2024-07-29 14:40:36,390 - DEBUG - Criando Parametro: "lista_municipios"
+2024-07-29 14:40:36,391 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 14:40:36,391 - DEBUG - --------------------------------
+2024-07-29 14:40:36,391 - DEBUG - Criando Parametros da Ferramenta...
+2024-07-29 14:40:36,414 - DEBUG - Formatando Strings: ITERPA
+2024-07-29 14:40:36,414 - DEBUG - Formatando Strings: SICARF
+2024-07-29 14:40:36,414 - DEBUG - Formatando Strings: SIGEF/INCRA
+2024-07-29 14:40:36,415 - DEBUG - Formatando Strings: SICAR/SEMAS
+2024-07-29 14:40:36,415 - DEBUG - Formatando Strings: TERCEIROS
+2024-07-29 14:40:36,415 - DEBUG - Formatando Strings: NÃƒO POSSUI
+2024-07-29 14:40:36,415 - DEBUG - Formatando Strings: NÃƒO CONSTA
+2024-07-29 14:40:36,415 - DEBUG - Formatando Strings: OUTROS
+2024-07-29 14:40:36,415 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO NÃƒO ONEROSA
+2024-07-29 14:40:36,415 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO ONEROSA
+2024-07-29 14:40:36,415 - DEBUG - Formatando Strings: PROTOCOLO DE SOLICITAÃ‡ÃƒO DE ACESSO Ã€ INFORMAÃ‡ÃƒO
+2024-07-29 14:40:36,415 - DEBUG - Formatando Strings: CERTIDÃƒO
+2024-07-29 14:40:36,415 - DEBUG - Formatando Strings: AFORAMENTO
+2024-07-29 14:40:36,415 - DEBUG - Formatando Strings: QUILOMBO
+2024-07-29 14:40:36,421 - DEBUG - Criando Parametro: "btn_dados_carregados"
+2024-07-29 14:40:36,421 - DEBUG - Criando Parametro: "shapefile"
+2024-07-29 14:40:36,421 - DEBUG - Criando Parametro: "pasta_resultados"
+2024-07-29 14:40:36,421 - DEBUG - Criando Parametro: "modelo_despacho"
+2024-07-29 14:40:36,421 - DEBUG - Criando Parametro: "municipio"
+2024-07-29 14:40:36,421 - DEBUG - Criando Parametro: "situacao"
+2024-07-29 14:40:36,421 - DEBUG - Criando Parametro: "georreferenciamento"
+2024-07-29 14:40:36,421 - DEBUG - Criando Parametro: "ano"
+2024-07-29 14:40:36,421 - DEBUG - Criando Parametro: "numero"
+2024-07-29 14:40:36,421 - DEBUG - Criando Parametro: "interessado"
+2024-07-29 14:40:36,423 - DEBUG - Criando Parametro: "denominacao"
+2024-07-29 14:40:36,423 - DEBUG - Criando Parametro: "parcela"
+2024-07-29 14:40:36,423 - DEBUG - Criando Parametro: "complemento"
+2024-07-29 14:40:36,423 - DEBUG - Criando Parametro: "btn_carta"
+2024-07-29 14:40:36,423 - DEBUG - Criando Parametro: "carta"
+2024-07-29 14:40:36,423 - DEBUG - Criando Parametro: "btn_zoneamento"
+2024-07-29 14:40:36,423 - DEBUG - Criando Parametro: "lista_zoneamento"
+2024-07-29 14:40:36,423 - DEBUG - Criando Parametro: "btn_alterar_layout"
+2024-07-29 14:40:36,423 - DEBUG - Criando Parametro: "btn_exportar_mapa"
+2024-07-29 14:40:36,423 - DEBUG - Criando Parametro: "btn_exportar_despacho"
+2024-07-29 14:40:36,423 - DEBUG - Criando Parametro: "btn_exportar_planilha"
+2024-07-29 14:40:36,423 - DEBUG - Criando Parametro: "lista_shapefiles"
+2024-07-29 14:40:36,423 - DEBUG - Criando Parametro: "lista_municipios"
+2024-07-29 14:41:23,338 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 14:41:23,339 - DEBUG - --------------------------------
+2024-07-29 14:41:23,342 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 14:41:23,342 - DEBUG - --------------------------------
+2024-07-29 14:41:23,344 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 14:41:23,344 - DEBUG - --------------------------------
+2024-07-29 14:41:23,345 - DEBUG - mostrando PopUp!
+2024-07-29 14:41:24,270 - INFO - Caixa de dialogo exibida.
+2024-07-29 14:41:24,270 - INFO - Caixa de dialogo retornou IDYES - Usuario clicou em Sim
+2024-07-29 14:41:24,272 - DEBUG - Carregando ultimos dados preenchidos...
+2024-07-29 14:41:24,272 - DEBUG - Carregando arquivo YAML...
+2024-07-29 14:41:24,279 - DEBUG - Arquivo YAML Carregado com Sucesso!
+2024-07-29 14:41:24,279 - DEBUG - Arquivo YAML: {'complemento': 'NADA CONSTA', 'situacao': 'REGULARIZA\xc3\x87\xc3\x83O N\xc3\x83O ONEROSA', 'lista_zoneamento': [u'ZEE: AMBIENTALMENTE SENS\xcdVEL', u"ZEE: MASSA D'\xc1GUA", u'MZEE: ZONA DE CONSOLIDA\xc7\xc3O DAS ATIVIDADES PRODUTIVAS', u'ZEE: AMBIENTALMENTE SENS\xcdVEL', u"ZEE: MASSA D'\xc1GUA", u'MZEE: ZONA DE CONSOLIDA\xc7\xc3O DAS ATIVIDADES PRODUTIVAS'], 'interessado': 'FULANO DA SILVA COSTA', 'ano': '2024', 'numero': '7654321', 'parcela': '1', 'denominacao': 'S\xc3\x8dTIO SOLID\xc3\x81RIO', 'modelo_despacho': 'C:\\github\\ArcpyAutoMap\\despacho\\modelo_despacho.docx', 'georreferenciamento': 'TERCEIROS', 'carta': 'SA.22-X-D-III, SA.22-X-D-VI, SA.23-V-C-I', 'pasta_resultados': 'C:\\github\\ArcpyAutoMap\\resultados', 'municipio': 'INHANGAPI'}
+2024-07-29 14:41:24,286 - INFO - Dados carregando com Sucesso!
+2024-07-29 14:41:24,288 - DEBUG - Criando arquivo YAML...
+2024-07-29 14:41:24,290 - DEBUG - Arquivo YAML Salvo com Sucesso!
+2024-07-29 14:41:24,290 - DEBUG - Botoes desativados: btn_carta, btn_zoneamento, btn_macro_zoneamento, btn_incidencias
+2024-07-29 14:41:24,292 - INFO - Atualizando Mapa de Situacao baseado no municipio: [INHANGAPI]
+2024-07-29 14:41:24,312 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 14:41:24,312 - DEBUG - --------------------------------
+2024-07-29 14:41:32,065 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 14:41:32,065 - DEBUG - --------------------------------
+2024-07-29 14:41:32,066 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 14:41:32,068 - DEBUG - --------------------------------
+2024-07-29 14:41:32,068 - DEBUG - Criando arquivo YAML...
+2024-07-29 14:41:32,072 - DEBUG - Arquivo YAML Salvo com Sucesso!
+2024-07-29 14:41:32,072 - DEBUG - Botoes desativados: btn_carta, btn_zoneamento, btn_macro_zoneamento, btn_incidencias
+2024-07-29 14:41:32,072 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 14:41:32,072 - DEBUG - --------------------------------
+2024-07-29 14:41:34,174 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 14:41:34,176 - DEBUG - --------------------------------
+2024-07-29 14:41:34,176 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 14:41:34,176 - DEBUG - --------------------------------
+2024-07-29 14:41:34,177 - DEBUG - Criando arquivo YAML...
+2024-07-29 14:41:34,178 - DEBUG - Arquivo YAML Salvo com Sucesso!
+2024-07-29 14:41:34,191 - DEBUG - camadas_ds: {u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\MUNICIPIOS': <map layer u'situacao_municipio_de_interesse'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\SEDES_MUNICIPAIS': <map layer u'situacao_sedes_municipais'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\ITERPA\\ZEE_2010': <map layer u'ZEE_2010'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\LOCALIDADES': <map layer u'LOCALIDADES'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\UNIDADES_FEDERATIVAS_BR': <map layer u'unidades_federativas_br'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\TRECHO_RODOVIARIO': <map layer u'TRECHO_RODOVIARIO'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\TemplatePadrao.shp': <map layer u'TemplatePadrao'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\LIMITES_AMERICA_DO_SUL': <map layer u'situacao_limites_america_do_sul'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\RODOVIA_ESTADUAL_IBGE': <map layer u'RODOVIA_ESTADUAL_IBGE'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\LEGENDAS.shp': <map layer u'S\xcdTIO SOLID\xc1RIO'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\CARTA_INDICE_IBGE_DSG': <map layer u'CARTA_INDICE_IBGE_DSG'>, u'C:\\Users\\djalm\\Documents\\qgis_teste\\New_Shapefile.shp': <map layer u'Area_interrese'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\SEMAS\\CURSO_DAGUA': <map layer u'CURSO_DAGUA'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\ITERPA\\MZEE_2008': <map layer u'MZEE_2008'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\RODOVIA_FEDERAL_IBGE': <map layer u'RODOVIA_FEDERAL_IBGE'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\AREA_DE_LIMITACAO.shp': <map layer u'AREA DE LIMITACAO'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\SEMAS\\MASSA_DAGUA': <map layer u'situacao_drenagem_primaria'>}
+2024-07-29 14:41:34,191 - DEBUG - lista_aux_shp.append camada: Area_interrese
+2024-07-29 14:41:34,371 - INFO - Aplicando Simbologia padrao
+2024-07-29 14:41:34,790 - INFO - Aplicando Zoom controlado
+2024-07-29 14:41:34,808 - INFO - Ajustando Textos Automaticos no Layout
+2024-07-29 14:41:34,845 - DEBUG - Botoes ativados: btn_carta, btn_zoneamento, btn_macro_zoneamento, btn_incidencias
+2024-07-29 14:41:34,848 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 14:41:34,848 - DEBUG - --------------------------------
+2024-07-29 14:41:38,680 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 14:41:38,681 - DEBUG - --------------------------------
+2024-07-29 14:41:38,683 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 14:41:38,683 - DEBUG - --------------------------------
+2024-07-29 14:41:38,683 - DEBUG - Criando arquivo YAML...
+2024-07-29 14:41:38,686 - DEBUG - Arquivo YAML Salvo com Sucesso!
+2024-07-29 14:41:38,698 - DEBUG - camadas_ds: {u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\MUNICIPIOS': <map layer u'situacao_municipio_de_interesse'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\SEDES_MUNICIPAIS': <map layer u'situacao_sedes_municipais'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\ITERPA\\ZEE_2010': <map layer u'ZEE_2010'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\LOCALIDADES': <map layer u'LOCALIDADES'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\UNIDADES_FEDERATIVAS_BR': <map layer u'unidades_federativas_br'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\TRECHO_RODOVIARIO': <map layer u'TRECHO_RODOVIARIO'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\TemplatePadrao.shp': <map layer u'TemplatePadrao'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\LIMITES_AMERICA_DO_SUL': <map layer u'situacao_limites_america_do_sul'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\RODOVIA_ESTADUAL_IBGE': <map layer u'RODOVIA_ESTADUAL_IBGE'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\LEGENDAS.shp': <map layer u'S\xcdTIO SOLID\xc1RIO'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\CARTA_INDICE_IBGE_DSG': <map layer u'CARTA_INDICE_IBGE_DSG'>, u'C:\\Users\\djalm\\Documents\\qgis_teste\\New_Shapefile.shp': <map layer u'Area_interrese'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\SEMAS\\CURSO_DAGUA': <map layer u'CURSO_DAGUA'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\ITERPA\\MZEE_2008': <map layer u'MZEE_2008'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\RODOVIA_FEDERAL_IBGE': <map layer u'RODOVIA_FEDERAL_IBGE'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\AREA_DE_LIMITACAO.shp': <map layer u'AREA DE LIMITACAO'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\SEMAS\\MASSA_DAGUA': <map layer u'situacao_drenagem_primaria'>}
+2024-07-29 14:41:38,700 - DEBUG - lista_aux_shp.append camada: Area_interrese
+2024-07-29 14:41:38,700 - DEBUG - Botoes ativados: btn_carta, btn_zoneamento, btn_macro_zoneamento, btn_incidencias
+2024-07-29 14:41:38,700 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 14:41:38,700 - DEBUG - --------------------------------
+2024-07-29 14:41:38,813 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 14:41:38,813 - DEBUG - --------------------------------
+2024-07-29 14:41:38,816 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 14:41:38,816 - DEBUG - --------------------------------
+2024-07-29 14:41:38,818 - DEBUG - Criando arquivo YAML...
+2024-07-29 14:41:38,821 - DEBUG - Arquivo YAML Salvo com Sucesso!
+2024-07-29 14:41:38,836 - DEBUG - camadas_ds: {u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\MUNICIPIOS': <map layer u'situacao_municipio_de_interesse'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\SEDES_MUNICIPAIS': <map layer u'situacao_sedes_municipais'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\ITERPA\\ZEE_2010': <map layer u'ZEE_2010'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\LOCALIDADES': <map layer u'LOCALIDADES'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\UNIDADES_FEDERATIVAS_BR': <map layer u'unidades_federativas_br'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\TRECHO_RODOVIARIO': <map layer u'TRECHO_RODOVIARIO'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\TemplatePadrao.shp': <map layer u'TemplatePadrao'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\LIMITES_AMERICA_DO_SUL': <map layer u'situacao_limites_america_do_sul'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\RODOVIA_ESTADUAL_IBGE': <map layer u'RODOVIA_ESTADUAL_IBGE'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\LEGENDAS.shp': <map layer u'S\xcdTIO SOLID\xc1RIO'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\CARTA_INDICE_IBGE_DSG': <map layer u'CARTA_INDICE_IBGE_DSG'>, u'C:\\Users\\djalm\\Documents\\qgis_teste\\New_Shapefile.shp': <map layer u'Area_interrese'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\SEMAS\\CURSO_DAGUA': <map layer u'CURSO_DAGUA'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\ITERPA\\MZEE_2008': <map layer u'MZEE_2008'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\RODOVIA_FEDERAL_IBGE': <map layer u'RODOVIA_FEDERAL_IBGE'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\AREA_DE_LIMITACAO.shp': <map layer u'AREA DE LIMITACAO'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\SEMAS\\MASSA_DAGUA': <map layer u'situacao_drenagem_primaria'>}
+2024-07-29 14:41:38,836 - DEBUG - lista_aux_shp.append camada: Area_interrese
+2024-07-29 14:41:38,838 - DEBUG - Botoes ativados: btn_carta, btn_zoneamento, btn_macro_zoneamento, btn_incidencias
+2024-07-29 14:41:38,838 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 14:41:38,838 - DEBUG - --------------------------------
+2024-07-29 14:41:38,839 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 14:41:38,839 - DEBUG - --------------------------------
+2024-07-29 14:41:38,904 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 14:41:38,904 - DEBUG - --------------------------------
+2024-07-29 14:41:38,904 - DEBUG - Criando arquivo YAML...
+2024-07-29 14:41:38,908 - DEBUG - Arquivo YAML Salvo com Sucesso!
+2024-07-29 14:41:38,908 - DEBUG - Iniciando exportaÃ§Ã£o do Mapa
+2024-07-29 14:41:38,917 - INFO - Exportando PDF...
+2024-07-29 14:41:41,920 - INFO - PDF Exportado com Sucesso!
+2024-07-29 14:41:41,920 - DEBUG - Concluido processo de exportaÃ§Ã£o
+2024-07-29 14:41:41,920 - DEBUG - Iniciando exportaÃ§Ã£o do Despacho
+2024-07-29 14:41:41,921 - DEBUG - Carregando arquivo modelo de Despacho
+2024-07-29 14:41:41,956 - DEBUG - Arquivo modelo de Despacho carregado com Sucesso!
+2024-07-29 14:41:41,957 - INFO - Salvando Despacho em: C:\github\ArcpyAutoMap\resultados\2024_7654321_FULANO_DA_SILVA_COSTA\2024_7654321_FULANO_DA_SILVA_COSTA.docx...
+2024-07-29 14:41:41,967 - INFO - Despacho Salvo com Sucesso!
+2024-07-29 14:41:41,967 - DEBUG - Concluido processo de exportaÃ§Ã£o
+2024-07-29 14:41:41,967 - DEBUG - Iniciando exportaÃ§Ã£o da Planilha
+2024-07-29 14:41:41,967 - DEBUG - Carregando arquivo modelo de Planilha
+2024-07-29 14:41:41,989 - DEBUG - Planilha.criarDados() -> shapefile_datasource: C:\Users\djalm\Documents\qgis_teste\New_Shapefile.shp
+2024-07-29 14:41:41,990 - INFO - Salvando Planilha em: C:\github\ArcpyAutoMap\resultados\2024_7654321_FULANO_DA_SILVA_COSTA\2024_7654321_FULANO_DA_SILVA_COSTA.xlsx...
+2024-07-29 14:41:42,009 - INFO - Despacho Salvo com Sucesso!
+2024-07-29 14:41:42,029 - DEBUG - Planilha.criarDados() -> shapefile_datasource: C:\Users\djalm\Documents\qgis_teste\New_Shapefile.shp
+2024-07-29 14:41:42,029 - INFO - Adiciona Dados em Planilha Controle.
+2024-07-29 14:41:42,045 - INFO - Planilha Controle Atualizada com Sucesso!
+2024-07-29 14:41:42,045 - DEBUG - Concluido processo de exportaÃ§Ã£o
+2024-07-29 14:41:42,045 - INFO - Iniciando Exportacao para GeoDatabase
+2024-07-29 14:41:42,752 - INFO - Adicionando Feicao em Geodatabase...
+2024-07-29 14:41:42,819 - INFO - Adicionando Feicao em Shapefile...
+2024-07-29 14:41:42,838 - INFO - Adicionando Feicao em PostgreSQL...
+2024-07-29 14:41:42,838 - DEBUG - Feicao C:\github\ArcpyAutoMap\database\areas_de_interesse.shp
+2024-07-29 14:41:43,516 - INFO - Exportacao GeoDatabase concluida com Sucesso!
+2024-07-29 14:41:43,516 - INFO - Iniciando conexao com o Banco...
+2024-07-29 14:41:43,575 - DEBUG - Conexao bem-sucedida.
+2024-07-29 14:41:43,576 - DEBUG - Preenchendo banco...
+2024-07-29 14:41:43,585 - DEBUG - row: (<Polygon object at 0x16ba6ff0[0x16b4ce60]>, 2024, 7654321, u'FULANO DA SILVA COSTA', u'S\xcdTIO SOLID\xc1RIO', u'1', u'TERCEIROS', u'INHANGAPI', u'REGULARIZA\xc7\xc3O N\xc3O ONEROSA', u'SA.22-X-D-III, SA.22-X-D-VI, SA.23-V-C-I', u'NADA CONSTA', datetime.datetime(2024, 7, 29, 0, 0))
+2024-07-29 14:41:43,585 - DEBUG - Executando SQL...
+2024-07-29 14:41:43,592 - DEBUG - Executando Insercao de Feicao no banco PostgreSQL
+2024-07-29 14:41:43,594 - DEBUG - geom.WKT: MULTIPOLYGON (((-48.03340146340841 -1.483946144439001, -48.041186708279227 -1.4973453401573815, -48.00721459516042 -1.5100140777090429, -48.00028430780165 -1.4966849669734217, -48.009885607750277 -1.4830462269123399, -48.024911998130747 -1.4765715051578963, -48.03340146340841 -1.483946144439001)))
+2024-07-29 14:41:43,642 - DEBUG - SQL Executando com sucesso!
+2024-07-29 14:41:43,644 - DEBUG - Nao foi possivel estabelecer uma conexao com o banco.

@@ -4,6 +4,8 @@
 
 Esta ferramenta foi desenvolvida para aprimorar e automatizar tarefas de produção e análise de mapas de regularização fundiária dentro do ArcGIS Desktop. Com ela, é possível executar uma série de operações geoespaciais de forma automatizada e prática, utilizando uma interface simples e intuitiva. A ferramenta foi projetada para garantir que todos os processos sejam realizados de maneira rápida e precisa, economizando tempo e esforço dos usuários.  
 
+
+
 ## Funcionalidades
 - **Integração com ArcGIS Desktop**: A ferramenta é totalmente compatível com o ArcGIS Desktop e ArcGIS Pro, facilitando a automação de processos geoespaciais complexos.
 - **Exportar Mapas em PDF.** A partir de um layout modelo é possível exportar mapas com diversas informações.
@@ -32,6 +34,29 @@ Esta ferramenta foi desenvolvida para aprimorar e automatizar tarefas de produç
 - **Atualiza o Banco de dados/Shapefile (Local)**, referente as Areas de Interesse, conectado a ferramenta.
 - **Atualiza o Banco de dados/GeoDatabase (Local)**, referente as Areas de Interesse,  conectado a ferramenta.
 - **Atualiza a Banco de dados/Tabela no Banco de Dados PostgreSQL**, referente as Areas de Interesse, conectado a ferramenta.
+
+### Tabelas para os Bancos de Dados
+
+| ID | MUNICIPIO | SITUAÇÃO | ANO | NUMERO  | INTERESSADO     | IMOVEL     | PARCELA | GEORREF   | DATA       | COMPLEMENTO | CARTA         | ZEE                 | PATH/GEOM    |
+|----|-----------|----------|-----|---------|-----------------|------------|---------|-----------|------------|-------------|---------------|---------------------|--------------|
+| Integer  | String | String | Integer | Integer | String | String | Integer       | String | Date | String | String | String | String |
+
+#### Descrição dos Campos
+
+- **ID**: Identificação única do registro.
+- **MUNICIPIO**: Nome do município.
+- **SITUAÇÃO**: Situação do processo de regularização.
+- **ANO**: Ano de referência.
+- **NUMERO**: Número do processo.
+- **INTERESSADO**: Nome do interessado.
+- **IMOVEL**: Nome do imóvel.
+- **PARCELA**: Número da parcela.
+- **GEORREF**: Tipo de georreferenciamento.
+- **DATA**: Data do registro.
+- **COMPLEMENTO**: Complemento das informações.
+- **CARTA**: Cartas Cadastrais associadas.
+- **ZEE**: Zonas de zoneamento ecológico-econômico.
+- **PATH/GEOM**: Caminho para o arquivo shapefile associado, ou Geometria.
 
 ## Requisitos
 

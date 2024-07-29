@@ -30,11 +30,11 @@ Antes de instalar e utilizar a ferramenta, certifique-se de que os seguintes req
 
 1. **Download do Instalador**
 
-   Faça o download do instalador da ferramenta a partir da seção de [Releases](https://github.com/DesignerDjalma/ArcpyAutoMap/releases) do repositório no GitHub. 
+   Faça o download do instalador da ferramenta a partir da seção de **Download da Ferramenta** logo acima, no GitHub. 
 
 2. **Executar o Instalador**
 
-   Execute o instalador baixado. Durante a instalação, um script será executado para garantir que todas as bibliotecas Python necessárias sejam instaladas.
+   Extraia o arquivo zipado e execute o instalador baixado. Durante a instalação, um script será executado para garantir que todas as bibliotecas Python necessárias sejam instaladas.
 
 3. **Mensagem de Instalação**
 
@@ -43,7 +43,7 @@ Antes de instalar e utilizar a ferramenta, certifique-se de que os seguintes req
 
 4. **Instalação Manual (Opcional)**
 
-   Se você preferir instalar as dependências manualmente, siga estas etapas:
+   Caso algum erro tenha ocorrido ou se você preferir instalar as dependências manualmente, siga estas etapas:
 
    - **Atualizar o Pip**:
      Abra um prompt de comando e execute o seguinte comando para atualizar o pip:

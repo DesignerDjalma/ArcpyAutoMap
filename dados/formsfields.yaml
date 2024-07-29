@@ -1,16 +1,19 @@
-ano: '1999'
-carta: SA.23-V-C-I
-complemento: SEM COMPLEMENTO
-denominacao: FAZENDA COLARES
-georreferenciamento: SICAR/SEMAS
-interessado: !!python/str "MARIA DAS DORES AREIA LE\xC3O DE SOUSA"
+ano: '2024'
+carta: SA.22-X-D-III, SA.22-X-D-VI, SA.23-V-C-I
+complemento: NADA CONSTA
+denominacao: !!python/str "S\xCDTIO SOLID\xC1RIO"
+georreferenciamento: TERCEIROS
+interessado: FULANO DA SILVA COSTA
 lista_zoneamento:
-- "ZEE: CONSOLIDA\xC7\xC3O II"
+- "ZEE: AMBIENTALMENTE SENS\xCDVEL"
+- "ZEE: MASSA D'\xC1GUA"
 - "MZEE: ZONA DE CONSOLIDA\xC7\xC3O DAS ATIVIDADES PRODUTIVAS"
-modelo_despacho: C:\github\ArcpyAutoMapInstaller\despacho\modelo_despacho.docx
-municipio: !!python/str "S\xC3O FRANCISCO DO PAR\xC1"
-numero: '191919'
+- "ZEE: AMBIENTALMENTE SENS\xCDVEL"
+- "ZEE: MASSA D'\xC1GUA"
+- "MZEE: ZONA DE CONSOLIDA\xC7\xC3O DAS ATIVIDADES PRODUTIVAS"
+modelo_despacho: C:\github\ArcpyAutoMap\despacho\modelo_despacho.docx
+municipio: INHANGAPI
+numero: '7654321'
 parcela: '1'
-pasta_resultados: C:\github\ArcpyAutoMapInstaller\resultados
-situacao: !!python/str "PROTOCOLO DE SOLICITA\xC7\xC3O DE ACESSO \xC0 INFORMA\xC7\xC3\
-  O"
+pasta_resultados: C:\github\ArcpyAutoMap\resultados
+situacao: !!python/str "REGULARIZA\xC7\xC3O N\xC3O ONEROSA"

@@ -1547,3 +1547,467 @@
 2024-07-28 23:12:45,309 - DEBUG - Criando Parametro: "lista_municipios"
 2024-07-28 23:12:45,315 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
 2024-07-28 23:12:45,315 - DEBUG - --------------------------------
+2024-07-29 12:58:07,283 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 12:58:07,283 - DEBUG - --------------------------------
+2024-07-29 12:58:07,285 - DEBUG - Criando Parametros da Ferramenta...
+2024-07-29 12:58:07,322 - DEBUG - Formatando Strings: ITERPA
+2024-07-29 12:58:07,322 - DEBUG - Formatando Strings: SICARF
+2024-07-29 12:58:07,322 - DEBUG - Formatando Strings: SIGEF/INCRA
+2024-07-29 12:58:07,322 - DEBUG - Formatando Strings: SICAR/SEMAS
+2024-07-29 12:58:07,322 - DEBUG - Formatando Strings: TERCEIROS
+2024-07-29 12:58:07,322 - DEBUG - Formatando Strings: NÃƒO POSSUI
+2024-07-29 12:58:07,322 - DEBUG - Formatando Strings: NÃƒO CONSTA
+2024-07-29 12:58:07,322 - DEBUG - Formatando Strings: OUTROS
+2024-07-29 12:58:07,322 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO NÃƒO ONEROSA
+2024-07-29 12:58:07,322 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO ONEROSA
+2024-07-29 12:58:07,322 - DEBUG - Formatando Strings: PROTOCOLO DE SOLICITAÃ‡ÃƒO DE ACESSO Ã€ INFORMAÃ‡ÃƒO
+2024-07-29 12:58:07,322 - DEBUG - Formatando Strings: CERTIDÃƒO
+2024-07-29 12:58:07,322 - DEBUG - Formatando Strings: AFORAMENTO
+2024-07-29 12:58:07,322 - DEBUG - Formatando Strings: QUILOMBO
+2024-07-29 12:58:11,085 - DEBUG - Criando Parametro: "btn_dados_carregados"
+2024-07-29 12:58:11,085 - DEBUG - Criando Parametro: "shapefile"
+2024-07-29 12:58:11,085 - DEBUG - Criando Parametro: "pasta_resultados"
+2024-07-29 12:58:11,085 - DEBUG - Criando Parametro: "modelo_despacho"
+2024-07-29 12:58:11,085 - DEBUG - Criando Parametro: "municipio"
+2024-07-29 12:58:11,085 - DEBUG - Criando Parametro: "situacao"
+2024-07-29 12:58:11,085 - DEBUG - Criando Parametro: "georreferenciamento"
+2024-07-29 12:58:11,085 - DEBUG - Criando Parametro: "ano"
+2024-07-29 12:58:11,085 - DEBUG - Criando Parametro: "numero"
+2024-07-29 12:58:11,085 - DEBUG - Criando Parametro: "interessado"
+2024-07-29 12:58:11,085 - DEBUG - Criando Parametro: "denominacao"
+2024-07-29 12:58:11,085 - DEBUG - Criando Parametro: "parcela"
+2024-07-29 12:58:11,085 - DEBUG - Criando Parametro: "complemento"
+2024-07-29 12:58:11,085 - DEBUG - Criando Parametro: "btn_carta"
+2024-07-29 12:58:11,085 - DEBUG - Criando Parametro: "carta"
+2024-07-29 12:58:11,085 - DEBUG - Criando Parametro: "btn_zoneamento"
+2024-07-29 12:58:11,085 - DEBUG - Criando Parametro: "lista_zoneamento"
+2024-07-29 12:58:11,086 - DEBUG - Criando Parametro: "btn_alterar_layout"
+2024-07-29 12:58:11,086 - DEBUG - Criando Parametro: "btn_exportar_mapa"
+2024-07-29 12:58:11,086 - DEBUG - Criando Parametro: "btn_exportar_despacho"
+2024-07-29 12:58:11,086 - DEBUG - Criando Parametro: "btn_exportar_planilha"
+2024-07-29 12:58:11,086 - DEBUG - Criando Parametro: "lista_shapefiles"
+2024-07-29 12:58:11,086 - DEBUG - Criando Parametro: "lista_municipios"
+2024-07-29 12:58:11,094 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 12:58:11,094 - DEBUG - --------------------------------
+2024-07-29 12:58:11,095 - DEBUG - Criando Parametros da Ferramenta...
+2024-07-29 12:58:11,119 - DEBUG - Formatando Strings: ITERPA
+2024-07-29 12:58:11,119 - DEBUG - Formatando Strings: SICARF
+2024-07-29 12:58:11,119 - DEBUG - Formatando Strings: SIGEF/INCRA
+2024-07-29 12:58:11,119 - DEBUG - Formatando Strings: SICAR/SEMAS
+2024-07-29 12:58:11,119 - DEBUG - Formatando Strings: TERCEIROS
+2024-07-29 12:58:11,119 - DEBUG - Formatando Strings: NÃƒO POSSUI
+2024-07-29 12:58:11,119 - DEBUG - Formatando Strings: NÃƒO CONSTA
+2024-07-29 12:58:11,119 - DEBUG - Formatando Strings: OUTROS
+2024-07-29 12:58:11,119 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO NÃƒO ONEROSA
+2024-07-29 12:58:11,119 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO ONEROSA
+2024-07-29 12:58:11,119 - DEBUG - Formatando Strings: PROTOCOLO DE SOLICITAÃ‡ÃƒO DE ACESSO Ã€ INFORMAÃ‡ÃƒO
+2024-07-29 12:58:11,119 - DEBUG - Formatando Strings: CERTIDÃƒO
+2024-07-29 12:58:11,119 - DEBUG - Formatando Strings: AFORAMENTO
+2024-07-29 12:58:11,121 - DEBUG - Formatando Strings: QUILOMBO
+2024-07-29 12:58:11,128 - DEBUG - Criando Parametro: "btn_dados_carregados"
+2024-07-29 12:58:11,128 - DEBUG - Criando Parametro: "shapefile"
+2024-07-29 12:58:11,128 - DEBUG - Criando Parametro: "pasta_resultados"
+2024-07-29 12:58:11,128 - DEBUG - Criando Parametro: "modelo_despacho"
+2024-07-29 12:58:11,128 - DEBUG - Criando Parametro: "municipio"
+2024-07-29 12:58:11,128 - DEBUG - Criando Parametro: "situacao"
+2024-07-29 12:58:11,128 - DEBUG - Criando Parametro: "georreferenciamento"
+2024-07-29 12:58:11,128 - DEBUG - Criando Parametro: "ano"
+2024-07-29 12:58:11,128 - DEBUG - Criando Parametro: "numero"
+2024-07-29 12:58:11,128 - DEBUG - Criando Parametro: "interessado"
+2024-07-29 12:58:11,128 - DEBUG - Criando Parametro: "denominacao"
+2024-07-29 12:58:11,128 - DEBUG - Criando Parametro: "parcela"
+2024-07-29 12:58:11,128 - DEBUG - Criando Parametro: "complemento"
+2024-07-29 12:58:11,130 - DEBUG - Criando Parametro: "btn_carta"
+2024-07-29 12:58:11,130 - DEBUG - Criando Parametro: "carta"
+2024-07-29 12:58:11,130 - DEBUG - Criando Parametro: "btn_zoneamento"
+2024-07-29 12:58:11,130 - DEBUG - Criando Parametro: "lista_zoneamento"
+2024-07-29 12:58:11,130 - DEBUG - Criando Parametro: "btn_alterar_layout"
+2024-07-29 12:58:11,130 - DEBUG - Criando Parametro: "btn_exportar_mapa"
+2024-07-29 12:58:11,130 - DEBUG - Criando Parametro: "btn_exportar_despacho"
+2024-07-29 12:58:11,130 - DEBUG - Criando Parametro: "btn_exportar_planilha"
+2024-07-29 12:58:11,130 - DEBUG - Criando Parametro: "lista_shapefiles"
+2024-07-29 12:58:11,130 - DEBUG - Criando Parametro: "lista_municipios"
+2024-07-29 12:58:11,141 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 12:58:11,141 - DEBUG - --------------------------------
+2024-07-29 12:58:12,780 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 12:58:12,780 - DEBUG - --------------------------------
+2024-07-29 12:58:12,789 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 12:58:12,789 - DEBUG - --------------------------------
+2024-07-29 12:58:12,823 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 12:58:12,823 - DEBUG - --------------------------------
+2024-07-29 12:58:12,823 - DEBUG - mostrando PopUp!
+2024-07-29 12:58:15,471 - INFO - Caixa de dialogo exibida.
+2024-07-29 12:58:15,471 - INFO - Caixa de dialogo retornou IDYES - Usuario clicou em Sim
+2024-07-29 12:58:15,471 - DEBUG - Carregando ultimos dados preenchidos...
+2024-07-29 12:58:15,471 - DEBUG - Carregando arquivo YAML...
+2024-07-29 12:58:15,492 - DEBUG - Arquivo YAML Carregado com Sucesso!
+2024-07-29 12:58:15,492 - DEBUG - Arquivo YAML: {'complemento': 'SEM COMPLEMENTO', 'situacao': 'PROTOCOLO DE SOLICITA\xc3\x87\xc3\x83O DE ACESSO \xc3\x80 INFORMA\xc3\x87\xc3\x83O', 'lista_zoneamento': [u'ZEE: CONSOLIDA\xc7\xc3O II', u'MZEE: ZONA DE CONSOLIDA\xc7\xc3O DAS ATIVIDADES PRODUTIVAS'], 'interessado': 'MARIA DAS DORES AREIA LE\xc3\x83O DE SOUSA', 'ano': '1999', 'numero': '191919', 'parcela': '1', 'denominacao': 'FAZENDA COLARES', 'modelo_despacho': 'C:\\github\\ArcpyAutoMapInstaller\\despacho\\modelo_despacho.docx', 'georreferenciamento': 'SICAR/SEMAS', 'carta': 'SA.23-V-C-I', 'pasta_resultados': 'C:\\github\\ArcpyAutoMapInstaller\\resultados', 'municipio': 'S\xc3\x83O FRANCISCO DO PAR\xc3\x81'}
+2024-07-29 12:58:15,497 - INFO - Dados carregando com Sucesso!
+2024-07-29 12:58:15,497 - DEBUG - Criando arquivo YAML...
+2024-07-29 12:58:15,500 - DEBUG - Arquivo YAML Salvo com Sucesso!
+2024-07-29 12:58:15,500 - DEBUG - Botoes desativados: btn_carta, btn_zoneamento, btn_macro_zoneamento, btn_incidencias
+2024-07-29 12:58:15,500 - INFO - Atualizando Mapa de Situacao baseado no municipio: [SÃO FRANCISCO DO PARÁ]
+2024-07-29 12:58:18,437 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 12:58:18,437 - DEBUG - --------------------------------
+2024-07-29 12:58:18,440 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 12:58:18,440 - DEBUG - --------------------------------
+2024-07-29 12:58:18,440 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 12:58:18,440 - DEBUG - --------------------------------
+2024-07-29 12:58:18,440 - DEBUG - mostrando PopUp!
+2024-07-29 12:58:19,289 - INFO - Caixa de dialogo exibida.
+2024-07-29 12:58:19,289 - INFO - Caixa de dialogo retornou IDNO - Usuario clicou em NÃ£o
+2024-07-29 12:58:19,289 - INFO - Carregando ferramenta vazia
+2024-07-29 12:58:19,289 - DEBUG - Criando arquivo YAML...
+2024-07-29 12:58:19,292 - DEBUG - Arquivo YAML Salvo com Sucesso!
+2024-07-29 12:58:19,292 - DEBUG - Botoes desativados: btn_carta, btn_zoneamento, btn_macro_zoneamento, btn_incidencias
+2024-07-29 12:58:19,293 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 12:58:19,293 - DEBUG - --------------------------------
+2024-07-29 12:58:28,632 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 12:58:28,632 - DEBUG - --------------------------------
+2024-07-29 12:58:28,634 - DEBUG - Criando Parametros da Ferramenta...
+2024-07-29 12:58:28,664 - DEBUG - Formatando Strings: ITERPA
+2024-07-29 12:58:28,664 - DEBUG - Formatando Strings: SICARF
+2024-07-29 12:58:28,664 - DEBUG - Formatando Strings: SIGEF/INCRA
+2024-07-29 12:58:28,664 - DEBUG - Formatando Strings: SICAR/SEMAS
+2024-07-29 12:58:28,664 - DEBUG - Formatando Strings: TERCEIROS
+2024-07-29 12:58:28,664 - DEBUG - Formatando Strings: NÃƒO POSSUI
+2024-07-29 12:58:28,664 - DEBUG - Formatando Strings: NÃƒO CONSTA
+2024-07-29 12:58:28,664 - DEBUG - Formatando Strings: OUTROS
+2024-07-29 12:58:28,664 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO NÃƒO ONEROSA
+2024-07-29 12:58:28,664 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO ONEROSA
+2024-07-29 12:58:28,664 - DEBUG - Formatando Strings: PROTOCOLO DE SOLICITAÃ‡ÃƒO DE ACESSO Ã€ INFORMAÃ‡ÃƒO
+2024-07-29 12:58:28,664 - DEBUG - Formatando Strings: CERTIDÃƒO
+2024-07-29 12:58:28,664 - DEBUG - Formatando Strings: AFORAMENTO
+2024-07-29 12:58:28,665 - DEBUG - Formatando Strings: QUILOMBO
+2024-07-29 12:58:28,673 - DEBUG - Criando Parametro: "btn_dados_carregados"
+2024-07-29 12:58:28,673 - DEBUG - Criando Parametro: "shapefile"
+2024-07-29 12:58:28,673 - DEBUG - Criando Parametro: "pasta_resultados"
+2024-07-29 12:58:28,673 - DEBUG - Criando Parametro: "modelo_despacho"
+2024-07-29 12:58:28,673 - DEBUG - Criando Parametro: "municipio"
+2024-07-29 12:58:28,673 - DEBUG - Criando Parametro: "situacao"
+2024-07-29 12:58:28,673 - DEBUG - Criando Parametro: "georreferenciamento"
+2024-07-29 12:58:28,673 - DEBUG - Criando Parametro: "ano"
+2024-07-29 12:58:28,673 - DEBUG - Criando Parametro: "numero"
+2024-07-29 12:58:28,673 - DEBUG - Criando Parametro: "interessado"
+2024-07-29 12:58:28,673 - DEBUG - Criando Parametro: "denominacao"
+2024-07-29 12:58:28,673 - DEBUG - Criando Parametro: "parcela"
+2024-07-29 12:58:28,673 - DEBUG - Criando Parametro: "complemento"
+2024-07-29 12:58:28,673 - DEBUG - Criando Parametro: "btn_carta"
+2024-07-29 12:58:28,673 - DEBUG - Criando Parametro: "carta"
+2024-07-29 12:58:28,673 - DEBUG - Criando Parametro: "btn_zoneamento"
+2024-07-29 12:58:28,673 - DEBUG - Criando Parametro: "lista_zoneamento"
+2024-07-29 12:58:28,674 - DEBUG - Criando Parametro: "btn_alterar_layout"
+2024-07-29 12:58:28,674 - DEBUG - Criando Parametro: "btn_exportar_mapa"
+2024-07-29 12:58:28,674 - DEBUG - Criando Parametro: "btn_exportar_despacho"
+2024-07-29 12:58:28,674 - DEBUG - Criando Parametro: "btn_exportar_planilha"
+2024-07-29 12:58:28,674 - DEBUG - Criando Parametro: "lista_shapefiles"
+2024-07-29 12:58:28,674 - DEBUG - Criando Parametro: "lista_municipios"
+2024-07-29 12:58:28,677 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 12:58:28,677 - DEBUG - --------------------------------
+2024-07-29 12:58:28,677 - DEBUG - Criando Parametros da Ferramenta...
+2024-07-29 12:58:28,703 - DEBUG - Formatando Strings: ITERPA
+2024-07-29 12:58:28,703 - DEBUG - Formatando Strings: SICARF
+2024-07-29 12:58:28,703 - DEBUG - Formatando Strings: SIGEF/INCRA
+2024-07-29 12:58:28,703 - DEBUG - Formatando Strings: SICAR/SEMAS
+2024-07-29 12:58:28,703 - DEBUG - Formatando Strings: TERCEIROS
+2024-07-29 12:58:28,703 - DEBUG - Formatando Strings: NÃƒO POSSUI
+2024-07-29 12:58:28,703 - DEBUG - Formatando Strings: NÃƒO CONSTA
+2024-07-29 12:58:28,703 - DEBUG - Formatando Strings: OUTROS
+2024-07-29 12:58:28,703 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO NÃƒO ONEROSA
+2024-07-29 12:58:28,703 - DEBUG - Formatando Strings: REGULARIZAÃ‡ÃƒO ONEROSA
+2024-07-29 12:58:28,703 - DEBUG - Formatando Strings: PROTOCOLO DE SOLICITAÃ‡ÃƒO DE ACESSO Ã€ INFORMAÃ‡ÃƒO
+2024-07-29 12:58:28,703 - DEBUG - Formatando Strings: CERTIDÃƒO
+2024-07-29 12:58:28,703 - DEBUG - Formatando Strings: AFORAMENTO
+2024-07-29 12:58:28,703 - DEBUG - Formatando Strings: QUILOMBO
+2024-07-29 12:58:28,711 - DEBUG - Criando Parametro: "btn_dados_carregados"
+2024-07-29 12:58:28,711 - DEBUG - Criando Parametro: "shapefile"
+2024-07-29 12:58:28,711 - DEBUG - Criando Parametro: "pasta_resultados"
+2024-07-29 12:58:28,711 - DEBUG - Criando Parametro: "modelo_despacho"
+2024-07-29 12:58:28,711 - DEBUG - Criando Parametro: "municipio"
+2024-07-29 12:58:28,711 - DEBUG - Criando Parametro: "situacao"
+2024-07-29 12:58:28,711 - DEBUG - Criando Parametro: "georreferenciamento"
+2024-07-29 12:58:28,711 - DEBUG - Criando Parametro: "ano"
+2024-07-29 12:58:28,711 - DEBUG - Criando Parametro: "numero"
+2024-07-29 12:58:28,711 - DEBUG - Criando Parametro: "interessado"
+2024-07-29 12:58:28,711 - DEBUG - Criando Parametro: "denominacao"
+2024-07-29 12:58:28,711 - DEBUG - Criando Parametro: "parcela"
+2024-07-29 12:58:28,711 - DEBUG - Criando Parametro: "complemento"
+2024-07-29 12:58:28,711 - DEBUG - Criando Parametro: "btn_carta"
+2024-07-29 12:58:28,713 - DEBUG - Criando Parametro: "carta"
+2024-07-29 12:58:28,713 - DEBUG - Criando Parametro: "btn_zoneamento"
+2024-07-29 12:58:28,713 - DEBUG - Criando Parametro: "lista_zoneamento"
+2024-07-29 12:58:28,713 - DEBUG - Criando Parametro: "btn_alterar_layout"
+2024-07-29 12:58:28,713 - DEBUG - Criando Parametro: "btn_exportar_mapa"
+2024-07-29 12:58:28,713 - DEBUG - Criando Parametro: "btn_exportar_despacho"
+2024-07-29 12:58:28,713 - DEBUG - Criando Parametro: "btn_exportar_planilha"
+2024-07-29 12:58:28,713 - DEBUG - Criando Parametro: "lista_shapefiles"
+2024-07-29 12:58:28,713 - DEBUG - Criando Parametro: "lista_municipios"
+2024-07-29 13:15:21,226 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:15:21,227 - DEBUG - --------------------------------
+2024-07-29 13:15:21,233 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:15:21,233 - DEBUG - --------------------------------
+2024-07-29 13:15:21,303 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:15:21,305 - DEBUG - --------------------------------
+2024-07-29 13:15:21,305 - DEBUG - mostrando PopUp!
+2024-07-29 13:15:22,506 - INFO - Caixa de dialogo exibida.
+2024-07-29 13:15:22,506 - INFO - Caixa de dialogo retornou IDYES - Usuario clicou em Sim
+2024-07-29 13:15:22,506 - DEBUG - Carregando ultimos dados preenchidos...
+2024-07-29 13:15:22,506 - DEBUG - Carregando arquivo YAML...
+2024-07-29 13:15:22,509 - DEBUG - Arquivo YAML Carregado com Sucesso!
+2024-07-29 13:15:22,509 - DEBUG - Arquivo YAML: {'complemento': '', 'situacao': '', 'lista_zoneamento': [], 'interessado': '', 'ano': '', 'numero': '', 'parcela': '', 'denominacao': '', 'modelo_despacho': 'C:\\github\\ArcpyAutoMap\\despacho\\modelo_despacho.docx', 'georreferenciamento': '', 'carta': '', 'pasta_resultados': 'C:\\github\\ArcpyAutoMap\\resultados', 'municipio': ''}
+2024-07-29 13:15:22,517 - INFO - Dados carregando com Sucesso!
+2024-07-29 13:15:22,517 - DEBUG - Criando arquivo YAML...
+2024-07-29 13:15:22,520 - DEBUG - Arquivo YAML Salvo com Sucesso!
+2024-07-29 13:15:22,520 - DEBUG - Botoes desativados: btn_carta, btn_zoneamento, btn_macro_zoneamento, btn_incidencias
+2024-07-29 13:15:22,522 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:15:22,522 - DEBUG - --------------------------------
+2024-07-29 13:16:27,203 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:16:27,203 - DEBUG - --------------------------------
+2024-07-29 13:16:27,207 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:16:27,207 - DEBUG - --------------------------------
+2024-07-29 13:16:27,207 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:16:27,207 - DEBUG - --------------------------------
+2024-07-29 13:16:27,207 - DEBUG - mostrando PopUp!
+2024-07-29 13:16:29,522 - INFO - Caixa de dialogo exibida.
+2024-07-29 13:16:29,522 - INFO - Caixa de dialogo retornou IDNO - Usuario clicou em NÃ£o
+2024-07-29 13:16:29,522 - INFO - Carregando ferramenta vazia
+2024-07-29 13:16:29,523 - DEBUG - Criando arquivo YAML...
+2024-07-29 13:16:29,525 - DEBUG - Arquivo YAML Salvo com Sucesso!
+2024-07-29 13:16:29,525 - DEBUG - Botoes desativados: btn_carta, btn_zoneamento, btn_macro_zoneamento, btn_incidencias
+2024-07-29 13:16:29,526 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:16:29,526 - DEBUG - --------------------------------
+2024-07-29 13:20:45,127 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:20:45,127 - DEBUG - --------------------------------
+2024-07-29 13:20:45,130 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:20:45,130 - DEBUG - --------------------------------
+2024-07-29 13:20:45,163 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:20:45,163 - DEBUG - --------------------------------
+2024-07-29 13:20:45,163 - DEBUG - mostrando PopUp!
+2024-07-29 13:20:46,434 - INFO - Caixa de dialogo exibida.
+2024-07-29 13:20:46,434 - INFO - Caixa de dialogo retornou IDYES - Usuario clicou em Sim
+2024-07-29 13:20:46,434 - DEBUG - Carregando ultimos dados preenchidos...
+2024-07-29 13:20:46,434 - DEBUG - Carregando arquivo YAML...
+2024-07-29 13:20:46,437 - DEBUG - Arquivo YAML Carregado com Sucesso!
+2024-07-29 13:20:46,438 - DEBUG - Arquivo YAML: {'complemento': '', 'situacao': '', 'lista_zoneamento': [], 'interessado': '', 'ano': '', 'numero': '', 'parcela': '', 'denominacao': '', 'modelo_despacho': 'C:\\github\\ArcpyAutoMap\\despacho\\modelo_despacho.docx', 'georreferenciamento': '', 'carta': '', 'pasta_resultados': 'C:\\github\\ArcpyAutoMap\\resultados', 'municipio': ''}
+2024-07-29 13:20:46,444 - INFO - Dados carregando com Sucesso!
+2024-07-29 13:20:46,444 - DEBUG - Criando arquivo YAML...
+2024-07-29 13:20:46,447 - DEBUG - Arquivo YAML Salvo com Sucesso!
+2024-07-29 13:20:46,447 - DEBUG - Botoes desativados: btn_carta, btn_zoneamento, btn_macro_zoneamento, btn_incidencias
+2024-07-29 13:20:46,447 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:20:46,447 - DEBUG - --------------------------------
+2024-07-29 13:20:53,048 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:20:53,048 - DEBUG - --------------------------------
+2024-07-29 13:20:53,052 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:20:53,052 - DEBUG - --------------------------------
+2024-07-29 13:20:53,052 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:20:53,052 - DEBUG - --------------------------------
+2024-07-29 13:20:53,053 - DEBUG - mostrando PopUp!
+2024-07-29 13:20:54,411 - INFO - Caixa de dialogo exibida.
+2024-07-29 13:20:54,411 - INFO - Caixa de dialogo retornou IDNO - Usuario clicou em NÃ£o
+2024-07-29 13:20:54,411 - INFO - Carregando ferramenta vazia
+2024-07-29 13:20:54,411 - DEBUG - Criando arquivo YAML...
+2024-07-29 13:20:54,414 - DEBUG - Arquivo YAML Salvo com Sucesso!
+2024-07-29 13:20:54,414 - DEBUG - Botoes desativados: btn_carta, btn_zoneamento, btn_macro_zoneamento, btn_incidencias
+2024-07-29 13:20:54,415 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:20:54,415 - DEBUG - --------------------------------
+2024-07-29 13:20:57,882 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:20:57,884 - DEBUG - --------------------------------
+2024-07-29 13:20:57,884 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:20:57,884 - DEBUG - --------------------------------
+2024-07-29 13:20:57,884 - DEBUG - Criando arquivo YAML...
+2024-07-29 13:20:57,887 - DEBUG - Arquivo YAML Salvo com Sucesso!
+2024-07-29 13:20:57,910 - DEBUG - camadas_ds: {u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\MUNICIPIOS': <map layer u'situacao_municipio_de_interesse'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\SEDES_MUNICIPAIS': <map layer u'situacao_sedes_municipais'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\ITERPA\\ZEE_2010': <map layer u'ZEE_2010'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\LOCALIDADES': <map layer u'LOCALIDADES'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\UNIDADES_FEDERATIVAS_BR': <map layer u'unidades_federativas_br'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\TRECHO_RODOVIARIO': <map layer u'TRECHO_RODOVIARIO'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\TemplatePadrao.shp': <map layer u'TemplatePadrao'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\LIMITES_AMERICA_DO_SUL': <map layer u'situacao_limites_america_do_sul'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\RODOVIA_ESTADUAL_IBGE': <map layer u'RODOVIA_ESTADUAL_IBGE'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\LEGENDAS.shp': <map layer u'AREA DE INTERESSE'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\CARTA_INDICE_IBGE_DSG': <map layer u'CARTA_INDICE_IBGE_DSG'>, u'C:\\Users\\djalm\\Documents\\qgis_teste\\New_Shapefile.shp': <map layer u'Area_interrese'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\SEMAS\\CURSO_DAGUA': <map layer u'CURSO_DAGUA'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\ITERPA\\MZEE_2008': <map layer u'MZEE_2008'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\RODOVIA_FEDERAL_IBGE': <map layer u'RODOVIA_FEDERAL_IBGE'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\AREA_DE_LIMITACAO.shp': <map layer u'AREA DE LIMITACAO'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\SEMAS\\MASSA_DAGUA': <map layer u'situacao_drenagem_primaria'>}
+2024-07-29 13:20:57,910 - DEBUG - lista_aux_shp.append camada: Area_interrese
+2024-07-29 13:20:58,075 - INFO - Aplicando Simbologia padrao
+2024-07-29 13:20:58,563 - INFO - Aplicando Zoom controlado
+2024-07-29 13:20:58,585 - INFO - Ajustando Textos Automaticos no Layout
+2024-07-29 13:20:58,612 - DEBUG - Botoes ativados: btn_carta, btn_zoneamento, btn_macro_zoneamento, btn_incidencias
+2024-07-29 13:20:58,614 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:20:58,614 - DEBUG - --------------------------------
+2024-07-29 13:21:29,286 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:21:29,288 - DEBUG - --------------------------------
+2024-07-29 13:21:29,289 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:21:29,289 - DEBUG - --------------------------------
+2024-07-29 13:21:29,289 - DEBUG - Criando arquivo YAML...
+2024-07-29 13:21:29,290 - DEBUG - Arquivo YAML Salvo com Sucesso!
+2024-07-29 13:21:29,303 - DEBUG - camadas_ds: {u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\MUNICIPIOS': <map layer u'situacao_municipio_de_interesse'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\SEDES_MUNICIPAIS': <map layer u'situacao_sedes_municipais'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\ITERPA\\ZEE_2010': <map layer u'ZEE_2010'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\LOCALIDADES': <map layer u'LOCALIDADES'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\UNIDADES_FEDERATIVAS_BR': <map layer u'unidades_federativas_br'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\TRECHO_RODOVIARIO': <map layer u'TRECHO_RODOVIARIO'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\TemplatePadrao.shp': <map layer u'TemplatePadrao'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\LIMITES_AMERICA_DO_SUL': <map layer u'situacao_limites_america_do_sul'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\RODOVIA_ESTADUAL_IBGE': <map layer u'RODOVIA_ESTADUAL_IBGE'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\LEGENDAS.shp': <map layer u'AREA DE INTERESSE'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\CARTA_INDICE_IBGE_DSG': <map layer u'CARTA_INDICE_IBGE_DSG'>, u'C:\\Users\\djalm\\Documents\\qgis_teste\\New_Shapefile.shp': <map layer u'Area_interrese'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\SEMAS\\CURSO_DAGUA': <map layer u'CURSO_DAGUA'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\ITERPA\\MZEE_2008': <map layer u'MZEE_2008'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\RODOVIA_FEDERAL_IBGE': <map layer u'RODOVIA_FEDERAL_IBGE'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\AREA_DE_LIMITACAO.shp': <map layer u'AREA DE LIMITACAO'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\SEMAS\\MASSA_DAGUA': <map layer u'situacao_drenagem_primaria'>}
+2024-07-29 13:21:29,303 - DEBUG - lista_aux_shp.append camada: Area_interrese
+2024-07-29 13:21:29,303 - DEBUG - Botoes ativados: btn_carta, btn_zoneamento, btn_macro_zoneamento, btn_incidencias
+2024-07-29 13:21:29,305 - INFO - Atualizando Mapa de Situacao baseado no municipio: [INHANGAPI]
+2024-07-29 13:21:29,322 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:21:29,322 - DEBUG - --------------------------------
+2024-07-29 13:21:38,950 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:21:38,950 - DEBUG - --------------------------------
+2024-07-29 13:21:38,950 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:21:38,950 - DEBUG - --------------------------------
+2024-07-29 13:21:38,950 - DEBUG - Criando arquivo YAML...
+2024-07-29 13:21:38,953 - DEBUG - Arquivo YAML Salvo com Sucesso!
+2024-07-29 13:21:38,967 - DEBUG - camadas_ds: {u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\MUNICIPIOS': <map layer u'situacao_municipio_de_interesse'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\SEDES_MUNICIPAIS': <map layer u'situacao_sedes_municipais'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\ITERPA\\ZEE_2010': <map layer u'ZEE_2010'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\LOCALIDADES': <map layer u'LOCALIDADES'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\UNIDADES_FEDERATIVAS_BR': <map layer u'unidades_federativas_br'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\TRECHO_RODOVIARIO': <map layer u'TRECHO_RODOVIARIO'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\TemplatePadrao.shp': <map layer u'TemplatePadrao'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\LIMITES_AMERICA_DO_SUL': <map layer u'situacao_limites_america_do_sul'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\RODOVIA_ESTADUAL_IBGE': <map layer u'RODOVIA_ESTADUAL_IBGE'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\LEGENDAS.shp': <map layer u'AREA DE INTERESSE'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\CARTA_INDICE_IBGE_DSG': <map layer u'CARTA_INDICE_IBGE_DSG'>, u'C:\\Users\\djalm\\Documents\\qgis_teste\\New_Shapefile.shp': <map layer u'Area_interrese'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\SEMAS\\CURSO_DAGUA': <map layer u'CURSO_DAGUA'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\ITERPA\\MZEE_2008': <map layer u'MZEE_2008'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\RODOVIA_FEDERAL_IBGE': <map layer u'RODOVIA_FEDERAL_IBGE'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\AREA_DE_LIMITACAO.shp': <map layer u'AREA DE LIMITACAO'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\SEMAS\\MASSA_DAGUA': <map layer u'situacao_drenagem_primaria'>}
+2024-07-29 13:21:38,967 - DEBUG - lista_aux_shp.append camada: Area_interrese
+2024-07-29 13:21:38,967 - DEBUG - Botoes ativados: btn_carta, btn_zoneamento, btn_macro_zoneamento, btn_incidencias
+2024-07-29 13:21:38,969 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:21:38,969 - DEBUG - --------------------------------
+2024-07-29 13:21:41,553 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:21:41,553 - DEBUG - --------------------------------
+2024-07-29 13:21:41,555 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:21:41,555 - DEBUG - --------------------------------
+2024-07-29 13:21:41,555 - DEBUG - Criando arquivo YAML...
+2024-07-29 13:21:41,558 - DEBUG - Arquivo YAML Salvo com Sucesso!
+2024-07-29 13:21:41,572 - DEBUG - camadas_ds: {u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\MUNICIPIOS': <map layer u'situacao_municipio_de_interesse'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\SEDES_MUNICIPAIS': <map layer u'situacao_sedes_municipais'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\ITERPA\\ZEE_2010': <map layer u'ZEE_2010'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\LOCALIDADES': <map layer u'LOCALIDADES'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\UNIDADES_FEDERATIVAS_BR': <map layer u'unidades_federativas_br'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\TRECHO_RODOVIARIO': <map layer u'TRECHO_RODOVIARIO'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\TemplatePadrao.shp': <map layer u'TemplatePadrao'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\LIMITES_AMERICA_DO_SUL': <map layer u'situacao_limites_america_do_sul'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\RODOVIA_ESTADUAL_IBGE': <map layer u'RODOVIA_ESTADUAL_IBGE'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\LEGENDAS.shp': <map layer u'AREA DE INTERESSE'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\CARTA_INDICE_IBGE_DSG': <map layer u'CARTA_INDICE_IBGE_DSG'>, u'C:\\Users\\djalm\\Documents\\qgis_teste\\New_Shapefile.shp': <map layer u'Area_interrese'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\SEMAS\\CURSO_DAGUA': <map layer u'CURSO_DAGUA'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\ITERPA\\MZEE_2008': <map layer u'MZEE_2008'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\RODOVIA_FEDERAL_IBGE': <map layer u'RODOVIA_FEDERAL_IBGE'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\AREA_DE_LIMITACAO.shp': <map layer u'AREA DE LIMITACAO'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\SEMAS\\MASSA_DAGUA': <map layer u'situacao_drenagem_primaria'>}
+2024-07-29 13:21:41,572 - DEBUG - lista_aux_shp.append camada: Area_interrese
+2024-07-29 13:21:41,572 - DEBUG - Botoes ativados: btn_carta, btn_zoneamento, btn_macro_zoneamento, btn_incidencias
+2024-07-29 13:21:41,572 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:21:41,573 - DEBUG - --------------------------------
+2024-07-29 13:21:45,421 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:21:45,421 - DEBUG - --------------------------------
+2024-07-29 13:21:45,421 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:21:45,421 - DEBUG - --------------------------------
+2024-07-29 13:21:45,423 - DEBUG - Criando arquivo YAML...
+2024-07-29 13:21:45,424 - DEBUG - Arquivo YAML Salvo com Sucesso!
+2024-07-29 13:21:45,438 - DEBUG - camadas_ds: {u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\MUNICIPIOS': <map layer u'situacao_municipio_de_interesse'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\SEDES_MUNICIPAIS': <map layer u'situacao_sedes_municipais'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\ITERPA\\ZEE_2010': <map layer u'ZEE_2010'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\LOCALIDADES': <map layer u'LOCALIDADES'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\UNIDADES_FEDERATIVAS_BR': <map layer u'unidades_federativas_br'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\TRECHO_RODOVIARIO': <map layer u'TRECHO_RODOVIARIO'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\TemplatePadrao.shp': <map layer u'TemplatePadrao'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\LIMITES_AMERICA_DO_SUL': <map layer u'situacao_limites_america_do_sul'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\RODOVIA_ESTADUAL_IBGE': <map layer u'RODOVIA_ESTADUAL_IBGE'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\LEGENDAS.shp': <map layer u'AREA DE INTERESSE'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\CARTA_INDICE_IBGE_DSG': <map layer u'CARTA_INDICE_IBGE_DSG'>, u'C:\\Users\\djalm\\Documents\\qgis_teste\\New_Shapefile.shp': <map layer u'Area_interrese'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\SEMAS\\CURSO_DAGUA': <map layer u'CURSO_DAGUA'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\ITERPA\\MZEE_2008': <map layer u'MZEE_2008'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\RODOVIA_FEDERAL_IBGE': <map layer u'RODOVIA_FEDERAL_IBGE'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\AREA_DE_LIMITACAO.shp': <map layer u'AREA DE LIMITACAO'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\SEMAS\\MASSA_DAGUA': <map layer u'situacao_drenagem_primaria'>}
+2024-07-29 13:21:45,438 - DEBUG - lista_aux_shp.append camada: Area_interrese
+2024-07-29 13:21:45,440 - DEBUG - Botoes ativados: btn_carta, btn_zoneamento, btn_macro_zoneamento, btn_incidencias
+2024-07-29 13:21:45,440 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:21:45,440 - DEBUG - --------------------------------
+2024-07-29 13:21:55,724 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:21:55,724 - DEBUG - --------------------------------
+2024-07-29 13:21:55,726 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:21:55,726 - DEBUG - --------------------------------
+2024-07-29 13:21:55,726 - DEBUG - Criando arquivo YAML...
+2024-07-29 13:21:55,729 - DEBUG - Arquivo YAML Salvo com Sucesso!
+2024-07-29 13:21:55,744 - DEBUG - camadas_ds: {u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\MUNICIPIOS': <map layer u'situacao_municipio_de_interesse'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\SEDES_MUNICIPAIS': <map layer u'situacao_sedes_municipais'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\ITERPA\\ZEE_2010': <map layer u'ZEE_2010'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\LOCALIDADES': <map layer u'LOCALIDADES'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\UNIDADES_FEDERATIVAS_BR': <map layer u'unidades_federativas_br'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\TRECHO_RODOVIARIO': <map layer u'TRECHO_RODOVIARIO'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\TemplatePadrao.shp': <map layer u'TemplatePadrao'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\LIMITES_AMERICA_DO_SUL': <map layer u'situacao_limites_america_do_sul'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\RODOVIA_ESTADUAL_IBGE': <map layer u'RODOVIA_ESTADUAL_IBGE'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\LEGENDAS.shp': <map layer u'AREA DE INTERESSE'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\CARTA_INDICE_IBGE_DSG': <map layer u'CARTA_INDICE_IBGE_DSG'>, u'C:\\Users\\djalm\\Documents\\qgis_teste\\New_Shapefile.shp': <map layer u'Area_interrese'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\SEMAS\\CURSO_DAGUA': <map layer u'CURSO_DAGUA'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\ITERPA\\MZEE_2008': <map layer u'MZEE_2008'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\RODOVIA_FEDERAL_IBGE': <map layer u'RODOVIA_FEDERAL_IBGE'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\AREA_DE_LIMITACAO.shp': <map layer u'AREA DE LIMITACAO'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\SEMAS\\MASSA_DAGUA': <map layer u'situacao_drenagem_primaria'>}
+2024-07-29 13:21:55,744 - DEBUG - lista_aux_shp.append camada: Area_interrese
+2024-07-29 13:21:55,746 - DEBUG - Botoes ativados: btn_carta, btn_zoneamento, btn_macro_zoneamento, btn_incidencias
+2024-07-29 13:21:55,746 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:21:55,746 - DEBUG - --------------------------------
+2024-07-29 13:22:04,368 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:22:04,368 - DEBUG - --------------------------------
+2024-07-29 13:22:04,369 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:22:04,369 - DEBUG - --------------------------------
+2024-07-29 13:22:04,369 - DEBUG - Criando arquivo YAML...
+2024-07-29 13:22:04,371 - DEBUG - Arquivo YAML Salvo com Sucesso!
+2024-07-29 13:22:04,384 - DEBUG - camadas_ds: {u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\MUNICIPIOS': <map layer u'situacao_municipio_de_interesse'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\SEDES_MUNICIPAIS': <map layer u'situacao_sedes_municipais'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\ITERPA\\ZEE_2010': <map layer u'ZEE_2010'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\LOCALIDADES': <map layer u'LOCALIDADES'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\UNIDADES_FEDERATIVAS_BR': <map layer u'unidades_federativas_br'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\TRECHO_RODOVIARIO': <map layer u'TRECHO_RODOVIARIO'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\TemplatePadrao.shp': <map layer u'TemplatePadrao'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\LIMITES_AMERICA_DO_SUL': <map layer u'situacao_limites_america_do_sul'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\RODOVIA_ESTADUAL_IBGE': <map layer u'RODOVIA_ESTADUAL_IBGE'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\LEGENDAS.shp': <map layer u'AREA DE INTERESSE'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\CARTA_INDICE_IBGE_DSG': <map layer u'CARTA_INDICE_IBGE_DSG'>, u'C:\\Users\\djalm\\Documents\\qgis_teste\\New_Shapefile.shp': <map layer u'Area_interrese'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\SEMAS\\CURSO_DAGUA': <map layer u'CURSO_DAGUA'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\ITERPA\\MZEE_2008': <map layer u'MZEE_2008'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\RODOVIA_FEDERAL_IBGE': <map layer u'RODOVIA_FEDERAL_IBGE'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\AREA_DE_LIMITACAO.shp': <map layer u'AREA DE LIMITACAO'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\SEMAS\\MASSA_DAGUA': <map layer u'situacao_drenagem_primaria'>}
+2024-07-29 13:22:04,384 - DEBUG - lista_aux_shp.append camada: Area_interrese
+2024-07-29 13:22:04,384 - DEBUG - Botoes ativados: btn_carta, btn_zoneamento, btn_macro_zoneamento, btn_incidencias
+2024-07-29 13:22:04,387 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:22:04,387 - DEBUG - --------------------------------
+2024-07-29 13:22:16,578 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:22:16,578 - DEBUG - --------------------------------
+2024-07-29 13:22:16,579 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:22:16,579 - DEBUG - --------------------------------
+2024-07-29 13:22:16,581 - DEBUG - Criando arquivo YAML...
+2024-07-29 13:22:16,582 - DEBUG - Arquivo YAML Salvo com Sucesso!
+2024-07-29 13:22:16,598 - DEBUG - camadas_ds: {u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\MUNICIPIOS': <map layer u'situacao_municipio_de_interesse'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\SEDES_MUNICIPAIS': <map layer u'situacao_sedes_municipais'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\ITERPA\\ZEE_2010': <map layer u'ZEE_2010'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\LOCALIDADES': <map layer u'LOCALIDADES'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\UNIDADES_FEDERATIVAS_BR': <map layer u'unidades_federativas_br'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\TRECHO_RODOVIARIO': <map layer u'TRECHO_RODOVIARIO'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\TemplatePadrao.shp': <map layer u'TemplatePadrao'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\LIMITES_AMERICA_DO_SUL': <map layer u'situacao_limites_america_do_sul'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\RODOVIA_ESTADUAL_IBGE': <map layer u'RODOVIA_ESTADUAL_IBGE'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\LEGENDAS.shp': <map layer u'AREA DE INTERESSE'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\CARTA_INDICE_IBGE_DSG': <map layer u'CARTA_INDICE_IBGE_DSG'>, u'C:\\Users\\djalm\\Documents\\qgis_teste\\New_Shapefile.shp': <map layer u'Area_interrese'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\SEMAS\\CURSO_DAGUA': <map layer u'CURSO_DAGUA'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\ITERPA\\MZEE_2008': <map layer u'MZEE_2008'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\RODOVIA_FEDERAL_IBGE': <map layer u'RODOVIA_FEDERAL_IBGE'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\AREA_DE_LIMITACAO.shp': <map layer u'AREA DE LIMITACAO'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\SEMAS\\MASSA_DAGUA': <map layer u'situacao_drenagem_primaria'>}
+2024-07-29 13:22:16,598 - DEBUG - lista_aux_shp.append camada: Area_interrese
+2024-07-29 13:22:16,598 - DEBUG - Botoes ativados: btn_carta, btn_zoneamento, btn_macro_zoneamento, btn_incidencias
+2024-07-29 13:22:16,599 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:22:16,599 - DEBUG - --------------------------------
+2024-07-29 13:22:17,401 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:22:17,401 - DEBUG - --------------------------------
+2024-07-29 13:22:17,403 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:22:17,403 - DEBUG - --------------------------------
+2024-07-29 13:22:17,403 - DEBUG - Criando arquivo YAML...
+2024-07-29 13:22:17,404 - DEBUG - Arquivo YAML Salvo com Sucesso!
+2024-07-29 13:22:17,418 - DEBUG - camadas_ds: {u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\MUNICIPIOS': <map layer u'situacao_municipio_de_interesse'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\SEDES_MUNICIPAIS': <map layer u'situacao_sedes_municipais'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\ITERPA\\ZEE_2010': <map layer u'ZEE_2010'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\LOCALIDADES': <map layer u'LOCALIDADES'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\UNIDADES_FEDERATIVAS_BR': <map layer u'unidades_federativas_br'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\TRECHO_RODOVIARIO': <map layer u'TRECHO_RODOVIARIO'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\TemplatePadrao.shp': <map layer u'TemplatePadrao'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\LIMITES_AMERICA_DO_SUL': <map layer u'situacao_limites_america_do_sul'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\RODOVIA_ESTADUAL_IBGE': <map layer u'RODOVIA_ESTADUAL_IBGE'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\LEGENDAS.shp': <map layer u'AREA DE INTERESSE'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\CARTA_INDICE_IBGE_DSG': <map layer u'CARTA_INDICE_IBGE_DSG'>, u'C:\\Users\\djalm\\Documents\\qgis_teste\\New_Shapefile.shp': <map layer u'Area_interrese'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\SEMAS\\CURSO_DAGUA': <map layer u'CURSO_DAGUA'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\ITERPA\\MZEE_2008': <map layer u'MZEE_2008'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\RODOVIA_FEDERAL_IBGE': <map layer u'RODOVIA_FEDERAL_IBGE'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\AREA_DE_LIMITACAO.shp': <map layer u'AREA DE LIMITACAO'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\SEMAS\\MASSA_DAGUA': <map layer u'situacao_drenagem_primaria'>}
+2024-07-29 13:22:17,418 - DEBUG - lista_aux_shp.append camada: Area_interrese
+2024-07-29 13:22:17,418 - DEBUG - Botoes ativados: btn_carta, btn_zoneamento, btn_macro_zoneamento, btn_incidencias
+2024-07-29 13:22:17,420 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:22:17,421 - DEBUG - --------------------------------
+2024-07-29 13:22:28,177 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:22:28,177 - DEBUG - --------------------------------
+2024-07-29 13:22:28,178 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:22:28,178 - DEBUG - --------------------------------
+2024-07-29 13:22:28,180 - DEBUG - Criando arquivo YAML...
+2024-07-29 13:22:28,181 - DEBUG - Arquivo YAML Salvo com Sucesso!
+2024-07-29 13:22:28,197 - DEBUG - camadas_ds: {u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\MUNICIPIOS': <map layer u'situacao_municipio_de_interesse'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\SEDES_MUNICIPAIS': <map layer u'situacao_sedes_municipais'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\ITERPA\\ZEE_2010': <map layer u'ZEE_2010'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\LOCALIDADES': <map layer u'LOCALIDADES'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\UNIDADES_FEDERATIVAS_BR': <map layer u'unidades_federativas_br'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\TRECHO_RODOVIARIO': <map layer u'TRECHO_RODOVIARIO'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\TemplatePadrao.shp': <map layer u'TemplatePadrao'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\LIMITES_AMERICA_DO_SUL': <map layer u'situacao_limites_america_do_sul'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\RODOVIA_ESTADUAL_IBGE': <map layer u'RODOVIA_ESTADUAL_IBGE'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\LEGENDAS.shp': <map layer u'AREA DE INTERESSE'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\CARTA_INDICE_IBGE_DSG': <map layer u'CARTA_INDICE_IBGE_DSG'>, u'C:\\Users\\djalm\\Documents\\qgis_teste\\New_Shapefile.shp': <map layer u'Area_interrese'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\SEMAS\\CURSO_DAGUA': <map layer u'CURSO_DAGUA'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\ITERPA\\MZEE_2008': <map layer u'MZEE_2008'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\RODOVIA_FEDERAL_IBGE': <map layer u'RODOVIA_FEDERAL_IBGE'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\AREA_DE_LIMITACAO.shp': <map layer u'AREA DE LIMITACAO'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\SEMAS\\MASSA_DAGUA': <map layer u'situacao_drenagem_primaria'>}
+2024-07-29 13:22:28,197 - DEBUG - lista_aux_shp.append camada: Area_interrese
+2024-07-29 13:22:28,197 - DEBUG - Botoes ativados: btn_carta, btn_zoneamento, btn_macro_zoneamento, btn_incidencias
+2024-07-29 13:22:28,198 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:22:28,200 - DEBUG - --------------------------------
+2024-07-29 13:22:52,663 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:22:52,663 - DEBUG - --------------------------------
+2024-07-29 13:22:52,664 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:22:52,664 - DEBUG - --------------------------------
+2024-07-29 13:22:52,664 - DEBUG - Criando arquivo YAML...
+2024-07-29 13:22:52,667 - DEBUG - Arquivo YAML Salvo com Sucesso!
+2024-07-29 13:22:52,686 - DEBUG - camadas_ds: {u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\MUNICIPIOS': <map layer u'situacao_municipio_de_interesse'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\SEDES_MUNICIPAIS': <map layer u'situacao_sedes_municipais'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\ITERPA\\ZEE_2010': <map layer u'ZEE_2010'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\LOCALIDADES': <map layer u'LOCALIDADES'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\UNIDADES_FEDERATIVAS_BR': <map layer u'unidades_federativas_br'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\TRECHO_RODOVIARIO': <map layer u'TRECHO_RODOVIARIO'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\TemplatePadrao.shp': <map layer u'TemplatePadrao'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\LIMITES_AMERICA_DO_SUL': <map layer u'situacao_limites_america_do_sul'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\RODOVIA_ESTADUAL_IBGE': <map layer u'RODOVIA_ESTADUAL_IBGE'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\LEGENDAS.shp': <map layer u'AREA DE INTERESSE'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\CARTA_INDICE_IBGE_DSG': <map layer u'CARTA_INDICE_IBGE_DSG'>, u'C:\\Users\\djalm\\Documents\\qgis_teste\\New_Shapefile.shp': <map layer u'Area_interrese'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\SEMAS\\CURSO_DAGUA': <map layer u'CURSO_DAGUA'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\ITERPA\\MZEE_2008': <map layer u'MZEE_2008'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\RODOVIA_FEDERAL_IBGE': <map layer u'RODOVIA_FEDERAL_IBGE'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\AREA_DE_LIMITACAO.shp': <map layer u'AREA DE LIMITACAO'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\SEMAS\\MASSA_DAGUA': <map layer u'situacao_drenagem_primaria'>}
+2024-07-29 13:22:52,687 - DEBUG - lista_aux_shp.append camada: Area_interrese
+2024-07-29 13:22:52,687 - DEBUG - Botoes ativados: btn_carta, btn_zoneamento, btn_macro_zoneamento, btn_incidencias
+2024-07-29 13:22:52,687 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:22:52,687 - DEBUG - --------------------------------
+2024-07-29 13:23:02,161 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:23:02,161 - DEBUG - --------------------------------
+2024-07-29 13:23:02,161 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:23:02,161 - DEBUG - --------------------------------
+2024-07-29 13:23:02,163 - DEBUG - Criando arquivo YAML...
+2024-07-29 13:23:02,165 - DEBUG - Arquivo YAML Salvo com Sucesso!
+2024-07-29 13:23:02,178 - DEBUG - camadas_ds: {u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\MUNICIPIOS': <map layer u'situacao_municipio_de_interesse'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\SEDES_MUNICIPAIS': <map layer u'situacao_sedes_municipais'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\ITERPA\\ZEE_2010': <map layer u'ZEE_2010'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\LOCALIDADES': <map layer u'LOCALIDADES'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\UNIDADES_FEDERATIVAS_BR': <map layer u'unidades_federativas_br'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\TRECHO_RODOVIARIO': <map layer u'TRECHO_RODOVIARIO'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\TemplatePadrao.shp': <map layer u'TemplatePadrao'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\LIMITES_AMERICA_DO_SUL': <map layer u'situacao_limites_america_do_sul'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\RODOVIA_ESTADUAL_IBGE': <map layer u'RODOVIA_ESTADUAL_IBGE'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\LEGENDAS.shp': <map layer u'AREA DE INTERESSE'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\CARTA_INDICE_IBGE_DSG': <map layer u'CARTA_INDICE_IBGE_DSG'>, u'C:\\Users\\djalm\\Documents\\qgis_teste\\New_Shapefile.shp': <map layer u'Area_interrese'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\SEMAS\\CURSO_DAGUA': <map layer u'CURSO_DAGUA'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\ITERPA\\MZEE_2008': <map layer u'MZEE_2008'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\RODOVIA_FEDERAL_IBGE': <map layer u'RODOVIA_FEDERAL_IBGE'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\AREA_DE_LIMITACAO.shp': <map layer u'AREA DE LIMITACAO'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\SEMAS\\MASSA_DAGUA': <map layer u'situacao_drenagem_primaria'>}
+2024-07-29 13:23:02,180 - DEBUG - lista_aux_shp.append camada: Area_interrese
+2024-07-29 13:23:02,180 - DEBUG - Botoes ativados: btn_carta, btn_zoneamento, btn_macro_zoneamento, btn_incidencias
+2024-07-29 13:23:02,180 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:23:02,180 - DEBUG - --------------------------------
+2024-07-29 13:23:02,438 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:23:02,438 - DEBUG - --------------------------------
+2024-07-29 13:23:02,438 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:23:02,438 - DEBUG - --------------------------------
+2024-07-29 13:23:02,440 - DEBUG - Criando arquivo YAML...
+2024-07-29 13:23:02,441 - DEBUG - Arquivo YAML Salvo com Sucesso!
+2024-07-29 13:23:02,454 - DEBUG - camadas_ds: {u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\MUNICIPIOS': <map layer u'situacao_municipio_de_interesse'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\SEDES_MUNICIPAIS': <map layer u'situacao_sedes_municipais'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\ITERPA\\ZEE_2010': <map layer u'ZEE_2010'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\LOCALIDADES': <map layer u'LOCALIDADES'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\UNIDADES_FEDERATIVAS_BR': <map layer u'unidades_federativas_br'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\TRECHO_RODOVIARIO': <map layer u'TRECHO_RODOVIARIO'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\TemplatePadrao.shp': <map layer u'TemplatePadrao'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\LIMITES_AMERICA_DO_SUL': <map layer u'situacao_limites_america_do_sul'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\RODOVIA_ESTADUAL_IBGE': <map layer u'RODOVIA_ESTADUAL_IBGE'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\LEGENDAS.shp': <map layer u'AREA DE INTERESSE'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\CARTA_INDICE_IBGE_DSG': <map layer u'CARTA_INDICE_IBGE_DSG'>, u'C:\\Users\\djalm\\Documents\\qgis_teste\\New_Shapefile.shp': <map layer u'Area_interrese'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\SEMAS\\CURSO_DAGUA': <map layer u'CURSO_DAGUA'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\ITERPA\\MZEE_2008': <map layer u'MZEE_2008'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\RODOVIA_FEDERAL_IBGE': <map layer u'RODOVIA_FEDERAL_IBGE'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\AREA_DE_LIMITACAO.shp': <map layer u'AREA DE LIMITACAO'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\SEMAS\\MASSA_DAGUA': <map layer u'situacao_drenagem_primaria'>}
+2024-07-29 13:23:02,456 - DEBUG - lista_aux_shp.append camada: Area_interrese
+2024-07-29 13:23:02,456 - DEBUG - Botoes ativados: btn_carta, btn_zoneamento, btn_macro_zoneamento, btn_incidencias
+2024-07-29 13:23:02,456 - INFO - Obtendo Cartas Cadastrais
+2024-07-29 13:23:03,392 - INFO - Cartas: SA.22-X-D-III, SA.22-X-D-VI, SA.23-V-C-I
+2024-07-29 13:23:03,394 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:23:03,394 - DEBUG - --------------------------------
+2024-07-29 13:23:50,651 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:23:50,651 - DEBUG - --------------------------------
+2024-07-29 13:23:50,651 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:23:50,651 - DEBUG - --------------------------------
+2024-07-29 13:23:50,653 - DEBUG - Criando arquivo YAML...
+2024-07-29 13:23:50,654 - DEBUG - Arquivo YAML Salvo com Sucesso!
+2024-07-29 13:23:50,667 - DEBUG - camadas_ds: {u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\MUNICIPIOS': <map layer u'situacao_municipio_de_interesse'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\SEDES_MUNICIPAIS': <map layer u'situacao_sedes_municipais'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\ITERPA\\ZEE_2010': <map layer u'ZEE_2010'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\LOCALIDADES': <map layer u'LOCALIDADES'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\UNIDADES_FEDERATIVAS_BR': <map layer u'unidades_federativas_br'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\TRECHO_RODOVIARIO': <map layer u'TRECHO_RODOVIARIO'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\TemplatePadrao.shp': <map layer u'TemplatePadrao'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\LIMITES_AMERICA_DO_SUL': <map layer u'situacao_limites_america_do_sul'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\RODOVIA_ESTADUAL_IBGE': <map layer u'RODOVIA_ESTADUAL_IBGE'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\LEGENDAS.shp': <map layer u'AREA DE INTERESSE'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\CARTA_INDICE_IBGE_DSG': <map layer u'CARTA_INDICE_IBGE_DSG'>, u'C:\\Users\\djalm\\Documents\\qgis_teste\\New_Shapefile.shp': <map layer u'Area_interrese'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\SEMAS\\CURSO_DAGUA': <map layer u'CURSO_DAGUA'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\ITERPA\\MZEE_2008': <map layer u'MZEE_2008'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\RODOVIA_FEDERAL_IBGE': <map layer u'RODOVIA_FEDERAL_IBGE'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\AREA_DE_LIMITACAO.shp': <map layer u'AREA DE LIMITACAO'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\SEMAS\\MASSA_DAGUA': <map layer u'situacao_drenagem_primaria'>}
+2024-07-29 13:23:50,667 - DEBUG - lista_aux_shp.append camada: Area_interrese
+2024-07-29 13:23:50,668 - DEBUG - Botoes ativados: btn_carta, btn_zoneamento, btn_macro_zoneamento, btn_incidencias
+2024-07-29 13:23:50,668 - INFO - Obtendo Zoneamentos
+2024-07-29 13:23:51,569 - INFO - Zoneamentos: [u'ZEE: AMBIENTALMENTE SENS\xcdVEL', u"ZEE: MASSA D'\xc1GUA"]
+2024-07-29 13:23:51,569 - INFO - Obtendo Macro Zoneamentos
+2024-07-29 13:23:52,582 - INFO - Macro Zoneamentos: [u'MZEE: ZONA DE CONSOLIDA\xc7\xc3O DAS ATIVIDADES PRODUTIVAS']
+2024-07-29 13:23:52,582 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:23:52,582 - DEBUG - --------------------------------
+2024-07-29 13:23:56,779 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:23:56,779 - DEBUG - --------------------------------
+2024-07-29 13:23:56,779 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:23:56,779 - DEBUG - --------------------------------
+2024-07-29 13:23:56,780 - DEBUG - Criando arquivo YAML...
+2024-07-29 13:23:56,782 - DEBUG - Arquivo YAML Salvo com Sucesso!
+2024-07-29 13:23:56,798 - DEBUG - camadas_ds: {u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\MUNICIPIOS': <map layer u'situacao_municipio_de_interesse'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\SEDES_MUNICIPAIS': <map layer u'situacao_sedes_municipais'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\ITERPA\\ZEE_2010': <map layer u'ZEE_2010'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\LOCALIDADES': <map layer u'LOCALIDADES'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\UNIDADES_FEDERATIVAS_BR': <map layer u'unidades_federativas_br'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\TRECHO_RODOVIARIO': <map layer u'TRECHO_RODOVIARIO'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\TemplatePadrao.shp': <map layer u'TemplatePadrao'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\LIMITES_AMERICA_DO_SUL': <map layer u'situacao_limites_america_do_sul'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\RODOVIA_ESTADUAL_IBGE': <map layer u'RODOVIA_ESTADUAL_IBGE'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\LEGENDAS.shp': <map layer u'AREA DE INTERESSE'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\CARTA_INDICE_IBGE_DSG': <map layer u'CARTA_INDICE_IBGE_DSG'>, u'C:\\Users\\djalm\\Documents\\qgis_teste\\New_Shapefile.shp': <map layer u'Area_interrese'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\SEMAS\\CURSO_DAGUA': <map layer u'CURSO_DAGUA'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\ITERPA\\MZEE_2008': <map layer u'MZEE_2008'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\RODOVIA_FEDERAL_IBGE': <map layer u'RODOVIA_FEDERAL_IBGE'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\AREA_DE_LIMITACAO.shp': <map layer u'AREA DE LIMITACAO'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\SEMAS\\MASSA_DAGUA': <map layer u'situacao_drenagem_primaria'>}
+2024-07-29 13:23:56,799 - DEBUG - lista_aux_shp.append camada: Area_interrese
+2024-07-29 13:23:56,799 - DEBUG - Botoes ativados: btn_carta, btn_zoneamento, btn_macro_zoneamento, btn_incidencias
+2024-07-29 13:23:56,799 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:23:56,799 - DEBUG - --------------------------------
+2024-07-29 13:23:57,023 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:23:57,023 - DEBUG - --------------------------------
+2024-07-29 13:23:57,023 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:23:57,023 - DEBUG - --------------------------------
+2024-07-29 13:23:57,023 - DEBUG - Criando arquivo YAML...
+2024-07-29 13:23:57,026 - DEBUG - Arquivo YAML Salvo com Sucesso!
+2024-07-29 13:23:57,038 - DEBUG - camadas_ds: {u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\MUNICIPIOS': <map layer u'situacao_municipio_de_interesse'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\SEDES_MUNICIPAIS': <map layer u'situacao_sedes_municipais'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\ITERPA\\ZEE_2010': <map layer u'ZEE_2010'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\LOCALIDADES': <map layer u'LOCALIDADES'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\UNIDADES_FEDERATIVAS_BR': <map layer u'unidades_federativas_br'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\TRECHO_RODOVIARIO': <map layer u'TRECHO_RODOVIARIO'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\TemplatePadrao.shp': <map layer u'TemplatePadrao'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\LIMITES_AMERICA_DO_SUL': <map layer u'situacao_limites_america_do_sul'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\RODOVIA_ESTADUAL_IBGE': <map layer u'RODOVIA_ESTADUAL_IBGE'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\LEGENDAS.shp': <map layer u'AREA DE INTERESSE'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\CARTA_INDICE_IBGE_DSG': <map layer u'CARTA_INDICE_IBGE_DSG'>, u'C:\\Users\\djalm\\Documents\\qgis_teste\\New_Shapefile.shp': <map layer u'Area_interrese'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\SEMAS\\CURSO_DAGUA': <map layer u'CURSO_DAGUA'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\ITERPA\\MZEE_2008': <map layer u'MZEE_2008'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\RODOVIA_FEDERAL_IBGE': <map layer u'RODOVIA_FEDERAL_IBGE'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\AREA_DE_LIMITACAO.shp': <map layer u'AREA DE LIMITACAO'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\SEMAS\\MASSA_DAGUA': <map layer u'situacao_drenagem_primaria'>}
+2024-07-29 13:23:57,039 - DEBUG - lista_aux_shp.append camada: Area_interrese
+2024-07-29 13:23:57,039 - DEBUG - Botoes ativados: btn_carta, btn_zoneamento, btn_macro_zoneamento, btn_incidencias
+2024-07-29 13:23:57,039 - INFO - Obtendo Zoneamentos
+2024-07-29 13:23:57,973 - INFO - Zoneamentos: [u'ZEE: AMBIENTALMENTE SENS\xcdVEL', u"ZEE: MASSA D'\xc1GUA"]
+2024-07-29 13:23:57,974 - INFO - Obtendo Macro Zoneamentos
+2024-07-29 13:23:58,980 - INFO - Macro Zoneamentos: [u'MZEE: ZONA DE CONSOLIDA\xc7\xc3O DAS ATIVIDADES PRODUTIVAS']
+2024-07-29 13:23:58,982 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:23:58,982 - DEBUG - --------------------------------
+2024-07-29 13:24:06,168 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:24:06,170 - DEBUG - --------------------------------
+2024-07-29 13:24:06,171 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:24:06,171 - DEBUG - --------------------------------
+2024-07-29 13:24:06,171 - DEBUG - Criando arquivo YAML...
+2024-07-29 13:24:06,174 - DEBUG - Arquivo YAML Salvo com Sucesso!
+2024-07-29 13:24:06,188 - DEBUG - camadas_ds: {u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\MUNICIPIOS': <map layer u'situacao_municipio_de_interesse'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\SEDES_MUNICIPAIS': <map layer u'situacao_sedes_municipais'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\ITERPA\\ZEE_2010': <map layer u'ZEE_2010'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\LOCALIDADES': <map layer u'LOCALIDADES'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\UNIDADES_FEDERATIVAS_BR': <map layer u'unidades_federativas_br'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\TRECHO_RODOVIARIO': <map layer u'TRECHO_RODOVIARIO'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\TemplatePadrao.shp': <map layer u'TemplatePadrao'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\LIMITES_AMERICA_DO_SUL': <map layer u'situacao_limites_america_do_sul'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\RODOVIA_ESTADUAL_IBGE': <map layer u'RODOVIA_ESTADUAL_IBGE'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\LEGENDAS.shp': <map layer u'AREA DE INTERESSE'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\CARTA_INDICE_IBGE_DSG': <map layer u'CARTA_INDICE_IBGE_DSG'>, u'C:\\Users\\djalm\\Documents\\qgis_teste\\New_Shapefile.shp': <map layer u'Area_interrese'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\SEMAS\\CURSO_DAGUA': <map layer u'CURSO_DAGUA'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\ITERPA\\MZEE_2008': <map layer u'MZEE_2008'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\IBGE\\RODOVIA_FEDERAL_IBGE': <map layer u'RODOVIA_FEDERAL_IBGE'>, u'C:\\Users\\djalm\\Documents\\ArcPyAutoMapV1\\SHAPES\\AREA_DE_LIMITACAO.shp': <map layer u'AREA DE LIMITACAO'>, u'D:\\PC_YOUX\\pendrive_djalma_32gb\\banco iterpa\\Banco_Iterpa.gdb\\SEMAS\\MASSA_DAGUA': <map layer u'situacao_drenagem_primaria'>}
+2024-07-29 13:24:06,188 - DEBUG - lista_aux_shp.append camada: Area_interrese
+2024-07-29 13:24:06,188 - DEBUG - Botoes ativados: btn_carta, btn_zoneamento, btn_macro_zoneamento, btn_incidencias
+2024-07-29 13:24:06,401 - DEBUG - INICIALIZANDO FERRAMENTA AUTOMAP
+2024-07-29 13:24:06,401 - DEBUG - --------------------------------

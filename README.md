@@ -2,13 +2,13 @@
 
 ## Descrição
 
-Esta ferramenta foi desenvolvida para aprimorar e automatizar tarefas de produção e analise de mapas de regularização fundiária dentro do ArcGIS Desktop. Com ela, é possível executar uma série de operações geoespaciais de forma automatizada e prática, utilizando uma interface simples e intuitiva. A ferramenta foi projetada para garantir que todos os processos sejam realizados de maneira rápida e precisa, economizando tempo e esforço dos usuários.  
+Esta ferramenta foi desenvolvida para aprimorar e automatizar tarefas de produção e análise de mapas de regularização fundiária dentro do ArcGIS Desktop. Com ela, é possível executar uma série de operações geoespaciais de forma automatizada e prática, utilizando uma interface simples e intuitiva. A ferramenta foi projetada para garantir que todos os processos sejam realizados de maneira rápida e precisa, economizando tempo e esforço dos usuários.  
 
 ## Funcionalidades
 - **Integração com ArcGIS Desktop**: A ferramenta é totalmente compatível com o ArcGIS Desktop e ArcGIS Pro, facilitando a automação de processos geoespaciais complexos.
-- **Exportar Mapas em PDF.**
-- **Exportar Relatórios em DOCX.**
-- **Exportar Planilhas em XLSX.**
+- **Exportar Mapas em PDF.** A partir de um layout modelo é possível exportar mapas com diversas informações.
+- **Exportar Relatórios em DOCX.** A partir de um modelo padrão é possivel exportar um documento de relatório.
+- **Exportar Planilhas em XLSX.** A partir de uma planilha padrão é possivel fazer o controle de quais e quantos processos foram feitos.
 - **Atualizar Banco de dados PostgreSQL.**
 
 ## Requisitos
@@ -23,7 +23,7 @@ Antes de instalar e utilizar a ferramenta, certifique-se de que os seguintes req
   - psycopg2==2.8.6
   - openpyxl==2.6.4
   - lxml==4.6.1
-  - python-docx==0.8.11
+  - python-docx==0.8.11 ()
 
 
 ## Download da Ferramenta

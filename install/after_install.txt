@@ -1,2 +1,35 @@
-muito obrigado por ter instalado 
-pode aproveitar a ferramenta!
+Pós-instalação da Ferramenta de Automação ArcGIS
+
+Obrigado por instalar a Ferramenta de Automação ArcGIS! A instalação foi concluída com sucesso. Agora você está pronto para melhorar significativamente seu fluxo de trabalho de regularização fundiária utilizando ArcGIS Desktop.
+
+1. **Acessando a Ferramenta**
+   - Abra o ArcGIS Desktop.
+   - Navegue até a pasta de instalação da ferramenta a partir do Catalog dentro do ArcMap.
+   - Abra a Python Toolbox **ArcPyAutoMap v1.0.0.pyt**.
+
+2. **Funcionalidades Principais**
+   A ferramenta oferece uma variedade de funcionalidades avançadas:
+   - **Exportação de Mapas:** Gere mapas detalhados em PDF a partir de layouts modelos.
+   - **Relatórios Automatizados:** Crie relatórios em formato DOCX com base em modelos padrão.
+   - **Planilhas de Controle:** Exporte planilhas XLSX para controlar processos realizados.
+   - **Atualização de Bancos de Dados:** Sincronize dados geoespaciais com bancos de dados PostgreSQL e GeoDatabases locais.
+   - **Importação e Simbologia:** Importe shapefiles, aplique simbologia adequada e ajuste o zoom automaticamente.
+   - **Extração de Dados Geográficos:** Obtenha informações detalhadas sobre Carta Cadastral, Zonas Econômicas Exclusivas (ZEE) e Macrozoneamento Ecológico-Econômico (MZEE).
+
+3. **Dicas de Uso**
+   - **Importação Inteligente:** A ferramenta ignora automaticamente importações desnecessárias se os dados já estiverem no projeto.
+   - **Simbologia Automatizada:** Aplique simbologias automaticamente para pontos, linhas, polilinhas e polígonos.
+   - **Zoom e Escala:** Ajuste automaticamente a escala para valores apropriados e afaste textos sobrepostos para melhorar a legibilidade do mapa.
+   - **Atualização Dinâmica:** Atualize automaticamente as consultas de definição e os layouts do projeto com base nas informações fornecidas pela ferramenta.
+
+4. **Suporte e Contribuições**
+   - Para suporte, visite nosso repositório no GitHub e abra uma issue se encontrar problemas ou tiver dúvidas.
+   - Contribuições são bem-vindas! Se você deseja colaborar com o desenvolvimento da ferramenta, visite nosso repositório no GitHub:
+     [Repositório no GitHub](https://github.com/DesignerDjalma/ArcpyAutoMap)
+
+5. **Aproveite a Ferramenta**
+   - Explore todas as funcionalidades da ferramenta para otimizar seus processos de regularização fundiária.
+   - Utilize os recursos de exportação para criar mapas, relatórios e planilhas de alta qualidade.
+   - Mantenha seus bancos de dados atualizados com facilidade.
+
+Muito obrigado por utilizar a Ferramenta de Automação ArcGIS. Desejamos que ela contribua significativamente para seus projetos geoespaciais. Aproveite ao máximo esta poderosa ferramenta e bons trabalhos geoespaciais!

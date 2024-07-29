@@ -1,3 +1,39 @@
-você esta prestes a instalar dependências do python
-que vai fazer ele ficar muito melhor
-entende?
+Pré-instalação da Ferramenta de Automação ArcGIS
+
+Bem-vindo à instalação da Ferramenta de Automação ArcGIS! Esta ferramenta foi desenvolvida como parte de um projeto acadêmico na UFRA para aprimorar e automatizar tarefas de produção e análise de mapas de regularização fundiária dentro do ArcGIS Desktop. Com ela, você pode executar uma série de operações geoespaciais de forma automatizada e prática, utilizando uma interface simples e intuitiva.
+
+Antes de prosseguir com a instalação, por favor, leia atentamente as seguintes informações importantes:
+
+1. **Descrição da Ferramenta**
+   A Ferramenta de Automação ArcGIS permite:
+   - Integração total com ArcGIS Desktop e ArcGIS Pro.
+   - Exportação de mapas em PDF, relatórios em DOCX e planilhas em XLSX.
+   - Atualização de bancos de dados PostgreSQL.
+   - Importação de shapefiles, aplicação de simbologias e zoom automático.
+   - Extração de dados geográficos detalhados, como Carta Cadastral, Zonas Econômicas Exclusivas (ZEE) e Macrozoneamento Ecológico-Econômico (MZEE).
+
+2. **Dependências Necessárias**
+   Durante a instalação, as seguintes dependências Python serão instaladas:
+   - PyYAML==5.4.1
+   - psycopg2==2.8.6
+   - openpyxl==2.6.4
+   - lxml==4.6.1
+   - python-docx==0.8.11
+
+   Estas bibliotecas são essenciais para o funcionamento correto da ferramenta. Certifique-se de que o Python 2.7 está instalado e configurado no caminho `C:\Python27\ArcGIS10.x\python.exe`.
+
+3. **Benefícios da Ferramenta**
+   - **Eficiência:** Automatiza processos manuais, economizando tempo e esforço.
+   - **Precisão:** Garante que todas as operações sejam realizadas com alta precisão.
+   - **Facilidade de Uso:** Interface intuitiva que facilita o uso até para usuários iniciantes.
+   - **Flexibilidade:** Compatível com ArcGIS Desktop e ArcGIS Pro, permitindo integração com diversos fluxos de trabalho.
+
+4. **Preparação para Instalação**
+   - Verifique se todos os requisitos estão atendidos.
+   - Feche todas as instâncias do ArcGIS Desktop antes de iniciar a instalação.
+   - Certifique-se de que você possui permissões administrativas para realizar a instalação.
+
+Ao prosseguir com a instalação, você concorda com os termos e condições de uso da ferramenta. Para mais informações sobre a ferramenta, visite nosso repositório no GitHub:
+[Repositório no GitHub](https://github.com/DesignerDjalma/ArcpyAutoMap)
+
+Deseja continuar com a instalação?

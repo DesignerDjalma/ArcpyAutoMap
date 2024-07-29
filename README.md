@@ -61,7 +61,7 @@ Antes de instalar e utilizar a ferramenta, certifique-se de que os seguintes req
 
 1. **Download do Instalador**
 
-   Faça o download do instalador da ferramenta a partir da seção de **Download da Ferramenta** logo acima, no GitHub. 
+   Faça o download do arquivo zip conténdo o instalador da ferramenta a partir da seção de **Download da Ferramenta** logo acima, no GitHub. 
 
 2. **Executar o Instalador**
 

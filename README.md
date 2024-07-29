@@ -4,7 +4,11 @@
 
 Esta ferramenta foi desenvolvida para aprimorar e automatizar tarefas de produção e análise de mapas de regularização fundiária dentro do ArcGIS Desktop. Com ela, é possível executar uma série de operações geoespaciais de forma automatizada e prática, utilizando uma interface simples e intuitiva. A ferramenta foi projetada para garantir que todos os processos sejam realizados de maneira rápida e precisa, economizando tempo e esforço dos usuários.  
 
+## Showcase
 
+### Interface da Ferramente e Mapa Exportado
+
+![Imagem ilustrando a Interface da Ferramente e Mapa Exportado](https://github.com/DesignerDjalma/ArcpyAutoMap/blob/main/doc/show_case.png) 
 
 ## Funcionalidades
 - **Integração com ArcGIS Desktop**: A ferramenta é totalmente compatível com o ArcGIS Desktop e ArcGIS Pro, facilitando a automação de processos geoespaciais complexos.

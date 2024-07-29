@@ -1,0 +1,5 @@
+DBNAME: dbteste
+USER: postgres
+PASSWORD: 102045
+HOST: localhost
+PORT: 5432

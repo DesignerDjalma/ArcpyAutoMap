@@ -64,6 +64,9 @@ class ValoresConstantes:
     )
     arquivo_docx_despacho = "{}\\despacho\\modelo_despacho.docx".format(diretorio_raiz)
     arquivo_yaml = "{}\\dados\\formsfields.yaml".format(diretorio_raiz)
+    arquivo_yaml_conexao_banco = "{}\\dados\\databaseconection.yaml".format(
+        diretorio_raiz
+    )
     camada_auxiliar_zee_2010 = r"AUXILIAR\ZEE_2010"
     camada_auxiliar_mzee_2008 = r"AUXILIAR\MZEE_2008"
     camada_auxiliar_area_limitante = r"AUXILIAR\AREA DE LIMITACAO"
@@ -274,6 +277,27 @@ class Database:
         )
         self.logger = Logger().setup_logger()
 
+    def carregarDadosYaml(self, params):
+        self.logger.debug("Carregando arquivo YAML...")
+        dados = {}
+        try:
+            with open(ValoresConstantes.arquivo_yaml_conexao_banco, "r") as arquivo:
+                dados = yaml.load(arquivo, Loader=yaml.FullLoader)
+                self.logger.debug("Carregando dados banco")
+
+                if dados == None:
+                    dados = {}
+
+            params[0].valueAsText = dados.DBNAME
+            params[1].valueAsText = dados.PORT
+            params[2].valueAsText = dados.HOST
+            params[3].valueAsText = dados.PASSWORD
+            params[4].valueAsText = dados.USER
+            return dados
+        except Exception as e:
+            self.logger.error("Erro ao carregar o arquivo YAML: {}".format(e))
+            return None
+
     def adicionarFeatureclass(self, featureclass, params):
         def retornaDiaMesAnoAtual():
             """Retorna a Data atual de hoje me formato datetime, para a TDA."""
@@ -433,7 +457,7 @@ class Database:
         arcpy.AddMessage(string.encode("cp1252"))
         self.logger.debug(string)
 
-    def ler_dados_banco(self):
+    def lerDadosBanco(self):
         self.printall("Iniciando conexão com o banco de dados...")
 
         conn = None  # Inicializa a variável conn
@@ -486,7 +510,6 @@ class Database:
 
 class Parametros(ValoresConstantes):
     debug = False
-
     btn_carta = "btn_carta"
     btn_exportar_mapa = "btn_exportar_mapa"
     btn_exportar_despacho = "btn_exportar_despacho"
@@ -496,7 +519,6 @@ class Parametros(ValoresConstantes):
     btn_incidencias = "btn_incidencias"
     btn_zoneamento = "btn_zoneamento"
     btn_macro_zoneamento = "btn_macro_zoneamento"
-
     shapefile = "shapefile"
     municipio = "municipio"
     situacao = "situacao"
@@ -510,23 +532,19 @@ class Parametros(ValoresConstantes):
     complemento = "complemento"
     carta = "carta"
     zee_mzee = "zee_mzee"
-
     lista_incidencias = "lista_incidencias"
     lista_incidencias_colunas = "lista_incidencias_colunas"
     lista_municipios = "lista_municipios"
     lista_shapefiles = "lista_shapefiles"
     lista_zoneamento = "lista_zoneamento"
-
     modelo_despacho = "modelo_despacho"
     nome_exportar_mapa = "nome_exportar_mapa"
     pasta_exportar_mapa = "pasta_exportar_mapa"
     pasta_resultados = "pasta_resultados"
     shapefile_incidencias = "shapefile_incidencias"
-
     tester_comands = "tester"
     tester_list_helper = "helper"
     tester_helper = "helper2"
-
     parametros_lista = ["lista_zoneamento", "lista_incidencias"]
     salvar_parametros = [
         ano,
@@ -1259,6 +1277,7 @@ class Despacho(ValoresConstantes):
 
 
 class Shapefile:
+    
     @staticmethod
     def inserirFeicoesEmShapefile(shapefile_input, shapefile_target):
         feicoes_do_shp = []
@@ -2057,4 +2076,3 @@ class AutoMap(object):
         Funcoes.exportarParaGDB(parametros, self.logger, in_execute_mode=True)
         database = Database()
         database.atualizarBancoDeDadosPostgreSQL()
- 

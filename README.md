@@ -71,8 +71,9 @@ Antes de instalar e utilizar a ferramenta, certifique-se de que os seguintes req
 
    - Durante a instalação, será exibida uma mensagem informando sobre a atualização do pip e a instalação das bibliotecas necessárias.
    - Após a conclusão, uma mensagem confirmará que a instalação foi bem-sucedida.
+       - Caso ocorra algum erro, a instalação das bibliotecas adicionais não será feita, porém **a extração dos arquivos ocorrerá normalmente**. Caso a ferramenta não esteja utilizável por problemas de bibliotecas não encotradas, a instalação das bibliotecas pode ser feita manualmente do passo seguinte.
 
-4. **Instalação Manual (Opcional)**
+4. **Instalação Manual**
 
    Caso algum erro tenha ocorrido ou se você preferir instalar as dependências manualmente, siga estas etapas:
 
@@ -94,14 +95,8 @@ Após a instalação, a ferramenta estará pronta para uso dentro do ArcGIS Desk
 
 ## Contribuições
 
-Contribuições são bem-vindas! Se você deseja colaborar com o desenvolvimento da ferramenta, siga os passos abaixo:
-
-1. Faça um fork do repositório.
-2. Crie uma branch para a sua funcionalidade (`git checkout -b funcionalidade/incrivel`).
-3. Faça commit das suas alterações (`git commit -am 'Adiciona funcionalidade incrível'`).
-4. Faça push para a branch (`git push origin funcionalidade/incrivel`).
-5. Abra um Pull Request.
+Contribuições são bem-vindas! Se você deseja colaborar com o desenvolvimento da ferramenta.
 
 ## Suporte
 
-Se você encontrar problemas ou tiver dúvidas sobre a ferramenta, abra uma issue no nosso repositório no GitHub ou entre em contato diretamente.
+Se você encontrar problemas ou tiver dúvidas sobre a ferramenta, abra uma issue neste repositório no GitHub.

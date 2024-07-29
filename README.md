@@ -26,6 +26,11 @@ Antes de instalar e utilizar a ferramenta, certifique-se de que os seguintes req
 
  - [Windows](doc/windows.md)
 
+## Dados Complementares
+
+- [Base Cartográfica (Shapefiles)](https://drive.google.com/file/d/1o3J3j2Df0bAiNAglx-w_cARaeKUOU5l6/view?usp=drive_link)
+- [Mapa de Situação (Shapefiles)](https://drive.google.com/file/d/1qFUI4bz6wsqGchw2QcpXubJYvnBwL49Z/view?usp=drive_link)
+
 ## Instalação
 
 1. **Download do Instalador**

@@ -6,6 +6,12 @@ Esta ferramenta foi desenvolvida para aprimorar e automatizar tarefas dentro do 
 
 ## Funcionalidades
 
+- Exportar Mapas em PDF
+- Exportar Relatórios em DOCX
+- Exportar Planilhas em XLSX
+- Exportar Feições para o banco de dados PostgreSQL
+
+
 - **Atualização Automática do Pip**: Garante que você tenha a versão mais recente do gerenciador de pacotes Python.
 - **Instalação de Bibliotecas Essenciais**: Instala automaticamente as bibliotecas necessárias para o funcionamento da ferramenta:
   - PyYAML==5.4.1

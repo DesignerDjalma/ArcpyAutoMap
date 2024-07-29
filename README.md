@@ -11,6 +11,28 @@ Esta ferramenta foi desenvolvida para aprimorar e automatizar tarefas de produç
 - **Exportar Planilhas em XLSX.** A partir de uma planilha padrão é possivel fazer o controle de quais e quantos processos foram feitos.
 - **Atualizar Banco de dados PostgreSQL.**
 
+### Funcionalidades Especificas
+- **Importa shapefiles** de diretorios na maquina e adiciona ao projeto ao dataframe **Principal**, ou utilizada camadas do projeto. Adicionando-as como **Area de Interesse**, porém com o nome original que foi importado ou que está no projeto, no dataframe **Principal**
+- **Ignora importações desnecessárias** caso já estajam no projeto
+- **Aplica simbologia** na **Area de Interesse** adequada, podendo varias entre: _Point_, _Line_, _Polyline_ ou _Polygon_
+- **Aplica Zoom**, e tranforma a escala para um valor adequado (fechada em zeros)
+- **Afastas textos** de outras feições que possam sobrepor a geometria dentro do Layout
+- **Obtem os valores da Carta Casdastral** onde se encontra geograficamente a **Area de Interesse**
+- **Obtem os valores das Zonas Econômicas Exclusivas (ZEE)** onde se encontra geograficamente a **Area de Interesse**
+- **Obtem os valoer das Macrozoneamento Ecológico-Econômico (MZEE)** onde se encontra geograficamente a **Area de Interesse**
+- **Aplica Zoom** para o Municipio informado, no dataframe **Mapa de Situação**
+- **Atualiza** automaticamente as **Definition Querys** das feições do **Mapa de Situação**
+    - Definition Query: Municipios de Interesse
+    - Definition Query: Limites Municipais
+    - Definition Query: Localidades
+- **Atualiza o Layout** no Projeto com base no valores informados na ferramenta.
+- **Exporta um Mapa em .PDF** do layout.
+- **Exporta um Relatorios em .DOCX** com base no valores informados na ferramenta.
+- **Exporta um Planilhas em .XLSX** com base no valores informados na ferramenta.
+- **Atualiza o Banco de dados/Shapefile**, referente as Areas de Interesse, conectado a ferramenta.
+- **Atualiza o Banco de dados/GeoDatabase**, referente as Areas de Interesse,  conectado a ferramenta.
+- **Atualiza a Banco de dados/Tabela no Banco de Dados PostgreSQL**, referente as Areas de Interesse, conectado a ferramenta.
+
 ## Requisitos
 
 Antes de instalar e utilizar a ferramenta, certifique-se de que os seguintes requisitos estejam atendidos:

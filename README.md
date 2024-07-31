@@ -1,5 +1,5 @@
 # Ferramenta de Automação ArcGIS
-
+![Logo animada da Ferramenta Arcpy Automap em animação de respiração em frente a um globo terestre, imagem em estilo cartoon.](https://github.com/DesignerDjalma/ArcpyAutoMap/blob/main/doc/arcpyautomap.gif)
 ## Descrição
 
 Esta ferramenta foi desenvolvida para aprimorar e automatizar tarefas de produção e análise de mapas de regularização fundiária dentro do ArcGIS Desktop. Com ela, é possível executar uma série de operações geoespaciais de forma automatizada e prática, utilizando uma interface simples e intuitiva. A ferramenta foi projetada para garantir que todos os processos sejam realizados de maneira rápida e precisa, economizando tempo e esforço dos usuários.  
@@ -10,14 +10,14 @@ Esta ferramenta foi desenvolvida para aprimorar e automatizar tarefas de produç
 
 ![Imagem ilustrando a Interface da Ferramente e Mapa Exportado](https://github.com/DesignerDjalma/ArcpyAutoMap/blob/main/doc/show_case.png) 
 
-## Funcionalidades
+## Principais Funcionalidades
 - **Integração com ArcGIS Desktop**: A ferramenta é totalmente compatível com o ArcGIS Desktop e ArcGIS Pro, facilitando a automação de processos geoespaciais complexos.
 - **Exportar Mapas em PDF.** A partir de um layout modelo é possível exportar mapas com diversas informações.
 - **Exportar Relatórios em DOCX.** A partir de um modelo padrão é possivel exportar um documento de relatório.
 - **Exportar Planilhas em XLSX.** A partir de uma planilha padrão é possivel fazer o controle de quais e quantos processos foram feitos.
 - **Atualizar Banco de dados PostgreSQL.**
 
-### Principais Funcionalidades Especificas
+### Funcionalidades Especificas
 - **Importa shapefiles** de diretorios na maquina e adiciona ao projeto ao dataframe **Principal**, ou utilizada camadas do projeto. Adicionando-as como **Area de Interesse**, porém com o nome original que foi importado ou que está no projeto, no dataframe **Principal**
 - **Ignora importações desnecessárias** caso já estajam no projeto
 - **Aplica simbologia** na **Area de Interesse** adequada, podendo varias entre: _Point_, _Line_, _Polyline_ ou _Polygon_

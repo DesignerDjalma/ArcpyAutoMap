@@ -1,2 +1,1 @@
-aux_auxiliar.rar: https://drive.google.com/file/d/1GvCsDRM6PzG55Uso1VzroN2-8_XCTwwk/view?usp=sharing
-aux_situacao.rar: https://drive.google.com/file/d/1JeMsRR2A1POrPZKYEpVxZo30D6DgrP2H/view?usp=sharing
+https://github.com/DesignerDjalma/ArcpyAutoMap?tab=readme-ov-file#dados-complementares

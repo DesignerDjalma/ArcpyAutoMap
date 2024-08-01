@@ -39,6 +39,10 @@ Esta ferramenta foi desenvolvida para aprimorar e automatizar tarefas de produç
 - **Atualiza o Banco de dados/GeoDatabase (Local)**, referente as Areas de Interesse,  conectado a ferramenta.
 - **Atualiza a Banco de dados/Tabela no Banco de Dados PostgreSQL**, referente as Areas de Interesse, conectado a ferramenta.
 
+## Diagram de Classes
+![Diagrama de classes da ferramenta mostrando todas as suas classes e relaçãoes entre si](https://github.com/DesignerDjalma/ArcpyAutoMap/blob/main/doc/diagrama_de_classes_v4.png)
+
+
 ### Tabelas para os Bancos de Dados
 
 | ID | MUNICIPIO | SITUAÇÃO | ANO | NUMERO  | INTERESSADO     | IMOVEL     | PARCELA | GEORREF   | DATA       | COMPLEMENTO | CARTA         | ZEE                 | PATH/GEOM    |

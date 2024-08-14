@@ -2,8 +2,13 @@
 
 import sys  # type: ignore
 
-reload(sys)  # type: ignore
-sys.setdefaultencoding("utf-8")  # type: ignore
+if sys.version_info.major == 2:
+    import psycopg2  # type: ignore
+    from docx import Document  # type: ignore
+
+    reload(sys)  # type: ignore
+    sys.setdefaultencoding("utf-8")  # type: ignore
+
 
 import io
 import os
@@ -20,10 +25,7 @@ import arcpy  # type: ignore
 import math  # type: ignore
 import yaml  # type: ignore
 import datetime  # type: ignore
-import psycopg2  # type: ignore
-
 from openpyxl import load_workbook  # type: ignore
-from docx import Document  # type: ignore
 
 
 class Logger:
@@ -444,11 +446,12 @@ class Database:
                         self.printall("SQL Executando com sucesso!")
 
         except Exception as e:
+            self.printall("Nao foi possivel estabelecer uma conexao com o banco.")
             exc_info = traceback.format_exc()
             print(exc_info)
         finally:
             # Commit e fechamento da conexão
-            self.printall("Nao foi possivel estabelecer uma conexao com o banco.")
+            self.printall("Encerrando conexao com o banco.")
             conn.commit()
             cursor.close()
             conn.close()
@@ -838,10 +841,10 @@ class Parametros(ValoresConstantes):
     def atualizarCampos(parametros, logger):
 
         if parametros[Parametros.btn_dados_carregados].value == None:
-            popup_result = Funcoes.mostrarPopUp(logger)
+            # popup_result = Funcoes.mostrarPopUp(logger)
             # Sair de None garante que não aparecerá mais
             parametros[Parametros.btn_dados_carregados].value = True
-
+            popup_result = 1
             if popup_result in [1, 6]:  # Resultados de confirmação
 
                 dict_dados_carregados = Parametros.carregarDadosFerramenta(
@@ -1277,7 +1280,7 @@ class Despacho(ValoresConstantes):
 
 
 class Shapefile:
-    
+
     @staticmethod
     def inserirFeicoesEmShapefile(shapefile_input, shapefile_target):
         feicoes_do_shp = []
@@ -1628,6 +1631,33 @@ class Layout:
         df_principal.scale = arredondarEscala(escala_nova)
 
     @staticmethod
+    def limparVariaveisDinamicasProjeto(dict_params):
+        def limparNomeAreaDeInteresseLegenda(credits):
+            mxd = Layout.carregarComponentes("mxd")
+            camadas = Layout.carregarComponentes("cmds_desc")
+            legenda = arcpy.mapping.ListLayoutElements(mxd, "LEGEND_ELEMENT")[0]
+
+            for desc, cmd in camadas.items():
+                if desc.startswith("AREA_DE_INTERESSE"):
+                    cmd.name = credits
+                    camada_interesse = cmd
+
+            if camada_interesse:
+                legenda.updateItem(camada_interesse)
+
+        mxd = Layout.carregarComponentes("mxd")
+
+        mxd.title = ""
+        mxd.summary = ""
+        mxd.description = ""
+        mxd.author = ""
+        mxd.credits = ""
+
+        limparNomeAreaDeInteresseLegenda("")
+
+        arcpy.RefreshActiveView()
+
+    @staticmethod
     def atualizarVariaveisDinamicasProjeto(dict_params):
 
         def atualizarNomeAreaDeInteresseLegenda(credits):
@@ -1681,11 +1711,14 @@ class Layout:
         arcpy.RefreshActiveView()
 
     @staticmethod
-    def atualizarLayout(parametros, logger):
-        if parametros[Parametros.btn_alterar_layout].altered:
-            if parametros[Parametros.btn_alterar_layout].value:
-                Layout.atualizarVariaveisDinamicasProjeto(parametros)
-                parametros[Parametros.btn_alterar_layout].value = False
+    def atualizarLayout(parametros, logger, in_execute_mode=False):
+        if in_execute_mode:
+            Layout.atualizarVariaveisDinamicasProjeto(parametros)
+        else:
+            if parametros[Parametros.btn_alterar_layout].altered:
+                if parametros[Parametros.btn_alterar_layout].value:
+                    Layout.atualizarVariaveisDinamicasProjeto(parametros)
+                    parametros[Parametros.btn_alterar_layout].value = False
 
     @staticmethod
     def exportarMapa(params, logger):
@@ -1705,19 +1738,29 @@ class Layout:
         caminho_saida_final = "{}\\{}{}".format(
             pasta_saida, nome_arquivo_saida, extensao
         )
-
+        caminho_saida_mxd = "{}\\{}{}".format(pasta_saida, nome_arquivo_saida, ".mxd")
         count = 1
+        count_2 = 1
         while os.path.exists(caminho_saida_final):
+            caminho_saida_mxd = "{}\\{}_{}{}".format(
+                pasta_saida, nome_arquivo_saida, count_2, ".mxd"
+            )
             caminho_saida_final = "{}\\{}_{}{}".format(
                 pasta_saida, nome_arquivo_saida, count, extensao
             )
             count += 1
+            count_2 += 1
 
         caminho_saida_final
 
         mxd = Layout.carregarComponentes("mxd")
         logger.info("Exportando PDF...")
+        logger.info("Exportando Projeto...")
+
         arcpy.mapping.ExportToPDF(mxd, caminho_saida_final)
+        mxd.saveACopy(caminho_saida_mxd)
+
+        logger.info("Projeto Exportado com Sucesso!")
         logger.info("PDF Exportado com Sucesso!")
         # Funcoes.mostrarPopUpPDF()
         # os.system('start "" "{}"'.format(pasta_saida))
@@ -2019,7 +2062,7 @@ class Toolbox(object):
 class AutoMap(object):
     def __init__(self):
         """Define the tool (tool name is the name of the class)."""
-        self.label = "Novo Processo"
+        self.label = "Nova Analise"
         self.description = ""
         self.canRunInBackground = False
         Funcoes.verificarPasta(os.path.join(ValoresConstantes.diretorio_raiz, "log"))
@@ -2069,10 +2112,12 @@ class AutoMap(object):
     def execute(self, parameters, messages):
         """The source code of the tool."""
         parametros = Parametros.dicionarioDeParametros(parameters)
+        Layout.atualizarLayout(parametros, self.logger, in_execute_mode=True)
+        arcpy.RefreshActiveView()
         Parametros.salvarDadosFerramenta(parametros, self.logger)
-        Layout.exportarPDF(parametros, self.logger, in_execute_mode=True)
         Funcoes.exportarDespacho(parametros, self.logger, in_execute_mode=True)
         Funcoes.exportaPlanilhaExcel(parametros, self.logger, in_execute_mode=True)
         Funcoes.exportarParaGDB(parametros, self.logger, in_execute_mode=True)
         database = Database()
         database.atualizarBancoDeDadosPostgreSQL()
+        Layout.exportarPDF(parametros, self.logger, in_execute_mode=True)

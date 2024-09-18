@@ -1,13 +1,16 @@
-ano: '2024'
-carta: SA.22-X-D-III, SA.22-X-D-VI, SA.23-V-C-I
-complemento: NADA CONSTA
-denominacao: !!python/str "S\xCDTIO SOLID\xC1RIO"
-georreferenciamento: TERCEIROS
-interessado: FULANO DA SILVA COSTA
-lista_zoneamento: []
+ano: '1999'
+carta: SA.23-V-C-II
+complemento: SEM COMPLEMENTO
+denominacao: FAZENDA DO SILVA
+georreferenciamento: !!python/str "N\xC3O CONSTA"
+interessado: SILVA E SILVA DA SILVA
+lista_zoneamento:
+- "ZEE: AMBIENTALMENTE SENS\xCDVEL"
+- "ZEE: CONSOLIDA\xC7\xC3O II"
+- "MZEE: ZONA DE CONSOLIDA\xC7\xC3O DAS ATIVIDADES PRODUTIVAS"
 modelo_despacho: C:\github\ArcpyAutoMap\despacho\modelo_despacho.docx
-municipio: INHANGAPI
-numero: '7654321'
+municipio: PEIXE-BOI
+numero: '765432'
 parcela: '1'
 pasta_resultados: C:\github\ArcpyAutoMap\resultados
 situacao: !!python/str "REGULARIZA\xC7\xC3O N\xC3O ONEROSA"

@@ -1,5 +1,5 @@
 DBNAME: dbteste
 USER: postgres
-PASSWORD: 102045
+PASSWORD: ArcPyAutoMap@12345678
 HOST: localhost
 PORT: 5432

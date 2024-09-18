@@ -1027,7 +1027,7 @@ class Parametros(ValoresConstantes):
         opts_situacao = self.formatarStrings(self.opcoes_situacao)
         dict_params = Parametros.dicionarioDeParametros(self.params)
 
-        dict_params["modelo_despacho"].filter.list = ["docx", "doc"]
+        dict_params["modelo_despacho"].filter.list = ["DOCX", "doc"]
         dict_params["municipio"].filter.list = self.opcoes_municipios
         dict_params["situacao"].filter.list = opts_situacao
         dict_params["georreferenciamento"].filter.list = opts_georef

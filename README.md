@@ -2,7 +2,7 @@
 ![Logo animada da Ferramenta Arcpy Automap em animação de respiração em frente a um globo terestre, imagem em estilo cartoon.](https://github.com/DesignerDjalma/ArcpyAutoMap/blob/main/doc/arcpyautomap.gif)
 ## Descrição
 
-Esta ferramenta foi desenvolvida para aprimorar e automatizar tarefas de produção e análise de mapas de regularização fundiária dentro do ArcGIS Desktop. Com ela, é possível executar uma série de operações geoespaciais de forma automatizada e prática, utilizando uma interface simples e intuitiva. A ferramenta foi projetada para garantir que todos os processos sejam realizados de maneira rápida e precisa, economizando tempo e esforço dos usuários.  
+Eu desenvolvi está ferramenta para aprimorar e automatizar tarefas de produção e análise de mapas de regularização fundiária dentro do ArcGIS Desktop. Com ela, é possível executar uma série de operações geoespaciais de forma automatizada e prática, utilizando uma interface simples e intuitiva. A ferramenta foi projetada para garantir que todos os processos sejam realizados de maneira rápida e precisa, economizando tempo e esforço dos usuários.  
 
 ## Showcase
 

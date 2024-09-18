@@ -249,7 +249,7 @@ class Database:
 
     DBNAME = "dbteste"
     USER = "postgres"
-    PASSWORD = "102045"
+    PASSWORD = "10203040"
     HOST = "localhost"
     PORT = "5432"
 
